@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Fundamentos y lógica de programación**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/228131-CF1-TG_GEST_ANALI_DATOS/](https://sena-externos.github.io/228131-CF1-TG_GEST_ANALI_DATOS/)
 
 #
 

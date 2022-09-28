@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
+    componenteFormativo: 'Fundamentos y lógica de programación',
     descripcionCurso: 'BREVE DESCRIPCIÓN',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
