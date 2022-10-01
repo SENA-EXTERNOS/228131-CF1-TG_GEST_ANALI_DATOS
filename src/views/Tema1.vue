@@ -47,7 +47,7 @@
 
       br
 
-      container.tarjeta.tarjeta--blanca.p-4.p-md-5
+      
 
     .tarjeta.tarjeta--azul.p-4
       SlyderA(tipo="b")
@@ -188,6 +188,13 @@
             figure
               img(src='@/assets/curso/temas/tema1/slide_9.svg', alt='pseudocodigo vs diagrama de flujo')
 
+            br
+
+      .titulo-secundario.color-acento-contenido
+        .titulo-secundario__numero
+        h2 1.3 Diagramas de flujo
+        .col-md-10.align-center
+          text-center.h-100
      
 
 </template>
