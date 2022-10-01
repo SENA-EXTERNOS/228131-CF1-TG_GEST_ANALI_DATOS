@@ -85,7 +85,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/slide_3.svg', alt='Joven con un telefono')
+              img(src='', alt='Joven con un telefono')
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
@@ -96,7 +96,7 @@
             
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/slide_4.svg', alt='Joven con un tablero')
+              img(src='', alt='Joven con un tablero')
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
@@ -109,7 +109,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/slide_5.svg', alt='Receta ade cocina')
+              img(src='', alt='Receta ade cocina')
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
@@ -127,7 +127,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/slide_6.svg', alt='imagen de PC')
+              img(src='', alt='imagen de PC')
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
@@ -145,7 +145,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/slide_7.svg', alt='computador')
+              img(src='', alt='computador')
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
@@ -168,7 +168,7 @@
            
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/slide_8.svg', alt='ejemplo formulario de ingreso')
+              img(src='', alt='ejemplo formulario de ingreso')        
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
@@ -186,11 +186,12 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/slide_9.svg', alt='pseudocodigo vs diagrama de flujo')
+              img(src='', alt='pseudocodigo vs diagrama de flujo')
 
             br
+            
 
-      .titulo-secundario.color-acento-contenido
+    .titulo-secundario.color-acento-contenido
         .titulo-secundario__numero
         h2 1.3 Diagramas de flujo
         .col-md-10.align-center
