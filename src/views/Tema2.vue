@@ -264,7 +264,42 @@
             div.pb-3
               b ¿Qué es Google colab?
             p.pb-4 Colab es un entorno colaborativo que posibilita la ejecución del lenguaje de programación Python sin necesidad de instalar ningún componente de forma local, ya que, es netamente implementado en la nube de Google y no requiere configuración previa para iniciar a programar.
-            
+    .row.justify-content-center.pt-5.mb-5
+      fugure 
+        img(src="@/assets/curso/temas/tema2/google_colab.svg", alt="colab_comparativo").img100            
+    .row.justify-content-center.pt-3
+      .col-lg-6
+        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/temas/tema2/link_imagen.svg")
+          .anexo__texto
+            p Enlace web. Para ampliar más sobre el uso de Google Colab se puede revisar la documentación oficial en el enlace
+    .row.justify-content-center
+      col-12
+      .titulo-segundo.color-primario
+        h2 2.4  Jupyter
+    .row.justify-content-center.pt-3
+      col-12.
+        A continuación, podrá conocer acerca del entorno de desarrollo Jupyter que permite ejecutar al igual que colab ejecutar código Python y otros lenguajes de programación, todo a través del navegador Web.
+    .row.justify-content-center.mb-5.pt-2
+      .col-10
+        .tarjeta--azul.align-middle
+          .tarjeta.d-flex.p-4.align-middle
+            div.pb-3
+              b ¿Qué es Jupyter?
+            p.pb-4 Jupyter es un entorno de desarrollo basado en la web que se utiliza para trabajar en ciencia de datos de forma simple y enfocada en documentos. Al igual que Google Colab, Jupyter permite tanto código como celdas de texto que incorporan el formato markdown (lenguaje de marcado sencillo que se utiliza para agregar formato a los textos dentro de un documento).
+    .row.justify-content-center.pt-5.mb-5
+      fugure 
+        img(src="@/assets/curso/temas/tema2/jupyter_comparativo.svg", alt="Jupyter_pros_cons").img100  
+    .row.justify-content-center.pt-3
+      .col-lg-6
+        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/temas/tema2/link_imagen.svg")
+          .anexo__texto
+            p Enlace web. Para ampliar más sobre el uso de Jupyter puede revisar la documentación oficial en el enlace
+
+
     .row.justify-content-center.pb-5
         .col-12
           .row.align-middle 

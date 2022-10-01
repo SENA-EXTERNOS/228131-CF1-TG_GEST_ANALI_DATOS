@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="565" viewBox="0 0 1240 565">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.554" y1="0.448" x2="1.131" y2="1.893" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1b75bc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.554" y1="0.448" x2="1.131" y2="1.893" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#331e2d"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_133187" data-name="Grupo 133187" transform="translate(-180 -7667.341)">
+    <path id="Background" d="M0,0H593a20,20,0,0,1,20,20V545a20,20,0,0,1-20,20H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(807 7667.341)" fill="#bddcf6"/>
+    <path id="Background-2" data-name="Background" d="M20,0H627a0,0,0,0,1,0,0V565a0,0,0,0,1,0,0H20A20,20,0,0,1,0,545V20A20,20,0,0,1,20,0Z" transform="translate(180 7667.341)" fill="#0f2771"/>
+    <text id="Feature_Two" data-name="Feature Two" transform="translate(906 7958.341)" fill="#12263f" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="77.271" y="25">Desventajas de Jupyter:</tspan></text>
+    <g id="Grupo_133186" data-name="Grupo 133186" transform="translate(70)">
+      <text id="Far_far_away_behind" data-name="Far far away, behind" transform="translate(862 8018.341)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Es tedioso en el proceso de depuración</tspan><tspan x="0" y="41">No contiene todas las herramientas que posee un IDE</tspan><tspan x="0" y="65">Induce a crear código complejo e incomprensible</tspan></text>
+      <g id="Grupo_944" data-name="Grupo 944" transform="translate(841 8022.341)">
+        <g id="Grupo_423" data-name="Grupo 423">
+          <path id="Trazado_635" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#12263f"/>
+        </g>
+      </g>
+      <g id="Grupo_944-2" data-name="Grupo 944" transform="translate(841 8047.004)">
+        <g id="Grupo_423-2" data-name="Grupo 423">
+          <path id="Trazado_635-2" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#12263f"/>
+        </g>
+      </g>
+      <g id="Grupo_944-3" data-name="Grupo 944" transform="translate(841 8071.667)">
+        <g id="Grupo_423-3" data-name="Grupo 423">
+          <path id="Trazado_635-3" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#12263f"/>
+        </g>
+      </g>
+    </g>
+    <text id="Feature_One" data-name="Feature One" transform="translate(304 7958.341)" fill="#fff" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="77.48" y="25">Ventajas de Jupyter:</tspan></text>
+    <g id="Grupo_133185" data-name="Grupo 133185" transform="translate(-5)">
+      <text id="Far_far_away_behind-2" data-name="Far far away, behind" transform="translate(295.408 8018.342)" fill="#fafcfd" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Es compatible con los principales lenguajes de </tspan><tspan x="0" y="41">programación empleados en la gestión y analítica de datos </tspan><tspan x="0" y="65">como Python y R</tspan><tspan x="0" y="89">Se puede utilizar sin conexión a internet</tspan><tspan x="0" y="113">Es Open source y gratuito</tspan><tspan x="0" y="137">Proporciona opciones de colaboración con JupyterHub</tspan><tspan x="0" y="161">Permite el control de versiones en sus Notebooks</tspan></text>
+      <g id="Grupo_944-4" data-name="Grupo 944" transform="translate(275 8022.668)">
+        <g id="Grupo_423-4" data-name="Grupo 423">
+          <path id="Trazado_635-4" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_944-5" data-name="Grupo 944" transform="translate(275 8138.668)">
+        <g id="Grupo_423-5" data-name="Grupo 423">
+          <path id="Trazado_635-5" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_944-6" data-name="Grupo 944" transform="translate(275 8162.668)">
+        <g id="Grupo_423-6" data-name="Grupo 423">
+          <path id="Trazado_635-6" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_944-7" data-name="Grupo 944" transform="translate(275 8094.668)">
+        <g id="Grupo_423-7" data-name="Grupo 423">
+          <path id="Trazado_635-7" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_944-8" data-name="Grupo 944" transform="translate(275 8114.668)">
+        <g id="Grupo_423-8" data-name="Grupo 423">
+          <path id="Trazado_635-8" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_108530" data-name="Grupo 108530" transform="translate(360 7690.341)">
+      <g id="Grupo_108524" data-name="Grupo 108524" transform="translate(0 0)">
+        <circle id="Elipse_4717" data-name="Elipse 4717" cx="94.051" cy="94.051" r="94.051" transform="translate(0 133.008) rotate(-45)" fill="#1d89e4"/>
+      </g>
+      <path id="Trazado_113706" data-name="Trazado 113706" d="M901.812,5904.992a94.073,94.073,0,0,1-177.449,58.416,94.064,94.064,0,1,0,177.449-58.416Z" transform="translate(-683.558 -5811.771)" opacity="0.5" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <g id="Grupo_108525" data-name="Grupo 108525" transform="translate(67.66 59.447)">
+        <path id="Trazado_113707" data-name="Trazado 113707" d="M1018.55,5858.344a9.826,9.826,0,0,0-9.884-8.391H976.284a2.548,2.548,0,0,1-2.405-3.393,91,91,0,0,0,5.177-21.581c.655-6.9.145-16.056-6.8-19.762-3.01-1.606-7.825-2.615-11.06-1.228-2.98,1.277-1.962,5.836-1.962,8.348,0,3.8-1.482,7.413-2.626,10.981-3.587,5.015-6.77,10.305-10.373,15.31-3.123,4.337-6.891,10.195-12.48,11.4a5.686,5.686,0,0,0-4.668,5.52v60.988a5.624,5.624,0,0,0,5.624,5.624H991.9a9.811,9.811,0,0,0,9.869-8.461,9.551,9.551,0,0,0-4.393-9.183.025.025,0,0,1,.014-.047h.111a9.808,9.808,0,0,0,9.865-8.457,9.551,9.551,0,0,0-4.393-9.187.025.025,0,0,1,.014-.047h.111a9.808,9.808,0,0,0,9.869-8.493,9.551,9.551,0,0,0-4.472-9.2h.559A9.571,9.571,0,0,0,1018.55,5858.344Z" transform="translate(-887.924 -5803.335)" fill="#fff"/>
+        <rect id="Rectángulo_40276" data-name="Rectángulo 40276" width="35.201" height="71.305" rx="14.482" transform="translate(0 47.521)" fill="#fff"/>
+      </g>
+      <path id="Trazado_113708" data-name="Trazado 113708" d="M814.542,5786.794c3.133,3.255-6.957,8.574-17.9,19.106s-18.6,22.287-21.73,19.032,3.2-14.432,14.144-24.963S811.41,5783.54,814.542,5786.794Z" transform="translate(-716.779 -5732.244)" fill="#1d89e4" opacity="0.5" style="mix-blend-mode: screen;isolation: isolate"/>
+      <path id="Trazado_113709" data-name="Trazado 113709" d="M916.3,5766.442c.526,1.943-2.237,4.382-6.172,5.448s-7.552.355-8.079-1.587,2.237-4.382,6.172-5.448S915.776,5764.5,916.3,5766.442Z" transform="translate(-802.17 -5717.861)" fill="#1d89e4" opacity="0.5" style="mix-blend-mode: screen;isolation: isolate"/>
+    </g>
+    <g id="Grupo_108531" data-name="Grupo 108531" transform="translate(980 7692.326)">
+      <g id="Grupo_108527" data-name="Grupo 108527" transform="translate(0 0)">
+        <circle id="Elipse_4718" data-name="Elipse 4718" cx="94.051" cy="94.051" r="94.051" transform="translate(0 133.008) rotate(-45)" fill="#e0193b"/>
+        <path id="Trazado_113710" data-name="Trazado 113710" d="M1580.859,5874.048a94.073,94.073,0,0,1-177.45,58.416,94.064,94.064,0,1,0,177.45-58.416Z" transform="translate(-1362.43 -5780.827)" opacity="0.5" fill="url(#linear-gradient-2)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g id="Grupo_108528" data-name="Grupo 108528" transform="translate(67.66 87.074)">
+        <path id="Trazado_113711" data-name="Trazado 113711" d="M1483.787,5919.363a9.827,9.827,0,0,0,9.884,8.392h32.383a2.548,2.548,0,0,1,2.4,3.393,91.007,91.007,0,0,0-5.177,21.581c-.656,6.9-.146,16.056,6.8,19.762,3.01,1.605,7.825,2.615,11.06,1.228,2.98-1.278,1.963-5.835,1.963-8.348,0-3.8,1.481-7.412,2.626-10.98,3.587-5.016,6.77-10.307,10.373-15.311,3.123-4.337,6.891-10.195,12.48-11.4a5.686,5.686,0,0,0,4.668-5.52V5861.17a5.624,5.624,0,0,0-5.624-5.624h-57.194a9.811,9.811,0,0,0-9.869,8.46,9.552,9.552,0,0,0,4.393,9.184.025.025,0,0,1-.013.046h-.111a9.809,9.809,0,0,0-9.865,8.458,9.551,9.551,0,0,0,4.393,9.187.025.025,0,0,1-.013.047h-.111a9.808,9.808,0,0,0-9.869,8.493,9.553,9.553,0,0,0,4.472,9.2h-.559A9.571,9.571,0,0,0,1483.787,5919.363Z" transform="translate(-1483.716 -5855.547)" fill="#fff"/>
+        <rect id="Rectángulo_40277" data-name="Rectángulo 40277" width="35.201" height="71.305" rx="14.482" transform="translate(95.495)" fill="#fff"/>
+      </g>
+      <path id="Trazado_113712" data-name="Trazado 113712" d="M1493.06,5755.85c3.133,3.256-6.957,8.575-17.9,19.106s-18.6,22.288-21.73,19.032,3.2-14.431,14.144-24.962S1489.928,5752.595,1493.06,5755.85Z" transform="translate(-1395.297 -5701.3)" fill="#e0193b" style="mix-blend-mode: screen;isolation: isolate"/>
+      <path id="Trazado_113713" data-name="Trazado 113713" d="M1594.82,5735.5c.526,1.942-2.237,4.382-6.173,5.448s-7.552.355-8.078-1.587,2.237-4.382,6.172-5.448S1594.294,5733.556,1594.82,5735.5Z" transform="translate(-1480.689 -5686.917)" fill="#e0193b" style="mix-blend-mode: screen;isolation: isolate"/>
+    </g>
+  </g>
+</svg>

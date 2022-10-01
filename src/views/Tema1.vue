@@ -11,11 +11,15 @@
       .col-12
         p Los fundamentos y la lógica de programación es la parte inicial del recorrido, es aquí, donde se adoptarán los conceptos claves y la lógica que apoyará el resto del camino, de modo que, se pueda resolver un problema complejo utilizando técnicas que permitan convertirlos en unidades más pequeñas y fáciles de solucionar.
 
-    .titulo-secundario.color-acento-contenido
-      .titulo-secundario__numero
-      h2 1.1 Pensamiento computacional
-        .col-md-10.align-center
-          img(src="@/assets/curso/temas/tema1/pensamiento_computacional.svg")
+      .row.p-4
+        .titulo-segundo.color-primario
+          h2 1.1  Pensamiento computacional 
+      .row.pt-1.pb-4 
+        .col-12
+          .row.align-middle 
+            .col-12.col-md-10.col-lg-4
+              figure
+                img(src="@/assets/curso/temas/tema1/pensamiento_computacional.svg")
 
       br
               
@@ -28,17 +32,16 @@
               img(src="@/assets/curso/temas/tema1/figura_1.svg")
       br
 
-      .titulo-secundario.color-acento-contenido
-        .titulo-secundario__numero
-        h2 1.2 Algoritmos e instrucciones
-        .col-md-10.align-center
+      .row.pt-4
+      .titulo-segundo.color-primario
+        h2 1.2  Algoritmos e instrucciones
       br
 
       p A continuación, se abordarán los conceptos de algoritmos y sus tipos:
 
       br
 
-    .tarjeta.tarjeta--azul.p-4
+    .tarjeta.tarjeta--gris.p-4
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -98,6 +101,15 @@
           .col-md-6
             figure
               img(src='', alt='computador')
+        .row.justify-content-center.align-items-center.my-lg-4   
+          .col-md-6
+            b Ejemplo de algoritmo para iniciar sesión en una aplicación. 
+            br
+            figure
+             img(src='@/assets/curso/temas/tema1/slide_8_texto.svg', alt='Algoritmo_Inicio_De_sesion')                                    
+          .col-md-6
+            figure
+              img(src='', alt='Inicio_De_sesion')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             h6 Tipos de algoritmos
@@ -155,10 +167,74 @@
         .row
           .col-12
             img(src="@/assets/curso/temas/tema1/diagrama_ejemplo.svg", alt="alt").img100
-            figcaption Símbolo para las entradas y salidas
-
-
-
+            figcaption Ejemplo de diagrama de flujo para determinar si un número es positivo o negativo.
+      
+    .row.justify-content-center.pt-5.mb-5
+      fugure 
+        img(src="@/assets/curso/temas/tema1/likevsdislike.svg", alt="likevsdislike").img100
+         
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/PSe_Int.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Existen herramientas como PSeInt que asisten a los estudiantes para dar sus primeros pasos en programación. PSeInt cuenta con la opción de crear flujogramas. 
+          br
+          br
+          | A continuación, encontrará un video que muestra la instalación de esta herramienta en un sistema operativo Windows y la creación de un diagrama de flujo de ejemplo.
+    p.pt3 Te invitamos a ver el tutorial que explica el proceso de instalación de la herramienta Pseint titulado “Instalación de Pseint” de Tordecilla, (2022) y que encuentras en material complementario
+    .row.justify-content-center
+          .container.tarjeta.tarjeta--blanca.p-3.p-md-5
+           figure
+              .video
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              figcaption Video 
+    .row.pt-4
+      .titulo-segundo.color-primario
+        h2 1.4  Pseudocódigo
+    .row.justify-content-center.pb-5
+      .col-10
+        .row.tarjeta--azul.align-middle 
+          .col-12.col-md-4.col-lg-4.mt-5
+            .tarjeta.h-50.d-flex.p-4.align-middle
+              figure
+                img(src="@/assets/curso/temas/tema1/pseudocodigo.svg", alt="pseudocodigo").img100
+          .col-12.col-md-8.col-lg-8.mt-4
+              div.pb-4 
+              p.pb-3 El pseudocódigo es un lenguaje que se emplea para documentar los programas paso a paso, de la forma más detalladamente posible. No existe ninguna sintaxis para escribir un pseudocódigo, por lo que se encuentran muchas maneras según la forma particular de escribir del autor.
+              p.pb-4 Un pseudocódigo no tiene reglas predefinidas y no se utiliza para programar, sino que se emplea para familiarizarse y acercarse a los lenguajes de programación (Trejos, 2021).                     
+    .row.justify-content-center.pt-5
+      .col-8
+        .row.align-middle
+          .titulo-sexto.color-primario.mb-2.pr-2
+            h5 Figura 5
+            span Algoritmo área del rectángulo
+    .row.justify-content-center.pb-5
+      .col-8
+        .row.tarjeta--gris.align-middle 
+          .col-8.col-md-4.col-lg-4.mt-5
+            p Algoritmo área_rectangulo.mb-2
+            p Inicio
+            p       Escribir "Cálculo del área del rectángulo"
+            p       Escribir "Digite la base (en centímetros)"  
+            p       Leer base
+            p       Escribir "Digite la altura (en centímetros)"
+            p       Leer altura
+            p       altura         base  *  altura
+            p       Escribir "Área es: ", base, "centímetros cuadrados"
+            p Fin     
+    .row.justify-content-center.pt-5
+      b Para tener más claridad del concepto de pseudocódigo, a continuación, se presenta el siguiente ejemplo: 
+    .row.justify-content-center.pt-5
+      .col-12
+        .row.align-left
+          .titulo-sexto.color-primario.mb-2.pr-2
+            h5 Tabla 2.
+            span Ejemplo de algoritmo Vs. representación en seudocódigo
+    .row.justify-content-center.pt-0
+      .col-12
+        figure
+          img(src="@/assets/curso/temas/tema1/algoritmo_pseudocodigo.svg", alt="cuadro_comparativo").img100
 </template>
 
 <script>

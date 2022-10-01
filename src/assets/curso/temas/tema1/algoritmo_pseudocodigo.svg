@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1228" height="458.676" viewBox="0 0 1228 458.676">
+  <g id="Grupo_109179" data-name="Grupo 109179" transform="translate(-180 -11956.324)">
+    <rect id="Rectángulo_40553" data-name="Rectángulo 40553" width="1228" height="397" transform="translate(180 12017)" fill="#f6f6f6"/>
+    <line id="Línea_175" data-name="Línea 175" y2="397.5" transform="translate(800.5 12017)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_115567" data-name="Trazado 115567" d="M0,0H1228V60.672H0Z" transform="translate(180 11956.324)" fill="#4dd0e1"/>
+    <text id="Algoritmo" transform="translate(482 11993)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-40.614" y="0">Algoritmo</tspan></text>
+    <text id="Pseudocódigo" transform="translate(1116 11993)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-58.056" y="0">Pseudocódigo</tspan></text>
+    <text id="Paso_1._Solicitar_los_datos_de_un_usuario_nombre_valor_por_hora_número_de_horas_laboradas_._Paso_2._Condicionado_al_número_total_de_horas_trabajadas_en_la_semana:" data-name="Paso 1. Solicitar los datos de un usuario (nombre, valor por hora, número de horas laboradas).
+
+Paso 2. Condicionado al número total de horas trabajadas en la semana:" transform="translate(220 12038)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Paso 1.</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-weight="400"> Solicitar los datos de un usuario (nombre, valor por hora, número </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">de horas laboradas).</tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="65"></tspan></tspan><tspan x="0" y="89">Paso 2. </tspan><tspan y="89" font-family="Roboto-Regular, Roboto" font-weight="400">Condicionado al número total de horas trabajadas en la semana:</tspan></text>
+    <text id="Inicio_Defina_Nombre_ValorHr_0_Defina_Hrs_Lab_0_Salario_0_Presentar_Digite_los_datos_del_usuario_Capturar_Nombre_ValorHr_Hrs_Lab_Si_Hrs_Lab_40_Entonces_Salario_Hrs_Lab_ValorHr_Sino_Salario_40_ValorHr_H" data-name="Inicio
+
+Defina Nombre= &apos;  &apos;, ValorHr = 0
+Defina Hrs_Lab = 0, Salario = 0
+Presentar &apos;Digite los datos del usuario&apos;
+Capturar Nombre, ValorHr, Hrs_Lab
+Si Hrs_Lab &lt;=40
+    Entonces
+         Salario= Hrs_Lab * ValorHr
+    Sino
+         Salario=40 * ValorHr + (H" transform="translate(834 12038)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Inicio</tspan><tspan x="0" y="41"></tspan><tspan x="0" y="65" xml:space="preserve">Defina Nombre= &apos;  &apos;, ValorHr = 0</tspan><tspan x="0" y="89">Defina Hrs_Lab = 0, Salario = 0</tspan><tspan x="0" y="113">Presentar &apos;Digite los datos del usuario&apos;</tspan><tspan x="0" y="137">Capturar Nombre, ValorHr, Hrs_Lab</tspan><tspan x="0" y="161">Si Hrs_Lab &lt;=40</tspan><tspan x="0" y="185" xml:space="preserve">    Entonces</tspan><tspan x="0" y="209" xml:space="preserve">         Salario= Hrs_Lab * ValorHr</tspan><tspan x="0" y="233" xml:space="preserve">    Sino</tspan><tspan x="0" y="257" xml:space="preserve">         Salario=40 * ValorHr + (Hrs_Lab - 40)*(1.5*ValorHr)</tspan><tspan x="0" y="281">FinSi</tspan><tspan x="0" y="305">Presentar &apos;El salario de&apos;, Nombre, &apos;es&apos;, Salario</tspan><tspan x="0" y="329"></tspan><tspan x="0" y="353">Fin</tspan></text>
+    <text id="Paso_3._Presentar_el_nombre_del_usuario_y_el_respectivo_salario_que_va_a_recibir." data-name="Paso 3. Presentar el nombre del usuario y el respectivo salario que va a recibir." transform="translate(220 12291)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Paso 3. </tspan><tspan y="17" font-family="Roboto-Regular, Roboto" font-weight="400">Presentar el nombre del usuario y el respectivo salario que va a </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">recibir.</tspan></text>
+    <text id="Si_el_número_de_horas_no_es_mayor_a_40_hacer_el_cálculo_sin_horas_extras._Si_el_número_de_horas_es_mayor_a_40_realizar_el_cálculo_del_sueldo_teniendo_en_cuenta_que_la_hora_extra_se_cancela_con_1.5_más_por_encima_del_valor_de_la_hora_normal." data-name="Si el número de horas no es mayor a 40, hacer el cálculo sin horas extras.
+Si el número de horas es mayor a 40, realizar el cálculo del sueldo, teniendo en cuenta que, la hora extra se cancela con 1.5% más por encima del valor de la hora normal." transform="translate(265 12148)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Si el número de horas no es mayor a 40, hacer el cálculo sin horas </tspan><tspan x="0" y="41">extras.</tspan><tspan x="0" y="65">Si el número de horas es mayor a 40, realizar el cálculo del sueldo, </tspan><tspan x="0" y="89">teniendo en cuenta que, la hora extra se cancela con 1.5% más por </tspan><tspan x="0" y="113">encima del valor de la hora normal.</tspan></text>
+    <rect id="Rectángulo_4794" data-name="Rectángulo 4794" width="24" height="24" transform="translate(220 12147.674)" fill="#4dd0e1"/>
+    <rect id="Rectángulo_40598" data-name="Rectángulo 40598" width="24" height="24" transform="translate(220 12196.674)" fill="#4dd0e1"/>
+    <text id="a_b_" data-name="a
+
+b
+" transform="translate(229 12149.674)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">a</tspan><tspan x="0" y="42"></tspan><tspan x="0" y="67">b</tspan><tspan x="0" y="92"></tspan></text>
+  </g>
+</svg>
