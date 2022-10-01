@@ -6,18 +6,46 @@
       .titulo-principal__numero
         span 2
       h1 Entorno de Desarrollo
+  
+    .row.justify-content-center
+      .col-10
+        .row.tarjeta--azul.align-middle 
+          .col-12.col-md-8.col-lg-8
+            .tarjeta.d-flex.p-4.align-middle
+              p.mb-4 Cantidad de lenguajes soportados: existen IDE que solamente son compatibles con un lenguaje de programación, por lo tanto, son mejores para un estilo de programación en especial, entre ellos, tenemos como ejemplo a IntellinJ, que se conoce como un IDE exclusivo para Java. Por otra parte, están los IDE que soportan varios lenguajes de programación, como es el caso de Eclipse, con el que se puede programar en Java, Python, JavaScript, PHP, C++, entre otros.
+          .col-12.col-md-4.col-lg-4
+            .tarjeta.h-50.d-flex.p-4.align-middle
+              figure
+                img(src="@/assets/curso/temas/tema2/introduccion.svg", alt="alt").img100
+    br
+  
+    
+    p.mb-5 Este tipo de aplicaciones ofrecen herramientas como la depuración de errores y automatización de compilaciones locales, que le proporcionan al programador o desarrollador de software, ser más eficientes en la codificación de los programas.
 
-
-    .titulo-secundario.color-acento-contenido
-      .titulo-secundario__numero
-      h2 1.1 Pensamiento computacional
-        .col-md-10.align-center
-          text-center.h-100
-            img(src="@/assets/curso/temas/tema2/main.svg" style="width: 800px;")  
-
-    p Este tipo de aplicaciones ofrecen herramientas como la depuración de errores y automatización de compilaciones locales, que le proporcionan al programador o desarrollador de software, ser más eficientes en la codificación de los programas.
-
-    b ¿Por qué los programadores utilizan los Entornos de Desarrollo Integrado IDE?
+    .row.justify-content-center.mb-5
+      .col-10
+        b ¿Por qué los programadores utilizan los Entornos de Desarrollo Integrado IDE?
+  
+    .row.justify-content-center.mb-5
+      .col-lg-9.position-relative
+        <!--.avatar -->
+        <!--  figure -->
+        <!--    img(src="@/assets/curso/temas/tema2/introduccion_2.svg", alt="alt", style="width: 500px;").img250 -->
+        .crd.crd--avatarHorizontal.crd--first.clr--azul.py-4
+          .row.align-items-center
+            .col
+              h5 Calidad de la información
+              p Es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, la cual le permitirá obtener información concreta, clara y medible. Es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido. 
+        .crd.crd--avatarHorizontal.py-4
+          .row.align-items-center
+            .col
+              h5 Aplicación de técnicas
+              p Desarrolle técnicas que le permitan tener un panorama completo de la información que se esté analizando, integrando las variables obtenidas en la medición y contrastando detalladamente los datos.
+        .crd.crd--avatarHorizontal.crd--last.py-4
+          .row.align-items-center
+            .col
+              h5 Comunicación correcta de los resultados
+              p En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información. 
 
     br
 
@@ -38,7 +66,7 @@
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
-                    img(src="@/assets/curso/temas/tema2/tipo_ide_1.svg", alt="Texto que describa la imagen")
+                    img(src="@/assets/curso/temas/tema2/tipo_ide_1.svg", alt="alt").img100
           .tarjeta.clr--gris(titulo="Sistemas operativos soportados:")
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
@@ -47,7 +75,7 @@
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
-                    img(src="@/assets/curso/temas/tema2/tipo_ide_2.svg", alt="Texto que describa la imagen")
+                    img(src="@/assets/curso/temas/tema2/tipo_ide_2.svg", alt="alt")
 
           .tarjeta.clr--gris(titulo="Performance:")
             .row.tarjeta.tarjeta--azul.align-middle 
@@ -57,7 +85,7 @@
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.align-middle
                   figure
-                    img(src="@/assets/curso/temas/tema2/tipo_ide_3.svg", alt="Texto que describa la imagen")
+                    img(src="@/assets/curso/temas/tema2/tipo_ide_3.svg", alt="alt")
 
           .tarjeta.clr--gris(titulo="Extensiones y Plugins:")
             .row.tarjeta.tarjeta--azul.align-middle 
@@ -75,18 +103,15 @@
        .titulo-segundo.color-primario
         h2 2.1 Lenguajes compilados y lenguajes interpretados
 
-    p A continuación, podrá conocer acerca de algunos lenguajes, lo que le permitirá comprender mejor los conceptos de programación:
+    p.mb-5 A continuación, podrá conocer acerca de algunos lenguajes, lo que le permitirá comprender mejor los conceptos de programación:
 
-    .row
-      .row
-        .col-1 
-        .col-10.col-md-10.col-lg-10.tarjeta.tarjeta--azul.align-middle
-          .tarjeta.d-flex.p-4.align-middle
-            p.mb-4 Cuando se inicia en el mundo del desarrollo de software, la selección del lenguaje de programación es uno de los factores que más se tiene en cuenta para dar los primeros pasos.  También es fundamental conocer si el lenguaje elegido es compilado o interpretado.
-        .col-1
-    
-    br
-
+    .row.justify-content-center.mb-5
+      .col-10
+        .cajon.color-primario
+          .tarjeta--azul.align-middle
+            .tarjeta.d-flex.p-4.align-middle
+              p.Cuando se inicia en el mundo del desarrollo de software, la selección del lenguaje de programación es uno de los factores que más se tiene en cuenta para dar los primeros pasos.  También es fundamental conocer si el lenguaje elegido es compilado o interpretado.
+  
     .row
       .container.tarjeta.tarjeta--blanca
         TabsC.color-primario
@@ -107,7 +132,192 @@
                 h4 Lenguajes Interpretados
                 p En un lenguaje interpretado el código fuente se ejecuta en caliente, instrucción a instrucción o paso a paso, por lo tanto, el código no es expuesto a un proceso de compilación, sino que existe un programa complementario que se llama intérprete, que se encarga de leer las instrucciones en tiempo real y las va ejecutando una a una.  Entre los lenguajes interpretados están: Python, Perl, JavaScript, Ruby, PHP, MATLAB, Visual Basic .NET, ASP entre otros. 
 
+      br
+
+      b.pb-5 Lenguajes Compilados VS Interpretados
+
+      .div.pl-3
+        .titulo-sexto.color-secundario.mb-2.pr-2
+          h5 Tabla 3.
+          span Lenguajes compilados Vs. interpretados
+
+      .tabla-a.color-secundario 
+        table
+          thead
+            tr
+              th Lenguajes compilados
+              th Lenguajes interpretados
+          tbody
+            tr
+              td Para que la aplicación se ejecute, primero se debe terminar de codificar el programa.
+              td Se ejecuta instrucción a instrucción, por lo tanto, no se requiere terminar de codificar el programa para que funcione.
+            tr
+              td La compilación se realiza una sola vez y solamente será necesario volver a compilar cuando se requieran cambios en el código fuente.
+              td Cada vez que se ejecute la aplicación se debe interpretar el código fuente.
+            tr
+              td Se emplean mayormente en aplicaciones de escritorio.
+              td Se utilizan principalmente en aplicaciones web.
+            tr
+              td Se usan cuando la prioridad es la eficiencia.
+              td Se aplican cuando la prioridad es la portabilidad, en otras palabras, cuando la preocupación es que la aplicación pueda ejecutarse sobre cualquier plataforma.
+            tr
+              td La aplicación obtenida con estos lenguajes es más eficiente y rápida.
+              td La aplicación tiende a ser un poco más lenta que las aplicaciones compiladas.
+            tr
+              td Los archivos ejecutables por lo general tienen un tamaño considerable en disco.
+              td Los ejecutable generados son de un reducido tamaño y no consumen mucho espacio en disco.
+
+      .row.pt-5
+       .titulo-segundo.color-primario
+        h2 2.1 Python y/o R
+
+      .row.justify-content-center.pb-5
+        .col-12
+          .row.align-middle 
+            .col-12.col-md-4.col-lg-4
+              .tarjeta.h-50.d-flex.p-4.align-middle
+                figure
+                  img(src="@/assets/curso/temas/tema2/python_1.svg", alt="alt").img100
+            .col-12.col-md-8.col-lg-8.mt-4
+                p.pt-2 La analítica de datos es un campo de trabajo emocionante que combina habilidades estadísticas y cuantitativas avanzadas con habilidades de programación del mundo real. Los aspirantes a científicos de datos pueden considerar especializarse en muchos lenguajes de programación. En este componente formativo el enfoque estará en el uso de Python.
+                p.pb-2 La habilidad de programar es fundamental en la gestión y analítica de datos, no obstante, hay algunos lenguajes como Python, R, MATLAB y SQL que se destacan como los principales y más usados en dicha gestión. En este componente formativo el enfoque estará en el uso de Python.
+
+      .row.justify-content-center.pb-5
+        .col-10
+          .row.tarjeta--azul.align-middle 
+            .col-12.col-md-4.col-lg-4.mt-5
+              .tarjeta.h-50.d-flex.p-4.align-middle
+                figure
+                  img(src="@/assets/curso/temas/tema2/python_2.svg", alt="alt").img100
+            .col-12.col-md-8.col-lg-8.mt-4
+                div.pb-4 
+                  b Lenguaje de programación Python
+                p.pb-4 Python es un lenguaje de programación multiplataforma y open source que puede ser empleado para desarrollos web, analítica de datos, automatización de operaciones y en la elaboración de programas escalables. Grandes gigantes tecnológicos como Google, Netflix y  Facebook utilizan este lenguaje como base de servicios.
             
+
+      .row.justify-content-center.pb-5
+        .col-12
+          .row.align-middle 
+            .col-12.col-md-6.col-lg-6.mt-4
+                div.mb-4
+                  b Ventajas de programar en Phyton
+                ul.lista-ul.mb-0
+                  
+                  li                 
+                    i.fas.fa-angle-right.txt--orange
+                    | Rápido de aprender: su curva de aprendizaje es corta.
+                  li                 
+                    i.fas.fa-angle-right.txt--orange
+                    | Potente y multifuncional: se utiliza prácticamente en todas las ramas de la tecnología.
+                  li                 
+                    i.fas.fa-angle-right.txt--orange
+                    | Simple y práctico: para crear aplicaciones se necesitan menos líneas de código que en otros lenguajes como Java, C, C++, entre otros.
+                  li                 
+                    i.fas.fa-angle-right.txt--orange
+                    |Amplia documentación: Python cuenta con una enorme comunidad que soporta el lenguaje y es de gran utilidad cuando se necesita apoyo para resolver cualquier duda en su manejo.
+                  li                 
+                    i.fas.fa-angle-right.txt--orange
+                    | Colección de Bibliotecas: las bibliotecas también conocidas como librerías son importantes porque permiten la reutilización de código y aumentan la rapidez en el desarrollo.
+            .col-12.col-md-6.col-lg-6
+              .titulo-sexto.color-secundario.mb-2.pr-2
+                h5 Figura 6..
+                span Características de python
+              .tarjeta.h-50.d-flex.p-4.align-middle
+                figure.tarjeta--blanca
+                  img(src="@/assets/curso/temas/tema2/python_3.svg", alt="alt").img100
+      
+
+      p Le invitamos a ver el video donde se muestra la instalación de Python y las herramientas necesarias para programar.
+
+      .row
+        .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+          figure
+            .video
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Video
+
+      .row.justify-content-center.pb-5
+        .col-10
+          .row.tarjeta.tarjeta--azul.align-middle 
+            .col-12.col-md-4.col-lg-4.mt-5.p-0.d-table-cell
+                img(src="@/assets/curso/temas/tema2/python_5.svg", alt="alt").img100
+            
+            .col-12.col-md-8.col-lg-8.mt-5.mb-5
+              .titulo-segundo.color-primario
+                h3 Infografia de los campos de aplicacion de Python
+              p.pb-4 La multifuncionalidad de Python permite que este lenguaje de programación tenga incursión en los principales campos de la tecnología como data science, machine learning, testing, seguridad informática y desarrollo web.
+
+              a.boton.boton--b(:href="obtenerLink('/actividades/AD5/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
+
+    .row 
+      .titulo-segundo.color-primario
+      h2 2.3  Google colab
+
+    p.mb-5 Colab, también conocido como Colaboratory, te permite programar y ejecutar Python en el navegador Web, no requiere configuraciones y permite contenido con facilidad. A continuación, te invitamos a conocer esta herramienta.
+
+    .row.justify-content-center.mb-5
+      .col-10
+        .tarjeta--azul.align-middle
+          .tarjeta.d-flex.p-4.align-middle
+            div.pb-3
+              b ¿Qué es Google colab?
+            p.pb-4 Colab es un entorno colaborativo que posibilita la ejecución del lenguaje de programación Python sin necesidad de instalar ningún componente de forma local, ya que, es netamente implementado en la nube de Google y no requiere configuración previa para iniciar a programar.
+            
+    .row.justify-content-center.pb-5
+        .col-12
+          .row.align-middle 
+            .col-12.col-md-6.col-lg-6.mt-4
+              .tarjeta.h-50.d-flex.p-4.align-middle
+                figure.tarjeta--blanca
+                  img(src="@/assets/curso/temas/tema2/python_3.svg", alt="alt").img100
+              .titulo-sexto.color-secundario.mb-2.pr-2
+                h5 Figura 6..
+                span Características de python
+                div.mb-4
+                  b Ventajas de programar en Phyton
+              ul.lista-ul.mb-0
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Rápido de aprender: su curva de aprendizaje es corta.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Potente y multifuncional: se utiliza prácticamente en todas las ramas de la tecnología.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Simple y práctico: para crear aplicaciones se necesitan menos líneas de código que en otros lenguajes como Java, C, C++, entre otros.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  |Amplia documentación: Python cuenta con una enorme comunidad que soporta el lenguaje y es de gran utilidad cuando se necesita apoyo para resolver cualquier duda en su manejo.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Colección de Bibliotecas: las bibliotecas también conocidas como librerías son importantes porque permiten la reutilización de código y aumentan la rapidez en el desarrollo.
+            .col-12.col-md-6.col-lg-6
+              .tarjeta.h-50.d-flex.p-4.align-middle
+                figure.tarjeta--blanca
+                  img(src="@/assets/curso/temas/tema2/python_3.svg", alt="alt").img100
+              .titulo-sexto.color-secundario.mb-2.pr-2
+                h5 Figura 6..
+                span Características de python
+              div.mb-4
+                  b Ventajas de programar en Phyton
+              ul.lista-ul.mb-0
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Rápido de aprender: su curva de aprendizaje es corta.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Potente y multifuncional: se utiliza prácticamente en todas las ramas de la tecnología.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Simple y práctico: para crear aplicaciones se necesitan menos líneas de código que en otros lenguajes como Java, C, C++, entre otros.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  |Amplia documentación: Python cuenta con una enorme comunidad que soporta el lenguaje y es de gran utilidad cuando se necesita apoyo para resolver cualquier duda en su manejo.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Colección de Bibliotecas: las bibliotecas también conocidas como librerías son importantes porque permiten la reutilización de código y aumentan la rapidez en el desarrollo.
 </template>
 
 <script>
