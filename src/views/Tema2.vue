@@ -275,11 +275,11 @@
           .anexo__texto
             p Enlace web. Para ampliar más sobre el uso de Google Colab se puede revisar la documentación oficial en el enlace
     .row.justify-content-center
-      col-12
-      .titulo-segundo.color-primario
-        h2 2.4  Jupyter
+      .col-12
+        .titulo-segundo.color-primario
+          h2 2.4  Jupyter
     .row.justify-content-center.pt-3
-      col-12.
+      .col-12
         A continuación, podrá conocer acerca del entorno de desarrollo Jupyter que permite ejecutar al igual que colab ejecutar código Python y otros lenguajes de programación, todo a través del navegador Web.
     .row.justify-content-center.mb-5.pt-2
       .col-10
@@ -289,7 +289,7 @@
               b ¿Qué es Jupyter?
             p.pb-4 Jupyter es un entorno de desarrollo basado en la web que se utiliza para trabajar en ciencia de datos de forma simple y enfocada en documentos. Al igual que Google Colab, Jupyter permite tanto código como celdas de texto que incorporan el formato markdown (lenguaje de marcado sencillo que se utiliza para agregar formato a los textos dentro de un documento).
     .row.justify-content-center.pt-5.mb-5
-      fugure 
+      figure 
         img(src="@/assets/curso/temas/tema2/jupyter_comparativo.svg", alt="Jupyter_pros_cons").img100  
     .row.justify-content-center.pt-3
       .col-lg-6
@@ -298,61 +298,7 @@
             img(src="@/assets/curso/temas/tema2/link_imagen.svg")
           .anexo__texto
             p Enlace web. Para ampliar más sobre el uso de Jupyter puede revisar la documentación oficial en el enlace
-
-
-    .row.justify-content-center.pb-5
-        .col-12
-          .row.align-middle 
-            .col-12.col-md-6.col-lg-6.mt-4
-              .tarjeta.h-50.d-flex.p-4.align-middle
-                figure.tarjeta--blanca
-                  img(src="@/assets/curso/temas/tema2/python_3.svg", alt="alt").img100
-              .titulo-sexto.color-secundario.mb-2.pr-2
-                h5 Figura 6..
-                span Características de python
-                div.mb-4
-                  b Ventajas de programar en Phyton
-              ul.lista-ul.mb-0
-                li                 
-                  i.fas.fa-angle-right.txt--orange
-                  | Rápido de aprender: su curva de aprendizaje es corta.
-                li                 
-                  i.fas.fa-angle-right.txt--orange
-                  | Potente y multifuncional: se utiliza prácticamente en todas las ramas de la tecnología.
-                li                 
-                  i.fas.fa-angle-right.txt--orange
-                  | Simple y práctico: para crear aplicaciones se necesitan menos líneas de código que en otros lenguajes como Java, C, C++, entre otros.
-                li                 
-                  i.fas.fa-angle-right.txt--orange
-                  |Amplia documentación: Python cuenta con una enorme comunidad que soporta el lenguaje y es de gran utilidad cuando se necesita apoyo para resolver cualquier duda en su manejo.
-                li                 
-                  i.fas.fa-angle-right.txt--orange
-                  | Colección de Bibliotecas: las bibliotecas también conocidas como librerías son importantes porque permiten la reutilización de código y aumentan la rapidez en el desarrollo.
-            .col-12.col-md-6.col-lg-6
-              .tarjeta.h-50.d-flex.p-4.align-middle
-                figure.tarjeta--blanca
-                  img(src="@/assets/curso/temas/tema2/python_3.svg", alt="alt").img100
-              .titulo-sexto.color-secundario.mb-2.pr-2
-                h5 Figura 6..
-                span Características de python
-              div.mb-4
-                  b Ventajas de programar en Phyton
-              ul.lista-ul.mb-0
-                li                 
-                  i.fas.fa-angle-right.txt--orange
-                  | Rápido de aprender: su curva de aprendizaje es corta.
-                li                 
-                  i.fas.fa-angle-right.txt--orange
-                  | Potente y multifuncional: se utiliza prácticamente en todas las ramas de la tecnología.
-                li                 
-                  i.fas.fa-angle-right.txt--orange
-                  | Simple y práctico: para crear aplicaciones se necesitan menos líneas de código que en otros lenguajes como Java, C, C++, entre otros.
-                li                 
-                  i.fas.fa-angle-right.txt--orange
-                  |Amplia documentación: Python cuenta con una enorme comunidad que soporta el lenguaje y es de gran utilidad cuando se necesita apoyo para resolver cualquier duda en su manejo.
-                li                 
-                  i.fas.fa-angle-right.txt--orange
-                  | Colección de Bibliotecas: las bibliotecas también conocidas como librerías son importantes porque permiten la reutilización de código y aumentan la rapidez en el desarrollo.
+            
 </template>
 
 <script>

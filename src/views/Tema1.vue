@@ -20,27 +20,21 @@
             .col-12.col-md-10.col-lg-4
               figure
                 img(src="@/assets/curso/temas/tema1/pensamiento_computacional.svg")
-
       br
-              
       .col-12
        p El pensamiento computacional fomenta las habilidades que tienen las personas para resolver problemas, ya que, este tipo de pensamiento implica descomponer un problema en unidades más pequeñas e identificar los patrones y características comunes de estas partes, para luego enfocarse en la información relevante y finalmente, solucionar el problema paso a paso a través de algoritmos.
    
       p.center.align-items-center.align-items-lg-stretch Figura 1. Pensamiento computacional.
-
         .col-12.col-md-10.align-center
               img(src="@/assets/curso/temas/tema1/figura_1.svg")
       br
-
       .row.pt-4
       .titulo-segundo.color-primario
         h2 1.2  Algoritmos e instrucciones
       br
-
       p A continuación, se abordarán los conceptos de algoritmos y sus tipos:
-
       br
-
+    
     .tarjeta.tarjeta--gris.p-4
       SlyderA(tipo="b")
         .row
@@ -122,6 +116,7 @@
               img(src='', alt='pseudocodigo vs diagrama de flujo')
             br
 
+    
     .row.pt-4
       .titulo-segundo.color-primario
         h2 1.3 Diagramas de flujo
@@ -170,7 +165,7 @@
             figcaption Ejemplo de diagrama de flujo para determinar si un número es positivo o negativo.
       
     .row.justify-content-center.pt-5.mb-5
-      fugure 
+      figure 
         img(src="@/assets/curso/temas/tema1/likevsdislike.svg", alt="likevsdislike").img100
          
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5

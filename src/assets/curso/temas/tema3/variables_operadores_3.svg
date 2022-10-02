@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="330.86" viewBox="0 0 820 330.86">
+  <g id="Group_109077" data-name="Group 109077" transform="translate(-370 -2311)">
+    <g id="_1" data-name="1" transform="translate(370 2311)" fill="none">
+      <path d="M0,0H820V330.86H0Z" stroke="none"/>
+      <path d="M 3 3 L 3 327.8604431152344 L 817 327.8604431152344 L 817 3 L 3 3 M 0 0 L 820 0 L 820 330.8604431152344 L 0 330.8604431152344 L 0 0 Z" stroke="none" fill="#dee9f0"/>
+    </g>
+    <rect id="Rectangle_40527" data-name="Rectangle 40527" width="185" height="85" rx="11" transform="translate(421 2331)" fill="#bddcf6"/>
+    <rect id="Rectangle_40541" data-name="Rectangle 40541" width="185" height="85" rx="11" transform="translate(421 2434)" fill="#bddcf6"/>
+    <rect id="Rectangle_40528" data-name="Rectangle 40528" width="184" height="85" rx="11" transform="translate(688 2331)" fill="#bddcf6"/>
+    <rect id="Rectangle_40539" data-name="Rectangle 40539" width="184" height="85" rx="11" transform="translate(688 2434)" fill="#bddcf6"/>
+    <rect id="Rectangle_40543" data-name="Rectangle 40543" width="184" height="85" rx="11" transform="translate(688 2537)" fill="#bddcf6"/>
+    <rect id="Rectangle_40529" data-name="Rectangle 40529" width="185" height="85" rx="11" transform="translate(954 2331)" fill="#bddcf6"/>
+    <rect id="Rectangle_40537" data-name="Rectangle 40537" width="185" height="85" rx="11" transform="translate(954 2434)" fill="#bddcf6"/>
+    <text id="Suma" transform="translate(514 2357)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="-19.237" y="0">Suma</tspan></text>
+    <text id="División_euclidiana" data-name="División euclidiana" transform="translate(514 2460)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="-62.172" y="0">División euclidiana</tspan></text>
+    <text id="División" transform="translate(779 2357)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="-26.294" y="0">División</tspan></text>
+    <text id="Resta" transform="translate(780 2460)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="-18.988" y="0">Resta</tspan></text>
+    <text id="Módulo" transform="translate(779 2563)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="-25.287" y="0">Módulo</tspan></text>
+    <text id="Potencia" transform="translate(1045 2357)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="-29.348" y="0">Potencia</tspan></text>
+    <text id="Multiplicación" transform="translate(1045 2460)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="-46.787" y="0">Multiplicación</tspan></text>
+    <rect id="Rectangle_40534" data-name="Rectangle 40534" width="43" height="42" rx="9" transform="translate(493 2362)" fill="#0f2771"/>
+    <rect id="Rectangle_40542" data-name="Rectangle 40542" width="43" height="42" rx="9" transform="translate(493 2465)" fill="#0f2771"/>
+    <rect id="Rectangle_40535" data-name="Rectangle 40535" width="43" height="42" rx="9" transform="translate(759 2362)" fill="#0f2771"/>
+    <rect id="Rectangle_40540" data-name="Rectangle 40540" width="43" height="42" rx="9" transform="translate(759 2465)" fill="#0f2771"/>
+    <rect id="Rectangle_40544" data-name="Rectangle 40544" width="43" height="43" rx="9" transform="translate(759 2567)" fill="#0f2771"/>
+    <rect id="Rectangle_40536" data-name="Rectangle 40536" width="43" height="42" rx="9" transform="translate(1025 2362)" fill="#0f2771"/>
+    <rect id="Rectangle_40538" data-name="Rectangle 40538" width="43" height="42" rx="9" transform="translate(1025 2465)" fill="#0f2771"/>
+    <text id="_" data-name="+" transform="translate(513 2394)" fill="#bddcf6" font-size="33" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-9.007" y="0">+</tspan></text>
+    <text id="_2" data-name="//" transform="translate(514 2497)" fill="#bddcf6" font-size="33" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-10.329" y="0">//</tspan></text>
+    <text id="_3" data-name="/" transform="translate(779 2394)" fill="#bddcf6" font-size="33" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-6.163" y="0">/</tspan></text>
+    <text id="_-" data-name="-" transform="translate(779 2497)" fill="#bddcf6" font-size="33" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-6.397" y="0">-</tspan></text>
+    <text id="_4" data-name="%" transform="translate(780 2600)" fill="#bddcf6" font-size="33" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-12.182" y="0">%</tspan></text>
+    <text id="_5" data-name="**" transform="translate(1047 2401)" fill="#bddcf6" font-size="33" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-14.953" y="0">**</tspan></text>
+    <text id="_6" data-name="*" transform="translate(1046 2504)" fill="#bddcf6" font-size="33" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-7.477" y="0">*</tspan></text>
+  </g>
+</svg>
