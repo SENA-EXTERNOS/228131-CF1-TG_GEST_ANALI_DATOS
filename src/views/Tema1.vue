@@ -12,7 +12,7 @@
         p Los fundamentos y la lógica de programación es la parte inicial del recorrido, es aquí, donde se adoptarán los conceptos claves y la lógica que apoyará el resto del camino, de modo que, se pueda resolver un problema complejo utilizando técnicas que permitan convertirlos en unidades más pequeñas y fáciles de solucionar.
 
       .row.p-4
-        .titulo-segundo.color-primario
+      #t_1_1.titulo-segundo.color-primario
           h2 1.1  Pensamiento computacional 
       .row.pt-1.pb-4 
         .col-12
@@ -29,7 +29,7 @@
               img(src="@/assets/curso/temas/tema1/figura_1.svg")
       br
       .row.pt-4
-      .titulo-segundo.color-primario
+      #t_1_2.titulo-segundo.color-primario
         h2 1.2  Algoritmos e instrucciones
       br
       p A continuación, se abordarán los conceptos de algoritmos y sus tipos:
@@ -100,7 +100,7 @@
             b Ejemplo de algoritmo para iniciar sesión en una aplicación. 
             br
             figure
-             img(src='@/assets/curso/temas/tema1/slide_8_texto.svg', alt='Algoritmo_Inicio_De_sesion')                                    
+             img(src='@/assets/curso/temas/tema1/slide_8_texto.svg', alt='Algoritmo_Inicio_De_sesion')
           .col-md-6
             figure
               img(src='', alt='Inicio_De_sesion')
@@ -118,8 +118,8 @@
 
     
     .row.pt-4
-      .titulo-segundo.color-primario
-        h2 1.3 Diagramas de flujo
+      #t_1_3.titulo-segundo.color-primario
+        h2 1.3 Diagramas de Flujo
 
     .row.pt-4.pb-4 
       .col-12

@@ -12,9 +12,8 @@
         p.p-3 Programar consiste en escribir detalladamente órdenes que una máquina debe seguir para completar una tarea. Estas órdenes se escriben en un lenguaje que la máquina puede entender de forma directa o a través de un intérprete o compilador. 
         p.p-3 En esta unidad se estudiarán las herramientas más comunes de las que disponen todos los lenguajes de programación.
 
-    .row.pb-3 
-       .titulo-segundo.color-primario
-        h2 3.1 Tipos de variables
+    #t_3_1.titulo-segundo.color-primario.pb-3
+      h2 3.1 Tipos de variables
 
     .row.justify-content-center.pb-5
       .col-12
@@ -35,36 +34,35 @@
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
                   .col-8
-                    img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_1.svg", alt="alt").img200     
+                    img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_1.svg", alt="alt").img200
                 p.text-center.pb-2 Números: números enteros o de punto flotante.
 
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
                   .col-8
-                    img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_2.svg", alt="alt").img100.m-auto        
+                    img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_2.svg", alt="alt").img100.m-auto
                 p.text-center.pb-2 Texto: son cadenas de caracteres.
 
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
                   .col-8
-                    img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_3.svg", alt="alt").img100.m-auto       
+                    img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_3.svg", alt="alt").img100.m-auto
                 p.text-center.pb-2 Booleanos: toman valores de falso o verdadero.
 
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
                   .col-8
-                    img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_4.svg", alt="alt").img100.m-auto       
+                    img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_4.svg", alt="alt").img100.m-auto
                 p.text-center.pb-2 Listas: una lista es un conjunto de datos
 
               .tarjeta.tarjeta--slyder.p-4.border
                 .row.justify-content-center.mb-3
                   .col-8
-                    img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_5.svg", alt="alt").img100.m-auto       
+                    img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_5.svg", alt="alt").img100.m-auto
                 p.text-center Tuplas: son también un conjunto de datos, pero no se pueden modificar. 
 
-    .row.pb-3 
-      .titulo-segundo.color-primario
-        h2 3.2 Variables y Operadores Booleanos
+    #t_3_2.titulo-segundo.color-primario.pb-3
+      h2 3.2 Variables y Operadores Booleanos
 
     .row.justify-content-center.pb-5
       .col-12
@@ -100,7 +98,7 @@
     .row.justify-content-center.pb-5
       .col-6
         .col-12
-          img(src="@/assets/curso/temas/tema3/variables_operadores_3.svg", alt="alt").img100 
+          img(src="@/assets/curso/temas/tema3/variables_operadores_3.svg", alt="alt").img100
 
     b.pb-3 Operadores booleanos o lógicos:
 
@@ -177,9 +175,8 @@
         .col-12
           img(src="@/assets/curso/temas/tema3/operador_booleano_and_3.svg", alt="alt").img100
 
-    .row.pb-3 
-      .titulo-segundo.color-primario
-        h2 3.3 Ciclos (Do While, While y For)
+    #t_3_3.titulo-segundo.color-primario.pb-3
+      h2 3.3 Ciclos (Do While, While y For)
 
     .row.justify-content-center.pb-5
       .col-12
@@ -212,7 +209,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Si i < 5 es verdadero se ejecutará el bloque de código que está dentro del bucle, de lo contrario finaliza el ciclo. 
+                | Si i &lt 5 es verdadero se ejecutará el bloque de código que está dentro del bucle, de lo contrario finaliza el ciclo. 
               li 
                 .lista-ol--cuadro__vineta
                   span a
@@ -276,9 +273,10 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/ciclos_4.svg', alt='')
-    .row.justify-content-center.p-3 
-      .titulo-segundo.color-primario
-        h2 3.4  Condicionales
+
+    #t_3_4.titulo-segundo.color-primario.p-3
+      h2 3.4  Condicionales
+    
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__texto.p-4
         p.mb-0 Los condicionales sirven para modificar el flujo en la ejecución de la aplicación, de modo que, con ellos se puede controlar qué bloque de código es ejecutado y en qué momento, de acuerdo con las entradas que ingresan al programa. 
@@ -309,9 +307,10 @@
               .col-md-6.pb-4
                 figure
                   img(src='@/assets/curso/temas/tema3/condicional_elif.svg', style="width: 300px;", alt='condicional_elif')
-    .row.justify-content-center.pt-5
-      .titulo-segundo.color-primario
-        h2 3.5  Arreglos               
+
+    #t_3_5.titulo-segundo.color-primario.pt-5
+      h2 3.5  Arreglos               
+    
     .row.pt-4.pb-4 
       .col-10
         .row.align-middle 
@@ -328,14 +327,15 @@
             span Ejemplo de un arreglo en Python
         .row
           .col-12
-            img(src="@/assets/curso/temas/tema3/array_example.svg", alt="array_example").img100 
+            img(src="@/assets/curso/temas/tema3/array_example.svg", alt="array_example").img100
     .row.justify-content-center.pb-5.pt-5
       .col-10
         .row.tarjeta--azul.align-middle   
           p En el ejemplo de la imagen, el resultado sería imprimir el dato que se encuentra en la posición 1 del arreglo, el cual es el número 2, ya que, las posiciones empiezan con el índice 0.          
-    .row.justify-content-center.pt-3
-      .titulo-segundo.color-primario
-        h2 3.6  Listas
+
+    #t_3_6.titulo-segundo.color-primario.pt-3
+      h2 3.6  Listas
+    
     .row.justify-content-center.pt-3
       .col-12
         p.b-3 Las listas a diferencia de los arreglos, permiten guardar datos de cualquier tipo y pueden ser dinámicas o variables para proporcionar flexibilidad en la manipulación de la información. 
@@ -348,7 +348,7 @@
             span Ejemplo de una lista en Python.
         .row.pb-5
           .col-12
-            img(src="@/assets/curso/temas/tema3/lista.svg", alt="ejemplo_de_lista").img100     
+            img(src="@/assets/curso/temas/tema3/lista.svg", alt="ejemplo_de_lista").img100
     .row.justify-content-center.pt-5
       .col-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -368,16 +368,17 @@
             span Ejemplo de una tupla en Python
         .row.pb-5
           .col-12
-            img(src="@/assets/curso/temas/tema3/tuplas_2.svg", alt="tuplas_2").img100  
-    .row.justify-content-center.pt-5
-      .titulo-segundo.color-primario
+            img(src="@/assets/curso/temas/tema3/tuplas_2.svg", alt="tuplas_2").img100
+
+    #t_3_8.titulo-segundo.color-primario.pt-5
         h2 3.8  Funciones
+
     .row.justify-content-center.pt-3
       .col-12
         .row  
           .col-4.pb-3.md-5
             figure
-              img(src="@/assets/curso/temas/tema3/funciones.svg", alt="tuplas_2").img50 
+              img(src="@/assets/curso/temas/tema3/funciones.svg", alt="tuplas_2").img50
           .col-8.pb-3.md-5
             p Las funciones son bloques de código que se usan para realizar una tarea específica y que permiten ser reutilizadas en cualquier parte del programa sin necesidad de volver a escribir las instrucciones que la conforman. 
             p.pt-2 Los lenguajes de programación como Python cuentan con funciones nativas como len (), que obtienen la longitud de una lista, pero también se pueden crear funciones personalizadas con instrucciones y finalidad definidas por el programador.
@@ -394,16 +395,17 @@
             span Ejemplo de una función en Python
           .col-12.pb-3
             figure
-              img(src="@/assets/curso/temas/tema3/funcion_example.svg", alt="funcion").img50 
-      .row.justify-content-center.pt-5
-      .titulo-segundo.color-primario
-        h2 3.9  Matrices           
+              img(src="@/assets/curso/temas/tema3/funcion_example.svg", alt="funcion").img50
+      
+    #t_3_9.titulo-segundo.color-primario.pt-5
+      h2 3.9  Matrices
+
     .row.justify-content-center.pt-3
       .col-12
         .row  
           .col-4.pb-3.md-5
             figure
-              img(src="@/assets/curso/temas/tema3/matrices.svg", alt="matrices").img50 
+              img(src="@/assets/curso/temas/tema3/matrices.svg", alt="matrices").img50
           .col-8.pb-3.md-5
             p Las matrices son estructuras de datos que están conformadas por filas y columnas (como una tabla en Excel), también se les conoce como arreglos multidimensionales.
             p.pt-2 Python no tiene un tipo de datos predeterminado para tratar las matrices, sin embargo, se puede ver una lista de una lista como matriz, por ejemplo:
@@ -415,7 +417,7 @@
             span Ejemplo del manejo de una lista como una matriz en Python
           .col-12.pb-3
             figure
-              img(src="@/assets/curso/temas/tema3/matrices_2.svg", alt="matrices").img50             
+              img(src="@/assets/curso/temas/tema3/matrices_2.svg", alt="matrices").img50
 
 </template>
 

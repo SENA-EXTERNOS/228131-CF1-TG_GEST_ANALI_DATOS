@@ -1,7 +1,8 @@
 export default {
   global: {
     componenteFormativo: 'Fundamentos y lógica de programación',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    descripcionCurso:
+      'En este componente formativo se presentan los fundamentos de la programación como base para iniciar en el universo de la analítica de datos, se abordan también temas como la codificación de la lógica de programación, empleando herramientas de vanguardia y metodologías que permiten crear programas con las mejores prácticas, garantizando un código reutilizable, escalable, seguro y de fácil mantenimiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -32,31 +33,124 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Fundamentos y lógica de Programación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Pensamiento computacional',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Algoritmos e instrucciones',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Diagramas de Flujo',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Entorno de Desarrollo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Lenguajes compilados y lenguajes interpretados',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Python y/o R',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Google colab',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Jupyter',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Principios básicos de programación',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipos de variables',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Variables y Operadores Booleanos',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Ciclos (Do While, While y For)',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Condicionales',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Arreglos',
+            hash: 't_3_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'Listas',
+            hash: 't_3_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.7',
+            titulo: 'Tuplas',
+            hash: 't_3_7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.8',
+            titulo: 'Funciones',
+            hash: 't_3_8',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.9',
+            titulo: 'Matrices',
+            hash: 't_3_9',
+          },
+        ],
       },
     ],
     subMenu: [
