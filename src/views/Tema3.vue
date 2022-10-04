@@ -276,7 +276,147 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/ciclos_4.svg', alt='')
-  
+    .row.justify-content-center.p-3 
+      .titulo-segundo.color-primario
+        h2 3.4  Condicionales
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Los condicionales sirven para modificar el flujo en la ejecución de la aplicación, de modo que, con ellos se puede controlar qué bloque de código es ejecutado y en qué momento, de acuerdo con las entradas que ingresan al programa. 
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/condicionales.svg')})`}"
+      )
+      
+    .row.pt-5
+      .container.tarjeta.tarjeta--blanca
+        TabsC.color-primario
+          .py-3.py-md-4(titulo="Condicional IF")
+            .row
+              .col-md-6
+                h4.pb3 Condicional IF
+                p.pb-2 Se utiliza cuando se desean comparar las entradas en un programa y ejecutar un bloque de código si cumple una condición.
+                p.pb-2 Por ejemplo, se tienen dos valores “m” y “n” para realizar una división, pero antes es importante verificar que “n” sea distinto de cero.
+                p.pb-2 El código en Python para realizar este algoritmo es el que se aprecia en la imagen:
+              .col-md-6.p-4
+                figure
+                  img(src='@/assets/curso/temas/tema3/condicional_if.svg', style="width: 300px;", alt='condicional_if')
+ 
+          .py-3.py-md-4(titulo="Condicionales else y elif")
+            .row
+              .col-md-6
+                h4.pb3 Condicionales else y elif
+                p.pb-2 El else se utiliza cuando, después de validar una condición, se quiere ejecutar instrucciones que no cumplen con lo propuesto y el elif, se utiliza en los casos donde hay varias condiciones que requirieren códigos distintos. 
+                p.pb-2 A continuación, se ilustra un ejemplo con los condicionales else y elif en el lenguaje de programación Python:
+              .col-md-6.pb-4
+                figure
+                  img(src='@/assets/curso/temas/tema3/condicional_elif.svg', style="width: 300px;", alt='condicional_elif')
+    .row.justify-content-center.pt-5
+      .titulo-segundo.color-primario
+        h2 3.5  Arreglos               
+    .row.pt-4.pb-4 
+      .col-10
+        .row.align-middle 
+          .col-12.col-md-3.align-center
+            img(src="@/assets/curso/temas/tema3/arreglos.svg", alt="arreglos_imagen").img50
+          .col-12.col-md-9.col-lg-9
+              p.pb-2 En programación un arreglo es un identificador que hace referencia a una colección de datos, los cuales son del mismo tipo, por ejemplo, el conjunto de los números 1, 2, 3, 4 y 5. 
+              p.pb-4 Para acceder y/o modificar la información que está dentro del arreglo se utilizan índices que ubican la posición del dato que se quiere tratar. 
+    .row.justify-content-center.pt-5
+      .col-8
+        .row.align-middle
+          .titulo-sexto.color-secundario.mb-2.pr-2
+            h5 Figura 17.
+            span Ejemplo de un arreglo en Python
+        .row
+          .col-12
+            img(src="@/assets/curso/temas/tema3/array_example.svg", alt="array_example").img100 
+    .row.justify-content-center.pb-5.pt-5
+      .col-10
+        .row.tarjeta--azul.align-middle   
+          p En el ejemplo de la imagen, el resultado sería imprimir el dato que se encuentra en la posición 1 del arreglo, el cual es el número 2, ya que, las posiciones empiezan con el índice 0.          
+    .row.justify-content-center.pt-3
+      .titulo-segundo.color-primario
+        h2 3.6  Listas
+    .row.justify-content-center.pt-3
+      .col-12
+        p.b-3 Las listas a diferencia de los arreglos, permiten guardar datos de cualquier tipo y pueden ser dinámicas o variables para proporcionar flexibilidad en la manipulación de la información. 
+        p.b-3 La siguiente lista está formada por un número entero, una cadena de carácter y un número flotante:
+    .row.justify-content-center.pt-3
+      .col-md-8
+        .row-align-middle  
+          .titulo-sexto.color-secundario.mb-2.pr2
+            h5 Figura 18.
+            span Ejemplo de una lista en Python.
+        .row.pb-5
+          .col-12
+            img(src="@/assets/curso/temas/tema3/lista.svg", alt="ejemplo_de_lista").img100     
+    .row.justify-content-center.pt-5
+      .col-10
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tuplas.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Las tuplas, a diferencia de las listas, no son dinámicas. Lo que significa que, no permiten modificaciones en sus elementos, pero en términos de rendimiento son más eficientes:
+
+
+
+    .row.justify-content-center.pt-5
+      .col-8
+        .row.align-middle
+          .titulo-sexto.color-secundario.mb-2.pr-2
+            h5 Figura 19.
+            span Ejemplo de una tupla en Python
+        .row.pb-5
+          .col-12
+            img(src="@/assets/curso/temas/tema3/tuplas_2.svg", alt="tuplas_2").img100  
+    .row.justify-content-center.pt-5
+      .titulo-segundo.color-primario
+        h2 3.8  Funciones
+    .row.justify-content-center.pt-3
+      .col-12
+        .row  
+          .col-4.pb-3.md-5
+            figure
+              img(src="@/assets/curso/temas/tema3/funciones.svg", alt="tuplas_2").img50 
+          .col-8.pb-3.md-5
+            p Las funciones son bloques de código que se usan para realizar una tarea específica y que permiten ser reutilizadas en cualquier parte del programa sin necesidad de volver a escribir las instrucciones que la conforman. 
+            p.pt-2 Los lenguajes de programación como Python cuentan con funciones nativas como len (), que obtienen la longitud de una lista, pero también se pueden crear funciones personalizadas con instrucciones y finalidad definidas por el programador.
+    .row.justify-content-center.pb-5.pt-5
+      .col-8
+        .row.tarjeta--azul.align-middle 
+          p En Python para crear una función se empieza con la palabra reservada def. 
+    b.pt-3.pb-3  A continuación, se define de forma general la estructura de una función: 
+    .row.justify-content-center.pt-5
+      .col-8
+        .row.align-middle
+          .titulo-sexto.color-secundario.mb-2.pr-2
+            h5 Figura 20.
+            span Ejemplo de una función en Python
+          .col-12.pb-3
+            figure
+              img(src="@/assets/curso/temas/tema3/funcion_example.svg", alt="funcion").img50 
+      .row.justify-content-center.pt-5
+      .titulo-segundo.color-primario
+        h2 3.9  Matrices           
+    .row.justify-content-center.pt-3
+      .col-12
+        .row  
+          .col-4.pb-3.md-5
+            figure
+              img(src="@/assets/curso/temas/tema3/matrices.svg", alt="matrices").img50 
+          .col-8.pb-3.md-5
+            p Las matrices son estructuras de datos que están conformadas por filas y columnas (como una tabla en Excel), también se les conoce como arreglos multidimensionales.
+            p.pt-2 Python no tiene un tipo de datos predeterminado para tratar las matrices, sin embargo, se puede ver una lista de una lista como matriz, por ejemplo:
+    .row.justify-content-center.pt-5
+      .col-8
+        .row.align-middle
+          .titulo-sexto.color-secundario.mb-2.pr-2
+            h5 Figura 21.
+            span Ejemplo del manejo de una lista como una matriz en Python
+          .col-12.pb-3
+            figure
+              img(src="@/assets/curso/temas/tema3/matrices_2.svg", alt="matrices").img50             
+
 </template>
 
 <script>
