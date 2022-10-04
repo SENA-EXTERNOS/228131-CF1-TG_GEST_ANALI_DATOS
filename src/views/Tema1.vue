@@ -11,22 +11,32 @@
       .col-12
         p Los fundamentos y la lógica de programación es la parte inicial del recorrido, es aquí, donde se adoptarán los conceptos claves y la lógica que apoyará el resto del camino, de modo que, se pueda resolver un problema complejo utilizando técnicas que permitan convertirlos en unidades más pequeñas y fáciles de solucionar.
 
-      .row.p-4
-      #t_1_1.titulo-segundo.color-primario
-          h2 1.1  Pensamiento computacional 
-      .row.pt-1.pb-4 
-        .col-12
-          .row.align-middle 
-            .col-12.col-md-10.col-lg-4
-              figure
-                img(src="@/assets/curso/temas/tema1/pensamiento_computacional.svg")
+      #t_1_1.titulo-segundo.color-primario.p-3
+        h2 1.1  Pensamiento computacional 
+      
+      .row.justify-content-center
+        .col-10
+          .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-8
+                .bloque-texto-a__texto.p-4
+                  p.mb-0 Para Adell et al. (2019) el pensamiento computacional “Implica resolver problemas, diseñar sistemas y comprender el comportamiento humano, basándose en los conceptos fundamentales de la ciencia de la computación” (pg. 3).  
+              .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
+                figure
+                  img(src="@/assets/curso/temas/tema1/pensamiento_computacional.svg").img100
+
       br
       .col-12
        p El pensamiento computacional fomenta las habilidades que tienen las personas para resolver problemas, ya que, este tipo de pensamiento implica descomponer un problema en unidades más pequeñas e identificar los patrones y características comunes de estas partes, para luego enfocarse en la información relevante y finalmente, solucionar el problema paso a paso a través de algoritmos.
    
-      p.center.align-items-center.align-items-lg-stretch Figura 1. Pensamiento computacional.
-        .col-12.col-md-10.align-center
-              img(src="@/assets/curso/temas/tema1/figura_1.svg")
+      p.center.align-items-center.align-items-lg-stretch 
+      
+      .col-12.col-md-10.align-center
+        .titulo-sexto.color-secundario.mb-2.pr-2
+          h5 Figura 1.
+          span Pensamiento computacional.
+        figure
+          img(src="@/assets/curso/temas/tema1/figura_1.svg")
       br
       .row.pt-4
       #t_1_2.titulo-segundo.color-primario
@@ -41,8 +51,8 @@
           .col-md-6.mb-4.mb-md-0
             p Un algoritmo en términos generales es una secuencia de pasos que se deben ejecutar en un orden predefinido, con el fin de realizar una tarea específica o resolver un problema en particular. Un claro ejemplo de los algoritmos, son los manuales, porque en ellos encontramos los pasos para resolver los problemas, como los pasos para armar un artefacto o qué hacer en caso de que se presente algún inconveniente o falla con un dispositivo.
           .col-md-6
-            figure
-              img(src='', alt='Profesor con alumnos')
+            figure.border-end-5.border-light
+              img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_1.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             h6 Inicio y fin
@@ -50,7 +60,7 @@
             p Una característica de los algoritmos es que los pasos que lo conforman deben ser finitos y contar con un principio y un final..
           .col-md-6
             figure
-              img(src='', alt='Profesora y tablero')
+              img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_2.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             h6 Ejemplo de un algoritmo en la vida cotidiana
@@ -59,14 +69,14 @@
             p Saludar, dialogar con la persona, despedirse Si no contestan: Volver al paso 2. Paso 4. Colgar la llamada.
           .col-md-6
             figure
-              img(src='', alt='Joven con un telefono')
+              img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_3.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             br
             p Como se muestra en el ejemplo anterior, los algoritmos están presentes en muchas situaciones de la vida cotidiana y no son solamente fórmulas matemáticas complejas.  
           .col-md-6
             figure
-              img(src='', alt='Joven con un tablero')
+              img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_4.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             h6 Ejemplo 2: una receta de cocina.
@@ -74,7 +84,7 @@
             p Para mayor claridad respecto al concepto de algoritmos, se revisará otro ejemplo clásico donde se describen los pasos para preparar una comida:
           .col-md-6
             figure
-              img(src='', alt='Receta ade cocina')
+              img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_5.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             h6 Algoritmos = Programación
@@ -84,7 +94,7 @@
             p Los algoritmos son el núcleo, la base de los programas.
           .col-md-6
             figure
-              img(src='', alt='imagen de PC')
+              img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_6.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             h6 Lenguajes y algoritmos
@@ -93,8 +103,8 @@
             br
             p Es importante resaltar que los algoritmos son independientes de los lenguajes de programación, ya que, un mismo algoritmo puede ser traducido a diferentes lenguajes.
           .col-md-6
-            figure
-              img(src='', alt='computador')
+            figure.border
+              img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_7.png')
         .row.justify-content-center.align-items-center.my-lg-4   
           .col-md-6
             b Ejemplo de algoritmo para iniciar sesión en una aplicación. 
@@ -103,7 +113,7 @@
              img(src='@/assets/curso/temas/tema1/slide_8_texto.svg', alt='Algoritmo_Inicio_De_sesion')
           .col-md-6
             figure
-              img(src='', alt='Inicio_De_sesion')
+              img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_8.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             h6 Tipos de algoritmos
@@ -113,7 +123,7 @@
             p A continuación, se trabajarán ambos tipos de algoritmos de forma más detallada.
           .col-md-6
             figure
-              img(src='', alt='pseudocodigo vs diagrama de flujo')
+              img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_9.png')
             br
 
     
@@ -144,12 +154,12 @@
             figcaption Símbolo de decisión
 
     .row.justify-content-center
-      .col-12
-        .row.align-middle 
-          .col-12.col-md-4.col-lg-4
+      .col-8
+        .row 
+          .col-12.col-md-6.col-lg-6
             img(src="@/assets/curso/temas/tema1/diagrama_4.svg", alt="alt").img100
             figcaption Símbolo para las entradas y salidas
-          .col-12.col-md-4.col-lg-4
+          .col-12.col-md-6.col-lg-6
             img(src="@/assets/curso/temas/tema1/diagrama_5.svg", alt="alt").img100
             figcaption Símbolo para conectar
 
@@ -167,23 +177,27 @@
     .row.justify-content-center.pt-5.mb-5
       figure 
         img(src="@/assets/curso/temas/tema1/likevsdislike.svg", alt="likevsdislike").img100
-         
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/PSe_Int.svg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Existen herramientas como PSeInt que asisten a los estudiantes para dar sus primeros pasos en programación. PSeInt cuenta con la opción de crear flujogramas. 
-          br
-          br
-          | A continuación, encontrará un video que muestra la instalación de esta herramienta en un sistema operativo Windows y la creación de un diagrama de flujo de ejemplo.
-    p.pt3 Te invitamos a ver el tutorial que explica el proceso de instalación de la herramienta Pseint titulado “Instalación de Pseint” de Tordecilla, (2022) y que encuentras en material complementario
+
+
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0
+            figure
+              img(src="@/assets/curso/temas/tema1/pseint.png").img100
+        .col-lg-8
+          .bloque-texto-a__texto.p-4
+            p.mb-0.pb-4 Existen herramientas como PSeInt que asisten a los estudiantes para dar sus primeros pasos en programación. PSeInt cuenta con la opción de crear flujogramas. 
+            p.mb-0 A continuación, encontrará un video que muestra la instalación de esta herramienta en un sistema operativo Windows y la creación de un diagrama de flujo de ejemplo.
+   
+    p.pt-5 Te invitamos a ver el tutorial que explica el proceso de instalación de la herramienta Pseint titulado “Instalación de Pseint” de Tordecilla, (2022) y que encuentras en material complementario
+    
     .row.justify-content-center
-          .container.tarjeta.tarjeta--blanca.p-3.p-md-5
-           figure
-              .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Video 
+      .container.tarjeta.tarjeta--blanca.p-3.p-md-5
+        figure
+          .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video 
+    
     .row.pt-4
       .titulo-segundo.color-primario
         h2 1.4  Pseudocódigo
@@ -226,6 +240,8 @@
           .titulo-sexto.color-primario.mb-2.pr-2
             h5 Tabla 2.
             span Ejemplo de algoritmo Vs. representación en seudocódigo
+    
+    
     .row.justify-content-center.pt-0
       .col-12
         figure

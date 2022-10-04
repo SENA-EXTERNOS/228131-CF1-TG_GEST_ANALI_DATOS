@@ -216,7 +216,7 @@
                     | Colección de Bibliotecas: las bibliotecas también conocidas como librerías son importantes porque permiten la reutilización de código y aumentan la rapidez en el desarrollo.
             .col-12.col-md-6.col-lg-6
               .titulo-sexto.color-secundario.mb-2.pr-2
-                h5 Figura 6..
+                h5 Figura 6.
                 span Características de python
               .tarjeta.h-50.d-flex.p-4.align-middle
                 figure.tarjeta--blanca
