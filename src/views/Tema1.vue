@@ -31,21 +31,20 @@
    
       p.center.align-items-center.align-items-lg-stretch 
       
-      .col-12.col-md-10.align-center
+      .col-12.col-md-10.align-center.mb-5
         .titulo-sexto.color-secundario.mb-2.pr-2
           h5 Figura 1.
-          span Pensamiento computacional.
+          br
+          em Pensamiento computacional.
         figure
           img(src="@/assets/curso/temas/tema1/figura_1.svg")
-      br
-      .row.pt-4
+      
+      Separador
       #t_1_2.titulo-segundo.color-primario
         h2 1.2  Algoritmos e instrucciones
-      br
       p A continuación, se abordarán los conceptos de algoritmos y sus tipos:
-      br
-    
-    .tarjeta.tarjeta--gris.p-4
+      
+    .tarjeta.tarjeta--gris.p-4.mb-5
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -124,8 +123,8 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_9.png')
-            br
 
+    Separador  
     
     .row.pt-4
       #t_1_3.titulo-segundo.color-primario
@@ -175,6 +174,9 @@
             figcaption Ejemplo de diagrama de flujo para determinar si un número es positivo o negativo.
       
     .row.justify-content-center.pt-5.mb-5
+      .col-6
+
+      .col-6
       figure 
         img(src="@/assets/curso/temas/tema1/likevsdislike.svg", alt="likevsdislike").img100
 

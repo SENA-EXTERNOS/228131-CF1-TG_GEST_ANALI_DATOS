@@ -384,8 +384,8 @@
             p.pt-2 Los lenguajes de programación como Python cuentan con funciones nativas como len (), que obtienen la longitud de una lista, pero también se pueden crear funciones personalizadas con instrucciones y finalidad definidas por el programador.
     .row.justify-content-center.pb-5.pt-5
       .col-8
-        .row.tarjeta--azul.align-middle 
-          p En Python para crear una función se empieza con la palabra reservada def. 
+        .tarjeta.tarjeta--azul.align-middle.p-4 
+          p.mb-0 En Python para crear una función se empieza con la palabra reservada def. 
     b.pt-3.pb-3  A continuación, se define de forma general la estructura de una función: 
     .row.justify-content-center.pt-5
       .col-8

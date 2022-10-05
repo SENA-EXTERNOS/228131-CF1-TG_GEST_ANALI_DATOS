@@ -25,33 +25,27 @@
     .row.justify-content-center.mb-5
       .col-10
         b ¿Por qué los programadores utilizan los Entornos de Desarrollo Integrado IDE?
-  
+
     .row.justify-content-center.mb-5
-      .col-lg-9.position-relative
-        <!--.avatar -->
-        <!--  figure -->
-        <!--    img(src="@/assets/curso/temas/tema2/introduccion_2.svg", alt="alt", style="width: 500px;").img250 -->
-        .crd.crd--avatarHorizontal.crd--first.clr--azul.py-4
+      .col-10.position-relative
+        .avatar
+          figure
+            img(src="@/assets/curso/temas/tema2/introduccion_2.svg", alt="alt", style="width: 500px;").img250
+        .crd.crd--avatarHorizontal.crd--first.clr--azul.py-4.back-yellow
           .row.align-items-center
-            .col
-              h5 Calidad de la información
-              p Es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, la cual le permitirá obtener información concreta, clara y medible. Es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido. 
-        .crd.crd--avatarHorizontal.py-4
+            .col-7.ms-4
+              p Los IDE permiten que los programadores inicien a desarrollar nuevas aplicaciones con gran rapidez, debido a que, con ellos no se requiere preparar ni combinar de forma manual las herramientas que hacen parte de los procesos de configuración. También aportan en la optimización del tiempo con el auto relleno inteligente de código, lo cual suprime la necesidad de escribir secuencias enteras de caracteres.
+        .crd.crd--avatarHorizontal.py-4.back-yellow-2
           .row.align-items-center
-            .col
-              h5 Aplicación de técnicas
-              p Desarrolle técnicas que le permitan tener un panorama completo de la información que se esté analizando, integrando las variables obtenidas en la medición y contrastando detalladamente los datos.
-        .crd.crd--avatarHorizontal.crd--last.py-4
+            .col-7.ms-4
+              p Otra característica fundamental de los IDE es el análisis de código en tiempo real, esto permite que, mientras se está codificando, se pueden visualizar los errores en las líneas de código y hasta las posibles correcciones.
+        .crd.crd--avatarHorizontal.crd--last.py-4.back-yellow
           .row.align-items-center
-            .col
-              h5 Comunicación correcta de los resultados
-              p En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información. 
+            .col-7.ms-4
+              p Es importante destacar que es posible crear programas sin utilizar ningún IDE o que los programadores diseñen un IDE personalizado que integre varias herramientas de forma manual, como los editores de texto: Notepad++, VIM, Sublime Text, entre otros. Sin embargo, en los entornos empresariales, es altamente beneficioso minimizar tiempos con la estandarización de un IDE, a invertirlo en las opciones manuales, por lo que la mayor parte de las organizaciones prefieren los IDE preconfigurados que se adaptan a sus casos de usos particulares.
 
-    br
-
+  
     b Tipos de IDE
-
-    br
 
     p Existen opciones tanto comerciales como open source en el mercado que suplen la demanda existente. Entre las características que distinguen los IDE resaltan las siguientes:
 
