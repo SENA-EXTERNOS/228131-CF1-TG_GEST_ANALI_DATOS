@@ -12,6 +12,8 @@
         p.p-3 Programar consiste en escribir detalladamente órdenes que una máquina debe seguir para completar una tarea. Estas órdenes se escriben en un lenguaje que la máquina puede entender de forma directa o a través de un intérprete o compilador. 
         p.p-3 En esta unidad se estudiarán las herramientas más comunes de las que disponen todos los lenguajes de programación.
 
+    Separador
+
     #t_3_1.titulo-segundo.color-primario.pb-3
       h2 3.1 Tipos de variables
 
@@ -60,6 +62,7 @@
                   .col-8
                     img(src="@/assets/curso/temas/tema3/tipo_dato_carrusel_5.svg", alt="alt").img100.m-auto
                 p.text-center Tuplas: son también un conjunto de datos, pero no se pueden modificar. 
+    Separador
 
     #t_3_2.titulo-segundo.color-primario.pb-3
       h2 3.2 Variables y Operadores Booleanos
@@ -175,6 +178,8 @@
         .col-12
           img(src="@/assets/curso/temas/tema3/operador_booleano_and_3.svg", alt="alt").img100
 
+    Separador
+
     #t_3_3.titulo-segundo.color-primario.pb-3
       h2 3.3 Ciclos (Do While, While y For)
 
@@ -219,6 +224,11 @@
                   span b
                 | Finalmente se imprime el valor de la variable            
           .col-md-6
+            .col-12.align-center.mb-5
+              .titulo-sexto.color-acento-contenido.mb-2.pr-2
+                h5 Figura 12.
+                br
+                em Ejemplo de ciclo While en el que se imprimen los números del 1 al 5
             figure
               img(src='@/assets/curso/temas/tema3/ciclos_2.svg', alt='alt')
         .row.justify-content-center.my-lg-4
@@ -245,9 +255,10 @@
                   span b
                 | Si el resultado de la validación es True (verdadera) el ciclo terminará, de lo contrario, continuará hasta que el usuario escriba la palabra secreta o hasta que el contador llegue a 3; es decir, el usuario tendrá 3 intentos antes de finalizar el bucle.
           .col-md-6
-            .titulo-sexto.color-secundario.mb-2.pr-2
-              h5 Figura 7.
-              span Ejemplo de creación de variables en Python
+            .titulo-sexto.color-acento-contenido.mb-2.pr-2
+              h5 Figura 13.
+              br
+              em Ejemplo de ciclo Do While.
             figure
               img(src='@/assets/curso/temas/tema3/ciclos_3.svg', alt='alt')
         
@@ -271,8 +282,14 @@
                   span a
                 | La salida son los números del 0 hasta el 4
           .col-md-6
+            .titulo-sexto.color-acento-contenido.mb-2.pr-2
+              h5 Figura 14.
+              br
+              em Ejemplo de ciclo For.
             figure
               img(src='@/assets/curso/temas/tema3/ciclos_4.svg', alt='')
+
+    Separador
 
     #t_3_4.titulo-segundo.color-primario.p-3
       h2 3.4  Condicionales
@@ -308,6 +325,8 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/condicional_elif.svg', style="width: 300px;", alt='condicional_elif')
 
+    Separador
+
     #t_3_5.titulo-segundo.color-primario.pt-5
       h2 3.5  Arreglos               
     
@@ -329,9 +348,9 @@
           .col-12
             img(src="@/assets/curso/temas/tema3/array_example.svg", alt="array_example").img100
     .row.justify-content-center.pb-5.pt-5
-      .col-10
-        .row.tarjeta--azul.align-middle   
-          p En el ejemplo de la imagen, el resultado sería imprimir el dato que se encuentra en la posición 1 del arreglo, el cual es el número 2, ya que, las posiciones empiezan con el índice 0.          
+      .col-8
+        .tarjeta.tarjeta--azul.align-middle.p-4 
+          p.mb-0 En el ejemplo de la imagen, el resultado sería imprimir el dato que se encuentra en la posición 1 del arreglo, el cual es el número 2, ya que, las posiciones empiezan con el índice 0.          
 
     #t_3_6.titulo-segundo.color-primario.pt-3
       h2 3.6  Listas
@@ -358,8 +377,6 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Las tuplas, a diferencia de las listas, no son dinámicas. Lo que significa que, no permiten modificaciones en sus elementos, pero en términos de rendimiento son más eficientes:
 
-
-
     .row.justify-content-center.pt-5
       .col-8
         .row.align-middle
@@ -369,6 +386,8 @@
         .row.pb-5
           .col-12
             img(src="@/assets/curso/temas/tema3/tuplas_2.svg", alt="tuplas_2").img100
+
+    Separador
 
     #t_3_8.titulo-segundo.color-primario.pt-5
         h2 3.8  Funciones
@@ -396,7 +415,9 @@
           .col-12.pb-3
             figure
               img(src="@/assets/curso/temas/tema3/funcion_example.svg", alt="funcion").img50
-      
+    
+    Separador
+
     #t_3_9.titulo-segundo.color-primario.pt-5
       h2 3.9  Matrices
 
@@ -422,8 +443,10 @@
 </template>
 
 <script>
+import Separador from 'ecored-base-pkg/src/components/Separador.vue'
 export default {
   name: 'Tema3',
+  components: { Separador },
   data: () => ({
     // variables de vue
   }),

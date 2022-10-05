@@ -11,28 +11,27 @@
       .col-12
         p Los fundamentos y la lógica de programación es la parte inicial del recorrido, es aquí, donde se adoptarán los conceptos claves y la lógica que apoyará el resto del camino, de modo que, se pueda resolver un problema complejo utilizando técnicas que permitan convertirlos en unidades más pequeñas y fáciles de solucionar.
 
-      #t_1_1.titulo-segundo.color-primario.p-3
-        h2 1.1  Pensamiento computacional 
+    #t_1_1.titulo-segundo.color-primario.p-3
+      h2 1.1  Pensamiento computacional 
       
-      .row.justify-content-center
-        .col-10
-          .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
-            .row.m-0.align-items-center.justify-content-between
-              .col-lg-8
-                .bloque-texto-a__texto.p-4
-                  p.mb-0 Para Adell et al. (2019) el pensamiento computacional “Implica resolver problemas, diseñar sistemas y comprender el comportamiento humano, basándose en los conceptos fundamentales de la ciencia de la computación” (pg. 3).  
-              .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
-                figure
-                  img(src="@/assets/curso/temas/tema1/pensamiento_computacional.svg").img100
+    .row.justify-content-center
+      .col-10
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p.mb-0 Para Adell et al. (2019) el pensamiento computacional “Implica resolver problemas, diseñar sistemas y comprender el comportamiento humano, basándose en los conceptos fundamentales de la ciencia de la computación” (pg. 3).  
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
+              figure
+                img(src="@/assets/curso/temas/tema1/pensamiento_computacional.svg").img100
 
-      br
-      .col-12
+      .col-12.pt-5
        p El pensamiento computacional fomenta las habilidades que tienen las personas para resolver problemas, ya que, este tipo de pensamiento implica descomponer un problema en unidades más pequeñas e identificar los patrones y características comunes de estas partes, para luego enfocarse en la información relevante y finalmente, solucionar el problema paso a paso a través de algoritmos.
    
       p.center.align-items-center.align-items-lg-stretch 
       
       .col-12.col-md-10.align-center.mb-5
-        .titulo-sexto.color-secundario.mb-2.pr-2
+        .titulo-sexto.color-acento-contenido.mb-2.pr-2
           h5 Figura 1.
           br
           em Pensamiento computacional.
@@ -220,22 +219,25 @@
           .titulo-sexto.color-primario.mb-2.pr-2
             h5 Figura 5
             span Algoritmo área del rectángulo
+    
     .row.justify-content-center.pb-5
-      .col-8
-        .row.tarjeta--gris.align-middle 
-          .col-8.col-md-4.col-lg-4.mt-5
-            p Algoritmo área_rectangulo.mb-2
-            p Inicio
-            p       Escribir "Cálculo del área del rectángulo"
-            p       Escribir "Digite la base (en centímetros)"  
-            p       Leer base
-            p       Escribir "Digite la altura (en centímetros)"
-            p       Leer altura
-            p       altura         base  *  altura
-            p       Escribir "Área es: ", base, "centímetros cuadrados"
-            p Fin     
+      .col-6
+        .row.tarjeta--gris
+          .col-12.pt-5.pb-5
+            p.ms-2 Algoritmo área_rectangulo.mb-2
+            p.ms-2 Inicio
+            p.ms-5 Escribir "Cálculo del área del rectángulo"
+            p.ms-5 Escribir "Digite la base (en centímetros)"  
+            p.ms-5 Leer base
+            p.ms-5 Escribir "Digite la altura (en centímetros)"
+            p.ms-5 Leer altura
+            p.ms-5 altura base  *  altura
+            p.ms-5 Escribir "Área es: ", base, "centímetros cuadrados"
+            p.ms-2 Fin     
+    
     .row.justify-content-center.pt-5
       b Para tener más claridad del concepto de pseudocódigo, a continuación, se presenta el siguiente ejemplo: 
+    
     .row.justify-content-center.pt-5
       .col-12
         .row.align-left
