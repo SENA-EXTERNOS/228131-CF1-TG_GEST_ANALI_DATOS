@@ -13,7 +13,8 @@
             .row.m-0.align-items-center.justify-content-between
               .col-lg-8
                 .bloque-texto-a__texto.p-4
-                  p.mb-0 Para Adell et al. (2019) el pensamiento computacional “Implica resolver problemas, diseñar sistemas y comprender el comportamiento humano, basándose en los conceptos fundamentales de la ciencia de la computación” (pg. 3).  
+                  p.mb-0.pb-3 Los paradigmas y estándares de programación son los modos o estilos que se utilizan para programar. 
+                  p.mb-0.pb-3 Los lenguajes de programación pueden adoptar uno o varios paradigmas. Python es un lenguaje multiparadigma.
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
                 figure
-                  img(src="@/assets/curso/temas/tema1/pensamiento_computacional.svg").img100
+                  img(src="@/assets/curso/temas/tema4/paradigmas.svg").img100
