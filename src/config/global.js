@@ -152,6 +152,51 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Paradigmas y estándares de programación',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Programación estructurada',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Programación Orientada a Objetos',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Ambientes de desarrollo',
+            hash: 't_4_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo: 'Frameworks',
+            hash: 't_4_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.5',
+            titulo: 'Buenas prácticas de programación',
+            hash: 't_4_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.6',
+            titulo: 'Git y GitHub',
+            hash: 't_4_6',
+          },
+        ],
+      },
     ],
     subMenu: [
       {
