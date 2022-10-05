@@ -44,13 +44,13 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.2',
+            numero: '1.2',
             titulo: 'Algoritmos e instrucciones',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.2',
+            numero: '1.3',
             titulo: 'Diagramas de Flujo',
             hash: 't_1_3',
           },

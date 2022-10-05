@@ -223,7 +223,7 @@
     .row.justify-content-center.pb-5
       .col-6
         .row.tarjeta--gris
-          .col-12.pt-5.pb-5
+          .col-12.pt-5.pb-5.code
             p.ms-2 Algoritmo área_rectangulo.mb-2
             p.ms-2 Inicio
             p.ms-5 Escribir "Cálculo del área del rectángulo"
