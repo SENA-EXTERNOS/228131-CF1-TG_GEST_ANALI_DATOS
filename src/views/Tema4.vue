@@ -18,3 +18,4 @@
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
                 figure
                   img(src="@/assets/curso/temas/tema4/paradigmas.svg").img100
+      p.b.pt-3 Entre los paradigmas de programación más utilizados se encuentran los siguientes:            
