@@ -54,6 +54,12 @@ export default {
             titulo: 'Diagramas de Flujo',
             hash: 't_1_3',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Pseudocódigo',
+            hash: 't_1_4',
+          },
         ],
       },
       {

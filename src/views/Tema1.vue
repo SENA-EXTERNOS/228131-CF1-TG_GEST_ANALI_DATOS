@@ -164,27 +164,64 @@
     .row.justify-content-center.pt-5
       .col-8
         .row.align-middle
-          .titulo-sexto.color-secundario.mb-2.pr-2
+          .titulo-sexto.color-acento-contenido.mb-2.pr-2
             h5 Tabla 3.
-            span Lenguajes compilados Vs. interpretados
+            br
+            em Lenguajes compilados Vs. interpretados.
         .row
           .col-12
             img(src="@/assets/curso/temas/tema1/diagrama_ejemplo.svg", alt="alt").img100
             figcaption Ejemplo de diagrama de flujo para determinar si un número es positivo o negativo.
       
-    .row.justify-content-center.pt-5.mb-5
-      .col-6
+    .row.justify-content-center.pt-5.ps-3.pe-3.pb-5
+      .col-12.col-md-6.tarjeta.back-like.p-0
+        .row.justify-content-center
+          .figure.col-5.p-0
+            img(src="@/assets/curso/temas/like.svg", alt="alt").img50
+        .row.justify-content-center.p-0  
+          .col-8.pb-5
+            b.title-like Ventajas de los diagramas de flujo
+        .row.justify-content-center.pb-5  
+          .col-7
+            ul.lista-ul.m-0
+              li.mb-0
+                i.fas.fa-angle-right
+                | Ayudan a comprender la lógica de la programación
+              li.mb-0
+                i.fas.fa-angle-right
+                | Contribuyen en la detección de errores
+              li.mb-0
+                i.fas.fa-angle-right
+                | Facilitan la identificación de procesos
+              li.mb-0
+                i.fas.fa-angle-right
+                | Son útiles para mostrar al cliente las fases o transacciones que realiza el sistema
 
-      .col-6
-      figure 
-        img(src="@/assets/curso/temas/tema1/likevsdislike.svg", alt="likevsdislike").img100
-
+      .col-12.col-md-6.tarjeta.back-dislike.p-0
+        .row.justify-content-center
+          .figure.col-5.p-0
+            img(src="@/assets/curso/temas/dislike.svg", alt="alt").img50
+        .row.justify-content-center.p-0  
+          .col-8.pb-5
+            b.title-like Desventajas de los diagramas de flujo
+        .row.justify-content-center.pb-5  
+          .col-7
+            ul.lista-ul.m-0
+              li.mb-0
+                i.fas.fa-angle-right
+                | Son difíciles para realizarles cambios en su estructura o diseño
+              li.mb-0
+                i.fas.fa-angle-right
+                | No son recomendables para la lógica de programas complejos
+              li.mb-0
+                i.fas.fa-angle-right
+                | Pueden retrasar el desarrollo del software
 
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
-            figure
-              img(src="@/assets/curso/temas/tema1/pseint.png").img100
+          figure
+            img(src="@/assets/curso/temas/tema1/pseint.png", alt="alt", style="width:150px").img100
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p.mb-0.pb-4 Existen herramientas como PSeInt que asisten a los estudiantes para dar sus primeros pasos en programación. PSeInt cuenta con la opción de crear flujogramas. 
@@ -199,9 +236,11 @@
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video 
     
-    .row.pt-4
-      .titulo-segundo.color-primario
-        h2 1.4  Pseudocódigo
+    Separador
+
+    #t_1_4.titulo-segundo.color-primario.pt-4
+      h2 1.4  Pseudocódigo
+
     .row.justify-content-center.pb-5
       .col-10
         .row.tarjeta--azul.align-middle 
@@ -213,12 +252,14 @@
               div.pb-4 
               p.pb-3 El pseudocódigo es un lenguaje que se emplea para documentar los programas paso a paso, de la forma más detalladamente posible. No existe ninguna sintaxis para escribir un pseudocódigo, por lo que se encuentran muchas maneras según la forma particular de escribir del autor.
               p.pb-4 Un pseudocódigo no tiene reglas predefinidas y no se utiliza para programar, sino que se emplea para familiarizarse y acercarse a los lenguajes de programación (Trejos, 2021).                     
+
     .row.justify-content-center.pt-5
-      .col-8
+      .col-6
         .row.align-middle
-          .titulo-sexto.color-primario.mb-2.pr-2
-            h5 Figura 5
-            span Algoritmo área del rectángulo
+          .titulo-sexto.color-acento-contenido.mb-2.pr-2
+            h5 Figura 5.
+            br
+            em Algoritmo área del rectángulo.
     
     .row.justify-content-center.pb-5
       .col-6
@@ -241,11 +282,11 @@
     .row.justify-content-center.pt-5
       .col-12
         .row.align-left
-          .titulo-sexto.color-primario.mb-2.pr-2
+          .titulo-sexto.color-acento-contenido.mb-2.pr-2
             h5 Tabla 2.
-            span Ejemplo de algoritmo Vs. representación en seudocódigo
-    
-    
+            br
+            em Ejemplo de algoritmo Vs. representación en seudocódigo.
+
     .row.justify-content-center.pt-0
       .col-12
         figure
@@ -253,9 +294,10 @@
 </template>
 
 <script>
+import Separador from 'ecored-base-pkg/src/components/Separador.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { Separador },
   data: () => ({
     // variables de vue
   }),

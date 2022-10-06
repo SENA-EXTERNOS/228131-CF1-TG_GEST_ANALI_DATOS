@@ -9,16 +9,14 @@
   
     .row.justify-content-center
       .col-10
-        .row.tarjeta--azul.align-middle 
-          .col-12.col-md-8.col-lg-8
-            .tarjeta.d-flex.p-4.align-middle
-              p.mb-4 Cantidad de lenguajes soportados: existen IDE que solamente son compatibles con un lenguaje de programación, por lo tanto, son mejores para un estilo de programación en especial, entre ellos, tenemos como ejemplo a IntellinJ, que se conoce como un IDE exclusivo para Java. Por otra parte, están los IDE que soportan varios lenguajes de programación, como es el caso de Eclipse, con el que se puede programar en Java, Python, JavaScript, PHP, C++, entre otros.
-          .col-12.col-md-4.col-lg-4
-            .tarjeta.h-50.d-flex.p-4.align-middle
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-8
+              .bloque-texto-a__texto.p-4
+                p.mb-0 Cantidad de lenguajes soportados: existen IDE que solamente son compatibles con un lenguaje de programación, por lo tanto, son mejores para un estilo de programación en especial, entre ellos, tenemos como ejemplo a IntellinJ, que se conoce como un IDE exclusivo para Java. Por otra parte, están los IDE que soportan varios lenguajes de programación, como es el caso de Eclipse, con el que se puede programar en Java, Python, JavaScript, PHP, C++, entre otros.
+            .col-4.mb-4.mb-lg-0(data-aos="fade-left")
               figure
-                img(src="@/assets/curso/temas/tema2/introduccion.svg", alt="alt").img100
-    br
-  
+                img(src="@/assets/curso/temas/tema2/introduccion.svg").img100
     
     p.mb-5 Este tipo de aplicaciones ofrecen herramientas como la depuración de errores y automatización de compilaciones locales, que le proporcionan al programador o desarrollador de software, ser más eficientes en la codificación de los programas.
 
@@ -33,15 +31,15 @@
             img(src="@/assets/curso/temas/tema2/introduccion_2.svg", alt="alt", style="width: 500px;").img250
         .crd.crd--avatarHorizontal.crd--first.clr--azul.py-4.back-yellow
           .row.align-items-center
-            .col-7.ms-4
+            .col-6.ms-4
               p Los IDE permiten que los programadores inicien a desarrollar nuevas aplicaciones con gran rapidez, debido a que, con ellos no se requiere preparar ni combinar de forma manual las herramientas que hacen parte de los procesos de configuración. También aportan en la optimización del tiempo con el auto relleno inteligente de código, lo cual suprime la necesidad de escribir secuencias enteras de caracteres.
         .crd.crd--avatarHorizontal.py-4.back-yellow-2
           .row.align-items-center
-            .col-7.ms-4
+            .col-6.ms-4
               p Otra característica fundamental de los IDE es el análisis de código en tiempo real, esto permite que, mientras se está codificando, se pueden visualizar los errores en las líneas de código y hasta las posibles correcciones.
         .crd.crd--avatarHorizontal.crd--last.py-4.back-yellow
           .row.align-items-center
-            .col-7.ms-4
+            .col-6.ms-4
               p Es importante destacar que es posible crear programas sin utilizar ningún IDE o que los programadores diseñen un IDE personalizado que integre varias herramientas de forma manual, como los editores de texto: Notepad++, VIM, Sublime Text, entre otros. Sin embargo, en los entornos empresariales, es altamente beneficioso minimizar tiempos con la estandarización de un IDE, a invertirlo en las opciones manuales, por lo que la mayor parte de las organizaciones prefieren los IDE preconfigurados que se adaptan a sus casos de usos particulares.
 
   
@@ -248,21 +246,70 @@
 
     .row.justify-content-center.mb-5
       .col-10
-        .tarjeta--azul.align-middle
-          .tarjeta.d-flex.p-4.align-middle
-            div.pb-3
-              b ¿Qué es Google colab?
-            p.pb-4 Colab es un entorno colaborativo que posibilita la ejecución del lenguaje de programación Python sin necesidad de instalar ningún componente de forma local, ya que, es netamente implementado en la nube de Google y no requiere configuración previa para iniciar a programar.
-    .row.justify-content-center.pt-5.mb-5
-      fugure 
-        img(src="@/assets/curso/temas/tema2/google_colab.svg", alt="colab_comparativo").img100
+        .tarjeta.tarjeta--azul.align-middle
+          div.text-center.p-3
+            b ¿Qué es Google colab?
+          p.ps-5.pe-5.pb-5 Colab es un entorno colaborativo que posibilita la ejecución del lenguaje de programación Python sin necesidad de instalar ningún componente de forma local, ya que, es netamente implementado en la nube de Google y no requiere configuración previa para iniciar a programar.
+    
+    .row.justify-content-center.pt-5.ps-3.pe-3.pb-5
+      .col-12.col-md-6.tarjeta.back-like.p-0
+        .row.justify-content-center
+          .figure.col-5.p-0
+            img(src="@/assets/curso/temas/like.svg", alt="alt").img50
+        .row.justify-content-center.p-0  
+          .col-6.pb-5
+            b.title-like Ventajas de Google colab
+        .row.justify-content-center.pb-5  
+          .col-7
+            ul.lista-ul.m-0
+              li.mb-0
+                i.fas.fa-angle-right
+                | Librerías preinstaladas
+              li.mb-0
+                i.fas.fa-angle-right
+                | Acceso gratuito a GPUs (unidad de procesamiento gráfico)
+              li.mb-0
+                i.fas.fa-angle-right
+                | Permite la colaboración 
+              li.mb-0
+                i.fas.fa-angle-right
+                | No necesita configuración para ser utilizado
+
+      .col-12.col-md-6.tarjeta.back-dislike.p-0
+        .row.justify-content-center
+          .figure.col-5.p-0
+            img(src="@/assets/curso/temas/dislike.svg", alt="alt").img50
+        .row.justify-content-center.p-0  
+          .col-7.pb-5
+            b.title-like Desventajas de Google Colab:
+        .row.justify-content-center.pb-5  
+          .col-8
+            ul.lista-ul.m-0
+              li.mb-0
+                i.fas.fa-angle-right
+                | No se puede ejecutar sin conexión a internet
+              li.mb-0
+                i.fas.fa-angle-right
+                | Limitado para trabajar con volumen de datos que sean demasiado grandes
+              li.mb-0
+                i.fas.fa-angle-right
+                | Limitado para trabajar con volumen de datos que requieran recursos de hardware altos para su procesamiento
+              li.mb-0
+                i.fas.fa-angle-right
+                | Acceso gratuito a diferentes GPU (unidad de procesamiento gráfico)
+              li.mb-0
+                i.fas.fa-angle-right
+                | Los datos que sean importados en el entorno se pierden una vez se cierra la conexión
+
+    
+    
     .row.justify-content-center.pt-3
       .col-lg-6
         a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-          .anexo__icono
+          .anexo__icono.back-blue
             img(src="@/assets/curso/temas/tema2/link_imagen.svg")
           .anexo__texto
-            p Enlace web. Para ampliar más sobre el uso de Google Colab se puede revisar la documentación oficial en el enlace
+            p <b>Enlace web.</b> Para ampliar más sobre el uso de Google Colab se puede revisar la documentación oficial en el enlace
     
     
     #t_2_4.titulo-segundo.color-primario.pt-5
@@ -274,20 +321,65 @@
     .row.justify-content-center.mb-5.pt-2
       .col-10
         .tarjeta--azul.align-middle
-          .tarjeta.d-flex.p-4.align-middle
-            div.pb-3
+          .tarjeta.p-4.align-middle
+            div.text-center.pb-3
               b ¿Qué es Jupyter?
             p.pb-4 Jupyter es un entorno de desarrollo basado en la web que se utiliza para trabajar en ciencia de datos de forma simple y enfocada en documentos. Al igual que Google Colab, Jupyter permite tanto código como celdas de texto que incorporan el formato markdown (lenguaje de marcado sencillo que se utiliza para agregar formato a los textos dentro de un documento).
-    .row.justify-content-center.pt-5.mb-5
-      figure 
-        img(src="@/assets/curso/temas/tema2/jupyter_comparativo.svg", alt="Jupyter_pros_cons").img100
+    
+    
+    .row.justify-content-center.pt-5.ps-3.pe-3.pb-5
+      .col-12.col-md-6.tarjeta.back-like.p-0
+        .row.justify-content-center
+          .figure.col-5.p-0
+            img(src="@/assets/curso/temas/like.svg", alt="alt").img50
+        .row.justify-content-center.p-0  
+          .col-5.pb-4
+            b.title-like Ventajas de Jupyter
+        .row.justify-content-center.pb-5  
+          .col-8
+            ul.lista-ul.m-0
+              li.mb-0
+                i.fas.fa-angle-right
+                | Es compatible con los principales lenguajes de programación empleados en la gestión y analítica de datos como Python y R
+              li.mb-0
+                i.fas.fa-angle-right
+                | Se puede utilizar sin conexión a internet
+              li.mb-0
+                i.fas.fa-angle-right
+                | Es Open source y gratuito
+              li.mb-0
+                i.fas.fa-angle-right
+                | Proporciona opciones de colaboración con JupyterHub
+              li.mb-0
+                i.fas.fa-angle-right
+                | Permite el control de versiones en sus Notebooks
+      .col-12.col-md-6.tarjeta.back-dislike.p-0
+        .row.justify-content-center
+          .figure.col-5.p-0
+            img(src="@/assets/curso/temas/dislike.svg", alt="alt").img50
+        .row.justify-content-center.p-0  
+          .col-6.pb-4
+            b.title-like Desventajas de Jupyter
+        .row.justify-content-center.pb-5  
+          .col-8
+            ul.lista-ul.m-0
+              li.mb-0
+                i.fas.fa-angle-right
+                | Es tedioso en el proceso de depuración
+              li.mb-0
+                i.fas.fa-angle-right
+                | No contiene todas las herramientas que posee un IDE
+              li.mb-0
+                i.fas.fa-angle-right
+                | Induce a crear código complejo e incomprensible
+
     .row.justify-content-center.pt-3
       .col-lg-6
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/curso/temas/tema2/link_imagen.svg")
+        a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          .anexo__icono.back-blue
+            img(src="@/assets/curso/temas/tema2/link_imagen.svg", alt="alt")
           .anexo__texto
-            p Enlace web. Para ampliar más sobre el uso de Jupyter puede revisar la documentación oficial en el enlace
+            p <b>Enlace web.</b> Para ampliar más sobre el uso de Jupyter puede revisar la documentación oficial en el enlace
             
 </template>
 
