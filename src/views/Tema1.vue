@@ -38,10 +38,11 @@
         figure
           img(src="@/assets/curso/temas/tema1/figura_1.svg")
       
-      Separador
-      #t_1_2.titulo-segundo.color-primario
-        h2 1.2  Algoritmos e instrucciones
-      p A continuación, se abordarán los conceptos de algoritmos y sus tipos:
+    Separador
+    
+    #t_1_2.titulo-segundo.color-primario
+      h2 1.2  Algoritmos e instrucciones
+    p A continuación, se abordarán los conceptos de algoritmos y sus tipos:
       
     .tarjeta.tarjeta--gris.p-4.mb-5
       SlyderA(tipo="b")

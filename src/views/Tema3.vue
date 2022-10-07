@@ -17,7 +17,7 @@
 
     .row.justify-content-center.pb-5
       .col-12
-        p.pb-3 Programar consiste en escribir detalladamente órdenes que una máquina debe seguir para completar una tarea. Estas órdenes se escriben en un lenguaje que la máquina puede entender de forma directa o a través de un intérprete o compilador. 
+        p.pb-3 Una variable es un espacio reservado en la memoria del computador donde se guardan datos u objetos como números, imágenes, texto, entre otros. 
 
     .row.justify-content-center.pb-5
       .col-12
@@ -127,9 +127,9 @@
             p Con el operador NOT, la búsqueda solo devuelve el elemento que está en el primer conjunto y no en el segundo
           .col-md-6
             img(src='@/assets/curso/temas/tema3/operador_booleanos_logico_1.svg', alt='alt').img100
+
+    h5.pt-5.pb-3 En Python se trabaja con operadores booleanos así:
     
-    b.pt-5.pb-5 En Python se trabaja con operadores booleanos así:
-    br
     .row.justify-content-center.pt-4.pb-4
       .col-10
         .titulo-sexto.color-acento-contenido.mb-2.pr-2
@@ -153,10 +153,10 @@
                 th NOT
                 td La salida devuelve el contrario, por ejemplo, si es False, la salida será True.
 
-    b.pt-5.pb-5 Operador AND en Python:
+    h5.pt-5.pb-3 Operador AND en Python:
 
     .row.justify-content-center.pb-4
-      .col-6
+      .col-9
         .titulo-sexto.color-acento-contenido.mb-2.pr-2
           h5 Figura 9.
           br
@@ -165,7 +165,7 @@
           img(src="@/assets/curso/temas/tema3/operador_booleano_and_1.svg", alt="alt").img100
     
     .row.justify-content-center.pb-4
-      .col-6
+      .col-9
         .titulo-sexto.color-acento-contenido.mb-2.pr-2
           h5 Figura 10.
           br
@@ -174,7 +174,7 @@
           img(src="@/assets/curso/temas/tema3/operador_booleano_and_2.svg", alt="alt").img100
 
     .row.justify-content-center.pb-4
-      .col-6
+      .col-9
         .titulo-sexto.color-acento-contenido.mb-2.pr-2
           h5 Figura 11.
           br

@@ -28,23 +28,22 @@
       .col-10.position-relative
         .avatar
           figure
-            img(src="@/assets/curso/temas/tema2/introduccion_2.svg", alt="alt", style="width: 500px;").img250
+            img(src="@/assets/curso/temas/tema2/introduccion_2.svg", alt="alt", style="width: 400px;").img250
         .crd.crd--avatarHorizontal.crd--first.clr--azul.py-4.back-yellow
           .row.align-items-center
-            .col-6.ms-4
+            .col-8.ms-4
               p Los IDE permiten que los programadores inicien a desarrollar nuevas aplicaciones con gran rapidez, debido a que, con ellos no se requiere preparar ni combinar de forma manual las herramientas que hacen parte de los procesos de configuración. También aportan en la optimización del tiempo con el auto relleno inteligente de código, lo cual suprime la necesidad de escribir secuencias enteras de caracteres.
         .crd.crd--avatarHorizontal.py-4.back-yellow-2
           .row.align-items-center
-            .col-6.ms-4
+            .col-8.ms-4
               p Otra característica fundamental de los IDE es el análisis de código en tiempo real, esto permite que, mientras se está codificando, se pueden visualizar los errores en las líneas de código y hasta las posibles correcciones.
-        .crd.crd--avatarHorizontal.crd--last.py-4.back-yellow
+        .crd.crd--avatarHorizontal.crd--first.clr--azul.py-4.back-yellow
           .row.align-items-center
-            .col-6.ms-4
+            .col-8.ms-4
               p Es importante destacar que es posible crear programas sin utilizar ningún IDE o que los programadores diseñen un IDE personalizado que integre varias herramientas de forma manual, como los editores de texto: Notepad++, VIM, Sublime Text, entre otros. Sin embargo, en los entornos empresariales, es altamente beneficioso minimizar tiempos con la estandarización de un IDE, a invertirlo en las opciones manuales, por lo que la mayor parte de las organizaciones prefieren los IDE preconfigurados que se adaptan a sus casos de usos particulares.
 
   
     b Tipos de IDE
-
     p Existen opciones tanto comerciales como open source en el mercado que suplen la demanda existente. Entre las características que distinguen los IDE resaltan las siguientes:
 
     .row
@@ -89,6 +88,8 @@
                   figure
                     img(src="@/assets/curso/temas/tema2/tipo_ide_4.svg", alt="Texto que describa la imagen")
 
+    Separador
+
     #t_2_1.titulo-segundo.color-primario.pt-5
       h2 2.1 Lenguajes compilados y lenguajes interpretados
 
@@ -101,18 +102,18 @@
             .tarjeta.d-flex.p-4.align-middle
               p.Cuando se inicia en el mundo del desarrollo de software, la selección del lenguaje de programación es uno de los factores que más se tiene en cuenta para dar los primeros pasos.  También es fundamental conocer si el lenguaje elegido es compilado o interpretado.
   
-    .row
+    .row.pb-5
       .container.tarjeta.tarjeta--blanca
         TabsC.color-primario
-          .py-3.py-md-4(titulo="The splendor of the mystery")
+          .py-3.py-md-4(titulo="Lenguajes Compilados")
             .row
-              .col-md-6.p-4
+              .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/lenguaje_compilado.svg', style="width: 300px;", alt='Texto que describa la imagen')
               .col-md-6
                 h4 Lenguajes Compilados
                 p Este tipo de lenguaje de programación traduce el código fuente en sentencias que la máquina puede entender. Estas sentencias son agrupadas en un archivo binario ejecutable, que, por lo general, está limitado a un determinado sistema, permitiendo que se puedan ejecutar sin la instalación de otro programa complementario, ya que todo lo que necesita para funcionar correctamente se encuentra embebido en ese único archivo ejecutable. Entre los lenguajes compilados está C, C++, Swift, Go, Ada, entre otros.
-          .py-3.py-md-4(titulo="Don’t lie to yourself")
+          .py-3.py-md-4(titulo="Lenguajes Interpretados")
             .row
               .col-md-6.p-4
                 figure
@@ -121,42 +122,42 @@
                 h4 Lenguajes Interpretados
                 p En un lenguaje interpretado el código fuente se ejecuta en caliente, instrucción a instrucción o paso a paso, por lo tanto, el código no es expuesto a un proceso de compilación, sino que existe un programa complementario que se llama intérprete, que se encarga de leer las instrucciones en tiempo real y las va ejecutando una a una.  Entre los lenguajes interpretados están: Python, Perl, JavaScript, Ruby, PHP, MATLAB, Visual Basic .NET, ASP entre otros. 
 
+    p.pb-3 <b>Lenguajes Compilados VS Interpretados</b>
+
+    .titulo-sexto.color-acento-contenido.mb-2.pr-2
+      h5 Tabla 3.
       br
+      em Lenguajes compilados Vs. interpretados
 
-      b.pb-5 Lenguajes Compilados VS Interpretados
+    .tabla-a
+      table
+        thead
+          tr
+            th Lenguajes compilados
+            th Lenguajes interpretados
+        tbody
+          tr
+            td Para que la aplicación se ejecute, primero se debe terminar de codificar el programa.
+            td Se ejecuta instrucción a instrucción, por lo tanto, no se requiere terminar de codificar el programa para que funcione.
+          tr
+            td La compilación se realiza una sola vez y solamente será necesario volver a compilar cuando se requieran cambios en el código fuente.
+            td Cada vez que se ejecute la aplicación se debe interpretar el código fuente.
+          tr
+            td Se emplean mayormente en aplicaciones de escritorio.
+            td Se utilizan principalmente en aplicaciones web.
+          tr
+            td Se usan cuando la prioridad es la eficiencia.
+            td Se aplican cuando la prioridad es la portabilidad, en otras palabras, cuando la preocupación es que la aplicación pueda ejecutarse sobre cualquier plataforma.
+          tr
+            td La aplicación obtenida con estos lenguajes es más eficiente y rápida.
+            td La aplicación tiende a ser un poco más lenta que las aplicaciones compiladas.
+          tr
+            td Los archivos ejecutables por lo general tienen un tamaño considerable en disco.
+            td Los ejecutable generados son de un reducido tamaño y no consumen mucho espacio en disco.
+      
+      Separador
 
-      .div.pl-3
-        .titulo-sexto.color-secundario.mb-2.pr-2
-          h5 Tabla 3.
-          span Lenguajes compilados Vs. interpretados
-
-      .tabla-a.color-secundario 
-        table
-          thead
-            tr
-              th Lenguajes compilados
-              th Lenguajes interpretados
-          tbody
-            tr
-              td Para que la aplicación se ejecute, primero se debe terminar de codificar el programa.
-              td Se ejecuta instrucción a instrucción, por lo tanto, no se requiere terminar de codificar el programa para que funcione.
-            tr
-              td La compilación se realiza una sola vez y solamente será necesario volver a compilar cuando se requieran cambios en el código fuente.
-              td Cada vez que se ejecute la aplicación se debe interpretar el código fuente.
-            tr
-              td Se emplean mayormente en aplicaciones de escritorio.
-              td Se utilizan principalmente en aplicaciones web.
-            tr
-              td Se usan cuando la prioridad es la eficiencia.
-              td Se aplican cuando la prioridad es la portabilidad, en otras palabras, cuando la preocupación es que la aplicación pueda ejecutarse sobre cualquier plataforma.
-            tr
-              td La aplicación obtenida con estos lenguajes es más eficiente y rápida.
-              td La aplicación tiende a ser un poco más lenta que las aplicaciones compiladas.
-            tr
-              td Los archivos ejecutables por lo general tienen un tamaño considerable en disco.
-              td Los ejecutable generados son de un reducido tamaño y no consumen mucho espacio en disco.
-
-      #t_2_2.titulo-segundo.color-primario.pt-5
+      #t_2_2.titulo-segundo.color-primario
         h2 2.2 Python y/o R
 
       .row.justify-content-center.pb-5
@@ -207,9 +208,10 @@
                     i.fas.fa-angle-right.txt--orange
                     | Colección de Bibliotecas: las bibliotecas también conocidas como librerías son importantes porque permiten la reutilización de código y aumentan la rapidez en el desarrollo.
             .col-12.col-md-6.col-lg-6
-              .titulo-sexto.color-secundario.mb-2.pr-2
+              .titulo-sexto.color-acento-contenido.mb-2.pr-2
                 h5 Figura 6.
-                span Características de python
+                br
+                em Características de python.
               .tarjeta.h-50.d-flex.p-4.align-middle
                 figure.tarjeta--blanca
                   img(src="@/assets/curso/temas/tema2/python_3.svg", alt="alt").img100
@@ -238,8 +240,10 @@
               a.boton.boton--b(:href="obtenerLink('/actividades/AD5/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
+    
+    Separador
 
-    #t_2_3.titulo-segundo.color-primario.pt-5
+    #t_2_3.titulo-segundo.color-primario
       h2 2.3  Google colab
 
     p.mb-5 Colab, también conocido como Colaboratory, te permite programar y ejecutar Python en el navegador Web, no requiere configuraciones y permite contenido con facilidad. A continuación, te invitamos a conocer esta herramienta.
@@ -305,14 +309,15 @@
     
     .row.justify-content-center.pt-3
       .col-lg-6
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(href="https://colab.research.google.com/?hl=es" target="_blank")
           .anexo__icono.back-blue
             img(src="@/assets/curso/temas/tema2/link_imagen.svg")
           .anexo__texto
             p <b>Enlace web.</b> Para ampliar más sobre el uso de Google Colab se puede revisar la documentación oficial en el enlace
     
+    Separador
     
-    #t_2_4.titulo-segundo.color-primario.pt-5
+    #t_2_4.titulo-segundo.color-primario
           h2 2.4  Jupyter
     
     .row.justify-content-center.pt-3
@@ -375,7 +380,7 @@
 
     .row.justify-content-center.pt-3
       .col-lg-6
-        a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://docs.jupyter.org/en/latest/" target="_blank")
           .anexo__icono.back-blue
             img(src="@/assets/curso/temas/tema2/link_imagen.svg", alt="alt")
           .anexo__texto

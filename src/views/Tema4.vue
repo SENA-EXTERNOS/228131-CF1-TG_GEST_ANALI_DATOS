@@ -18,7 +18,8 @@
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/temas/tema4/paradigmas.svg").img100
-    p.b.pt-3 Entre los paradigmas de programación más utilizados se encuentran los siguientes:
+    
+    h4.pt-3.pb-4 Entre los paradigmas de programación más utilizados se encuentran los siguientes:
 
     .row
       .col-lg-12.order-2.order-lg-1
@@ -60,21 +61,27 @@
                   figure
                     img(src="@/assets/curso/temas/tema4/object_oriented.svg", alt="paradigma_orientado_objetos").img100
 
+    Separador
+    
     #t_4_1.titulo-segundo.color-primario.pt-3.pb-3
       h2 4.1  Programación estructurada
+    
     .row.justify-content-center.pt-5
       .col-12
         p La programación estructurada hace parte del paradigma imperativo y está diseñado para promover la claridad, calidad y el tiempo de desarrollo de las aplicaciones, utilizando las siguientes estructuras:   
     .row.justify-content-center.pt-5
       .col-8
         .row.align-middle
-          .titulo-sexto.color-secundario.mb-2.pr-2
+          .titulo-sexto.color-acento-contenido.mb-2.pr-2
             h5 Figura 22.
-            span Tipos de estructuras
+            br
+            em Tipos de estructuras
         .row
           .col-12
             img(src="@/assets/curso/temas/tema4/estructuras.svg", alt="estructuras").img100
-      Separador  
+    
+    Separador  
+    
     #t_4_2.titulo-segundo.color-primario.pt-3.pb-3
       h2 4.2  Programación Orientada a Objetos     
     .row.justify-content-center.mb-5
@@ -84,15 +91,15 @@
             img(src="@/assets/curso/temas/tema4/el_pensador.svg", alt="el_pensador", style="width: 500px;").img250
         .crd.crd--avatarHorizontal.crd--first.clr--azul.py-4.back-yellow
           .row.align-items-center
-            .col-7.ms-4
+            .col-8.ms-4
               p La programación orientada a objetos o POO por sus siglas es un paradigma de programación que permite ordenar el código de forma similar a como se piensa en el mundo real o en lo cotidiano, por ejemplo, cosas como: vehículo, perro, mesa o computador, son representados como clases que poseen unas características, que en el caso del vehículo podrían ser la marca, el modelo, el cilindraje, entre otras.
         .crd.crd--avatarHorizontal.py-4.back-yellow-2
           .row.align-items-center
-            .col-7.ms-4
+            .col-8.ms-4
               p Estas características son llamadas atributos. De igual manera, las clases poseen una colección de funciones, en el caso del vehículo, podría ser trasladar o cargar, las cuales se llaman métodos. 
         .crd.crd--avatarHorizontal.crd--last.py-4.back-yellow
           .row.align-items-center
-            .col-7.ms-4
+            .col-8.ms-4
               p Por último, está el concepto de objeto que identifica a cada elemento de una clase, es decir vehículo es la clase, pero una camioneta, un bus, una moto, sería un objeto de la clase vehículo.
     .row.justify-content-center
       .col-12.pt-4.pb-4
@@ -171,7 +178,7 @@
       h2 4.3  Ambientes de desarrollo
 
     .row.justify-content-center.pb-5
-      .col-12
+      .col-10
         .row.align-middle 
           .col-12.col-md-4.col-lg-4
             .tarjeta.h-50.d-flex.p-4.align-middle
@@ -180,15 +187,17 @@
           .col-12.col-md-8.col-lg-8.mt-4
               p.pt-2 Los ambientes de desarrollo de software son vitales porque permiten trabajar por capas aisladas, de modo que se puedan efectuar cambios en el código sin llegar a afectar las capas importantes como la de producción. 
               p.pb-2 Implementar ambientes de desarrollo facilita el trabajo de los programadores, ya que permite realizar controles en las versiones, implementar pruebas de una aplicación antes de salir a producción y con ello acortar los tiempos para conseguir un desarrollo de software ágil.
-    .row.justify-content-center
-      .col-12.pt-4
-        b Los ambientes de desarrollo de software más utilizados son:
+
+
+    h5.pt-4 Los ambientes de desarrollo de software más utilizados son:
+    
     .row.justify-content-center.pt-5
       .col-8
         .row.align-middle
-          .titulo-sexto.color-secundario.mb-2.pr-2
+          .titulo-sexto.color-acento-contenido.mb-2.pr-2
             h5 Figura 29.
-            span Ambientes de desarrollo
+            br
+            em Ambientes de desarrollo.
           .row
             .col-sm-6.col-lg-3.mb-4.mb-lg-0
               .tarjeta.p-4.border
@@ -218,10 +227,13 @@
                   h3.text-center Ambiente de producción
                   figure
                       img(src='@/assets/curso/temas/tema4/ambiente_produccion.svg', alt='ambiente_produccion')
-      Separador  
+    
+    Separador  
+    
     #t_4_4.titulo-segundo.color-primario.pt-3.pb-3
       h2 4.4  Frameworks                
-    .row.justify-content-center.pt-5
+    
+    .row.justify-content-center
       .col-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
@@ -231,15 +243,16 @@
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/curso/temas/tema4/frameworks.png").img100
-    .row.justify-content-center
-      .col-12.pt-4
-        b A continuación, se presentan algunos lenguajes de programación con sus respectivos frameworks:
-    .row.justify-content-center.pt-5
+
+    h5.pt-4 A continuación, se presentan algunos lenguajes de programación con sus respectivos frameworks:
+
+    .row.justify-content-center.pt-4
       .col-10
         .row.align-middle
-          .titulo-sexto.color-secundario.mb-2.pr-2
+          .titulo-sexto.color-acento-contenido.mb-2.pr-2
             h5 Tabla 5.
-            span Lenguaje y frameworks          
+            br
+            em Lenguaje y frameworks
           .col-12
             .tabla-b.color-acento-contenido
               .tabla-b__header
@@ -309,17 +322,20 @@
                 i.fas.fa-angle-right
                 | Aplicaciones con performance menor que las creadas desde cero
 
-      Separador  
+    Separador  
+    
     #t_4_5.titulo-segundo.color-primario.pt-3.pb-3
       h2 4.5  Buenas prácticas de programación   
+    
     .row.pt-4.pb-3 
       .col-12
         .row.align-middle 
-          .col-12.col-md-3.col-lg-3
+          .col-12.col-md-2.col-lg-2
             img(src="@/assets/curso/temas/tema4/buenas_practicas.svg", alt="buenas_practicas").img100
-          .col-12.col-md-9.col-lg-9
+          .col-12.col-md-10.col-lg-10
               p.pb-2 Para crear software práctico, eficiente, seguro, fácil de mantener y desplegar se deben implementar una serie de principios, estándares y técnicas que conforman las buenas prácticas de programación.
               p.pb-2 A continuación, se presenta un conjunto de buenas prácticas de programación:
+    
     SlyderF(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
@@ -365,23 +381,23 @@
         p.text-center  aplicar metodologías como Scrum, pueden agilizar el desarrollo de las etapas de los proyectos y alcanzar los objetivos planteados.
 
     .row.justify-content-center.pb-5
-            .col-10
-              .row.tarjeta.tarjeta--azul.align-middle 
-                .col-12.col-md-4.col-lg-4.mt-5.p-0.d-table-cell
-                    img(src="@/assets/curso/temas/tema4/infografia.svg", alt="infografia").img100
-                
-                .col-12.col-md-8.col-lg-8.mt-5.mb-5
-                  .titulo-segundo.color-primario
-                    h3 Infografía: Buenas prácticas de programación
-                  p.pb-4 Las buenas prácticas de programación permiten crear aplicaciones escalables, seguras y de fácil mantenimiento.
+      .col-10
+        .row.tarjeta.tarjeta--azul.align-middle 
+          .col-12.col-md-4.col-lg-4.mt-5.p-0.d-table-cell
+              img(src="@/assets/curso/temas/tema4/infografia.svg", alt="infografia").img100
+          .col-12.col-md-8.col-lg-8.ps-3.mt-5.mb-5
+            .titulo-segundo.color-primario
+              h3 Infografía: Buenas prácticas de programación
+            p.pb-4 Las buenas prácticas de programación permiten crear aplicaciones escalables, seguras y de fácil mantenimiento.
 
-                  a.boton.boton--b(:href="obtenerLink('/actividades/AD5/index.html')" target="_blank")
-                    span Realizar
-                    i.fas.fa-puzzle-piece
+            a.boton.boton--b(:href="obtenerLink('/actividades/AD5/index.html')" target="_blank")
+              span Realizar
+              i.fas.fa-puzzle-piece
           
     separador
     #t_4_6.titulo-segundo.color-primario.pt-3.pb-3
       h2 4.6  Git y GitHub
+    
     .row.justify-content-center.pt-3
       .col-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
@@ -392,6 +408,7 @@
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/curso/temas/tema4/git_github.svg").img100
+    
     .row.justify-content-center.pb-5
       .col-10
         .row.tarjeta--azul.align-middle 
@@ -404,13 +421,15 @@
                 b Git:
               p.pb-4 Git es una herramienta de control de versiones muy potente que permite a los desarrolladores registrar históricamente todos los cambios que se realizan en los archivos que componen los proyectos de desarrollo.
               p.pb-4 Git es muy práctico para trabajar colaborativamente en equipos de desarrollo, ya que, cuando se trabaja en un mismo proyecto y se reparten las funcionalidades entre sus miembros para luego integrarlas, la herramienta permite dividir el código en ramas que controlan de forma organizada la aplicación final.
+    
     .row.justify-content-center.pt-3
       .col-lg-6
-        a.anexo.mb-4(:href="('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(href="https://git-scm.com/doc", target="_blank")
           .anexo__icono.back-blue
             img(src="@/assets/curso/temas/tema2/link_imagen.svg")
           .anexo__texto
             p <b>Enlace web.</b> Para profundizar más en el uso y los beneficios de la herramienta GIT, se recomienda revisar la documentación oficial en el enlace
+    
     .row.justify-content-center.pb-5
       .col-10
         .row.tarjeta--azul.align-middle 
@@ -423,9 +442,10 @@
                 b GitHub:
               p.pb-4 GitHub es una plataforma web que permite a los usuarios guardar los archivos o repositorios que generan a través de la herramienta Git. 
               p.pb-4 GitHub funciona como una red social donde los programadores tienen un perfil para mostrar los proyectos que han desarrollado y en los que se encuentran trabajando en el momento.
+    
     .row.justify-content-center.pt-3
       .col-lg-6
-        a.anexo.mb-4(:href="('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(href="https://docs.github.com/es", target="_blank")
           .anexo__icono.back-blue
             img(src="@/assets/curso/temas/tema2/link_imagen.svg")
           .anexo__texto
