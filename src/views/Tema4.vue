@@ -26,10 +26,11 @@
           .tarjeta.clr--gris(titulo="Paradigma imperativo")
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
-                .tarjeta.d-flex.p-4.align-middle
-                  p.b.pb-3 Paradigma imperativo
-                  p.mb-4 El desarrollador describe las instrucciones u órdenes y la máquina las ejecuta paso a paso. 
-                  p.mb-4 Algunos lenguajes de programación de este paradigma son: Pascal, Python, C, C++, Basic, entre otros.
+                .tarjeta.d-flex.p-4
+                div.pb-4.m-4     
+                    b.pb-3 Paradigma imperativo
+                    p.pt-3.mb-4 El desarrollador describe las instrucciones u órdenes y la máquina las ejecuta paso a paso. 
+                    p.pt-3.mb-4 Algunos lenguajes de programación de este paradigma son: Pascal, Python, C, C++, Basic, entre otros.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
@@ -38,9 +39,10 @@
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
-                  p.b.mb-4 Paradigma declarativo
-                  p.mb-4 El desarrollador declara las condiciones o restricciones que describen la problemática que se quiere resolver, pero no los pasos necesarios para llegar a la solución.
-                  p.mb-4 Lenguajes como Haskell, Miranda y SQL hacen parte de este paradigma.
+                div.pb-4.m-4
+                    b.pb-3 Paradigma declarativo
+                    p.pt-3.mb-4 El desarrollador declara las condiciones o restricciones que describen la problemática que se quiere resolver, pero no los pasos necesarios para llegar a la solución.
+                    p.pt-3.mb-4 Lenguajes como Haskell, Miranda y SQL hacen parte de este paradigma.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
@@ -49,9 +51,10 @@
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
-                  p.b.mb-4 Paradigma orientado a objetos
-                  p.mb-4 El desarrollador construye “objetos” que representan a cada uno de los elementos que hacen parte del problema que se va a resolver. Estos objetos tienen características y funciones que permiten minimizar su creación y mantenimiento. Además, se disminuyen los errores y permiten la reutilización de código.
-                  p.mb-4 Entre los lenguajes representativos de este paradigma están: Java, Python y C# entre otros.
+                div.pb-4.m-4
+                    b.pb-3 Paradigma orientado a objetos
+                    p.pt-3.mb-4 El desarrollador construye “objetos” que representan a cada uno de los elementos que hacen parte del problema que se va a resolver. Estos objetos tienen características y funciones que permiten minimizar su creación y mantenimiento. Además, se disminuyen los errores y permiten la reutilización de código.
+                    p.pt-3.mb-4 Entre los lenguajes representativos de este paradigma están: Java, Python y C# entre otros.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
@@ -92,9 +95,78 @@
             .col-7.ms-4
               p Por último, está el concepto de objeto que identifica a cada elemento de una clase, es decir vehículo es la clase, pero una camioneta, un bus, una moto, sería un objeto de la clase vehículo.
     .row.justify-content-center
-      .col-12.pt-4
+      .col-12.pt-4.pb-4
         b La programación orientada a objetos tiene 6 pilares fundamentales
-      Separador  
+
+    TabsB.color-primario
+      .py-4.py-md-5(titulo="Herencia")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Es el mecanismo por el cual una clase llamada hija hereda los métodos y atributos de una clase padre. La clase hija podrá modificar los métodos o atributos heredados o también crear unos nuevos. 
+            p.pt-3 En Python se definen así: 
+          .col-md-6
+            .titulo-sexto.color-secundario.mb-2.pr-2
+              h5 Figura 13.
+              span Ejemplo de herencia
+            figure
+              img(src='@/assets/curso/temas/tema4/herencia.png', alt='herencia')
+      .py-4.py-md-5(titulo="Cohesión")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Este principio se refiere al grado de relación entre los elementos de un mismo bloque de código. Permite la reutilización de código y evita la repetición de una misma instrucción. 
+            p.pt-3 En la imagen se muestra un ejemplo de cohesión en Python: 
+          .col-md-6
+            .titulo-sexto.color-secundario.mb-2.pr-2
+              h5 Figura 24.
+              span Ejemplo de Cohesión en Python
+            figure
+              img(src='@/assets/curso/temas/tema4/cohesion.png', alt='cohesion')
+      .py-4.py-md-5(titulo="Polimorfismo")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Con esta propiedad los objetos pueden tener muchas formas y, por tanto, desde distintas clases podrán ser accedidos usando la misma interfaz.
+            p.pt-3 En lenguajes de programación fuertemente tipados como Java se evidencia esta propiedad con mayor claridad.
+          .col-md-6
+            .titulo-sexto.color-secundario.mb-2.pr-2
+              h5 Figura 25.
+              span Polimorfismo
+            figure
+              img(src='@/assets/curso/temas/tema4/polimorfismo.png', alt='polimorfismo')
+      .py-4.py-md-5(titulo="Abstracción")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Con la abstracción se consigue ocultar la complejidad y se ofrecen funcionalidades que son sencillas de utilizar. 
+            p.pt-3 El usuario podrá acceder a ellas sin necesidad de saber qué hay dentro y cómo funcionan.
+            p.pt-3 En la programación orientada a objetos las clases pueden ofrecer métodos que contienen muchas líneas de código y que pueden ser utilizadas con solo una llamada, por ejemplo, llamada_metodo_abstracto ().
+          .col-md-6
+            .titulo-sexto.color-secundario.mb-2.pr-2
+              h5 Figura 26.
+              span Ejemplo de método abstracto
+            figure
+              img(src='@/assets/curso/temas/tema4/abstraccion.png', alt='abstraccion')
+      .py-4.py-md-5(titulo="Acoplamiento")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Este pilar mide que tanta dependencia existe entre dos bloques de código como las clases.
+            p.pt-3 Este concepto está relacionado con el principio de cohesión visto anteriormente, dado que un acoplamiento bajo implica una cohesión alta.
+          .col-md-6
+            .titulo-sexto.color-secundario.mb-2.pr-2
+              h5 Figura 27.
+              span Ejemplo de acoplamiento de clases
+            figure
+              img(src='@/assets/curso/temas/tema4/acoplamiento.png', alt='acoplamiento')
+      .py-4.py-md-5(titulo="Encapsulamiento")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Este es uno de los principios más importantes de la programación orientada a objetos, porque permite que las clases puedan ocultar sus estados internos con el exterior, de modo que, los atributos o métodos internos de la clase no podrán ser accedidos ni alterados desde otra clase, sino por el mismo objeto. 
+            p.pt-3 En Python de forma predeterminada no se ocultan los atributos o métodos de las clases al exterior.
+          .col-md-6
+            .titulo-sexto.color-secundario.mb-2.pr-2
+              h5 Figura 28.
+              span Encapsulamiento
+            figure
+              img(src='@/assets/curso/temas/tema4/encapsulamiento.png', alt='encapsulamiento')
+    separador  
     #t_4_3.titulo-segundo.color-primario.pt-3.pb-3
       h2 4.3  Ambientes de desarrollo
 
@@ -188,10 +260,57 @@
                   th Python
                   td Django, Flask, entre otros.
 
-      // Añadir like y dislike
-      
+    .row.justify-content-center.pt-5.ps-3.pe-3.pb-5
+      .col-12.col-md-6.tarjeta.back-like.p-0
+        .row.justify-content-center
+          .figure.col-5.p-0
+            img(src="@/assets/curso/temas/like.svg", alt="alt").img50
+        .row.justify-content-center.p-0  
+          .col-8.pb-5
+            b.title-like Ventajas de usar Frameworks:
+        .row.justify-content-center.pb-5  
+          .col-7
+            ul.lista-ul.m-0
+              li.mb-0
+                i.fas.fa-angle-right
+                | Velocidad en los desarrollos
+              li.mb-0
+                i.fas.fa-angle-right
+                | Minimización de errores
+              li.mb-0
+                i.fas.fa-angle-right
+                | Reutilización de código fuente
+              li.mb-0
+                i.fas.fa-angle-right
+                | Minimización de costos en los proyectos
+              li.mb-0
+                i.fas.fa-angle-right
+                | Fácil mantenimiento
+              li.mb-0
+                i.fas.fa-angle-right
+                | Colaboración con equipos de desarrollo
+      .col-12.col-md-6.tarjeta.back-dislike.p-0
+        .row.justify-content-center
+          .figure.col-5.p-0
+            img(src="@/assets/curso/temas/dislike.svg", alt="alt").img50
+        .row.justify-content-center.p-0  
+          .col-8.pb-5
+            b.title-like Desventajas de usar Frameworks
+        .row.justify-content-center.pb-5  
+          .col-7
+            ul.lista-ul.m-0
+              li.mb-0
+                i.fas.fa-angle-right
+                | Poseen versionado de software inestable
+              li.mb-0
+                i.fas.fa-angle-right
+                | Mucho código fuente sin utilizar
+              li.mb-0
+                i.fas.fa-angle-right
+                | Aplicaciones con performance menor que las creadas desde cero
+
       Separador  
-    #t_4_5.titulo-segundo.color-primario.pt-5.pb-3
+    #t_4_5.titulo-segundo.color-primario.pt-3.pb-3
       h2 4.5  Buenas prácticas de programación   
     .row.pt-4.pb-3 
       .col-12
@@ -244,6 +363,74 @@
             img(src='@/assets/curso/temas/tema4/implementar.svg' alt='implementar')
         h2.text-center Implementar metodologías ágiles:
         p.text-center  aplicar metodologías como Scrum, pueden agilizar el desarrollo de las etapas de los proyectos y alcanzar los objetivos planteados.
+
+    .row.justify-content-center.pb-5
+            .col-10
+              .row.tarjeta.tarjeta--azul.align-middle 
+                .col-12.col-md-4.col-lg-4.mt-5.p-0.d-table-cell
+                    img(src="@/assets/curso/temas/tema4/infografia.svg", alt="infografia").img100
+                
+                .col-12.col-md-8.col-lg-8.mt-5.mb-5
+                  .titulo-segundo.color-primario
+                    h3 Infografía: Buenas prácticas de programación
+                  p.pb-4 Las buenas prácticas de programación permiten crear aplicaciones escalables, seguras y de fácil mantenimiento.
+
+                  a.boton.boton--b(:href="obtenerLink('/actividades/AD5/index.html')" target="_blank")
+                    span Realizar
+                    i.fas.fa-puzzle-piece
+          
+    separador
+    #t_4_6.titulo-segundo.color-primario.pt-3.pb-3
+      h2 4.6  Git y GitHub
+    .row.justify-content-center.pt-3
+      .col-10
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p.mb-0.pb-3 Versionar el código fuente es sin duda una de las mejores prácticas que los equipos de desarrolladores utilizan para registrar los responsables de los cambios en las líneas de código cuando se trabaja en proyectos colaborativos. 
+            .col-lg-4.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/temas/tema4/git_github.svg").img100
+    .row.justify-content-center.pb-5
+      .col-10
+        .row.tarjeta--azul.align-middle 
+          .col-12.col-md-4.col-lg-4.mt-5
+            .tarjeta.h-50.d-flex.p-4.align-middle
+              figure
+                img(src="@/assets/curso/temas/tema4/git.svg", alt="git").img100
+          .col-12.col-md-8.col-lg-8.mt-4
+              div.pb-4 
+                b Git:
+              p.pb-4 Git es una herramienta de control de versiones muy potente que permite a los desarrolladores registrar históricamente todos los cambios que se realizan en los archivos que componen los proyectos de desarrollo.
+              p.pb-4 Git es muy práctico para trabajar colaborativamente en equipos de desarrollo, ya que, cuando se trabaja en un mismo proyecto y se reparten las funcionalidades entre sus miembros para luego integrarlas, la herramienta permite dividir el código en ramas que controlan de forma organizada la aplicación final.
+    .row.justify-content-center.pt-3
+      .col-lg-6
+        a.anexo.mb-4(:href="('/downloads/prueba.pdf')" target="_blank")
+          .anexo__icono.back-blue
+            img(src="@/assets/curso/temas/tema2/link_imagen.svg")
+          .anexo__texto
+            p <b>Enlace web.</b> Para profundizar más en el uso y los beneficios de la herramienta GIT, se recomienda revisar la documentación oficial en el enlace
+    .row.justify-content-center.pb-5
+      .col-10
+        .row.tarjeta--azul.align-middle 
+          .col-12.col-md-4.col-lg-4.mt-5
+            .tarjeta.h-50.d-flex.p-4.align-middle
+              figure
+                img(src="@/assets/curso/temas/tema4/github.svg", alt="github").img100
+          .col-12.col-md-8.col-lg-8.mt-4
+              div.pb-4 
+                b GitHub:
+              p.pb-4 GitHub es una plataforma web que permite a los usuarios guardar los archivos o repositorios que generan a través de la herramienta Git. 
+              p.pb-4 GitHub funciona como una red social donde los programadores tienen un perfil para mostrar los proyectos que han desarrollado y en los que se encuentran trabajando en el momento.
+    .row.justify-content-center.pt-3
+      .col-lg-6
+        a.anexo.mb-4(:href="('/downloads/prueba.pdf')" target="_blank")
+          .anexo__icono.back-blue
+            img(src="@/assets/curso/temas/tema2/link_imagen.svg")
+          .anexo__texto
+            p <b>Enlace web.</b> Para conocer más de GitHub se puede revisar la documentación oficial en el enlace
+
 
 </template>
 
