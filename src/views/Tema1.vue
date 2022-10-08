@@ -22,7 +22,7 @@
               .bloque-texto-a__texto.p-4
                 p.mb-0 Para Adell et al. (2019) el pensamiento computacional “Implica resolver problemas, diseñar sistemas y comprender el comportamiento humano, basándose en los conceptos fundamentales de la ciencia de la computación” (pg. 3).  
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
-              figure
+              figure.max-width-80 
                 img(src="@/assets/curso/temas/tema1/pensamiento_computacional.svg").img100
 
       .col-12.pt-5
@@ -126,9 +126,10 @@
 
     Separador  
     
-    .row.pt-4
-      #t_1_3.titulo-segundo.color-primario
-        h2 1.3 Diagramas de Flujo
+    #t_1_3.titulo-segundo.color-primario
+      h2 1.3 Diagramas de Flujo
+
+    
 
     .row.pt-4.pb-4 
       .col-12
@@ -277,21 +278,54 @@
             p.ms-5 Escribir "Área es: ", base, "centímetros cuadrados"
             p.ms-2 Fin     
     
-    .row.justify-content-center.pt-5
-      b Para tener más claridad del concepto de pseudocódigo, a continuación, se presenta el siguiente ejemplo: 
-    
-    .row.justify-content-center.pt-5
-      .col-12
-        .row.align-left
-          .titulo-sexto.color-acento-contenido.mb-2.pr-2
-            h5 Tabla 2.
-            br
-            em Ejemplo de algoritmo Vs. representación en seudocódigo.
+    h5.pt-5.pb-5 Para tener más claridad del concepto de pseudocódigo, a continuación, se presenta el siguiente ejemplo: 
 
-    .row.justify-content-center.pt-0
-      .col-12
-        figure
-          img(src="@/assets/curso/temas/tema1/algoritmo_pseudocodigo.svg", alt="cuadro_comparativo").img100
+    .titulo-sexto.color-acento-contenido.mb-2.pr-2
+      h5 Tabla 2.
+      br
+      em Ejemplo de algoritmo Vs. representación en seudocódigo.
+
+    .tabla-a
+      table
+        thead
+          tr
+            th Algoritmo
+            th Pseudocódigo
+        tbody
+          tr
+            td.tarjeta--gris 
+              .row.justify-content-center.pb-5
+                .col-12
+                  p.pb-2.ms-3 <b>Paso 1.</b> Solicitar los datos de un usuario (nombre, valor por hora, número de horas laboradas).
+                  p.pb-2.ms-3 <b>Paso 2.</b> Condicionado al número total de horas trabajadas en la semana:
+                  ol.lista-ol--cuadro.pb-2.ms-3
+                    li 
+                      .lista-ol--cuadro__vineta.color-primario
+                        span a
+                      | Si el número de horas no es mayor a 40, hacer el cálculo sin horas extras.
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span b
+                      | Si el número de horas es mayor a 40, realizar el cálculo del sueldo, teniendo en cuenta que, la hora extra se cancela con 1.5% más por encima del valor de la hora normal.
+                  p.ms-3 <b>Paso 3.</b> Presentar el nombre del usuario y el respectivo salario que va a recibir.
+            td.tarjeta--gris 
+              .row.justify-content-center.pb-5
+                .col-12
+                  .code.ps-3
+                    p.ms-2 Inicio
+                    p.ms-2 Defina Nombre= '  ', ValorHr = 0
+                    p.ms-2 Defina Hrs_Lab = 0, Salario = 0
+                    p.ms-2 Presentar 'Digite los datos del usuario'
+                    p.ms-2 Capturar Nombre, ValorHr, Hrs_Lab
+                    p.ms-3.ps-2  Si Hrs_Lab <=40
+                    p.ms-4.ps-3 Entonces
+                    p.ms-5.ps-4    Salario= Hrs_Lab * ValorHr
+                    p.ms-4.ps-3 Sino
+                    p.ms-5.ps-4    Salario=40 * ValorHr + (Hrs_Lab - 40)*(1.5*ValorHr)
+                    p.ms-3.ps-2 FinSi
+                    p.ms-2 Presentar 'El salario de', Nombre, 'es', Salario
+
+                    p.ms-2 Fin
 </template>
 
 <script>

@@ -21,12 +21,12 @@
 
     .row.justify-content-center.pb-5
       .col-12
-        b Tipos de datos:
+        h5 Tipos de datos:
 
         .row.justify-content-center
           .col-lg-4
             figure(data-aos="zoom-in")
-              img(src="@/assets/curso/temas/tema3/tipo_dato_estatica.svg", alt="alt").img400.m-auto
+              img(src="@/assets/curso/temas/tema3/tipo_dato_estatica.png", alt="alt").img400.m-auto
           .col-lg-8
             p.pb-2 Los tipos de datos pueden ser:
 
@@ -409,7 +409,7 @@
               .bloque-texto-a__texto.p-4
                 p.mb-0 Las tuplas, a diferencia de las listas, no son dinámicas. Lo que significa que, no permiten modificaciones en sus elementos, pero en términos de rendimiento son más eficientes:
             .col-4.mb-4.mb-lg-0(data-aos="fade-left")
-              figure
+              figure.max-width-80
                 img(src="@/assets/curso/temas/tema3/tuplas.svg").img100
     
     .row.justify-content-center.pt-5

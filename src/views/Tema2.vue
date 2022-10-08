@@ -250,9 +250,9 @@
 
     .row.justify-content-center.mb-5
       .col-10
-        .tarjeta.tarjeta--azul.align-middle
+        .tarjeta--azul.align-middle
           div.text-center.p-3
-            b ¿Qué es Google colab?
+            h4 ¿Qué es Google colab?
           p.ps-5.pe-5.pb-5 Colab es un entorno colaborativo que posibilita la ejecución del lenguaje de programación Python sin necesidad de instalar ningún componente de forma local, ya que, es netamente implementado en la nube de Google y no requiere configuración previa para iniciar a programar.
     
     .row.justify-content-center.pt-5.ps-3.pe-3.pb-5
@@ -328,7 +328,7 @@
         .tarjeta--azul.align-middle
           .tarjeta.p-4.align-middle
             div.text-center.pb-3
-              b ¿Qué es Jupyter?
+              h4 ¿Qué es Jupyter?
             p.pb-4 Jupyter es un entorno de desarrollo basado en la web que se utiliza para trabajar en ciencia de datos de forma simple y enfocada en documentos. Al igual que Google Colab, Jupyter permite tanto código como celdas de texto que incorporan el formato markdown (lenguaje de marcado sencillo que se utiliza para agregar formato a los textos dentro de un documento).
     
     

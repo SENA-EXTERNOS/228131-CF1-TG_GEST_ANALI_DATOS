@@ -16,7 +16,7 @@
                 p.mb-0.pb-3 Los paradigmas y estándares de programación son los modos o estilos que se utilizan para programar. 
                 p.mb-0.pb-3 Los lenguajes de programación pueden adoptar uno o varios paradigmas. Python es un lenguaje multiparadigma.
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
-              figure
+              figure.max-width-80
                 img(src="@/assets/curso/temas/tema4/paradigmas.svg").img100
     
     h4.pt-3.pb-4 Entre los paradigmas de programación más utilizados se encuentran los siguientes:
@@ -63,10 +63,10 @@
 
     Separador
     
-    #t_4_1.titulo-segundo.color-primario.pt-3.pb-3
+    #t_4_1.titulo-segundo.color-primario.pt-3.pb-1
       h2 4.1  Programación estructurada
     
-    .row.justify-content-center.pt-5
+    .row.justify-content-center
       .col-12
         p La programación estructurada hace parte del paradigma imperativo y está diseñado para promover la claridad, calidad y el tiempo de desarrollo de las aplicaciones, utilizando las siguientes estructuras:   
     .row.justify-content-center.pt-5
@@ -380,7 +380,7 @@
         h2.text-center Implementar metodologías ágiles:
         p.text-center  aplicar metodologías como Scrum, pueden agilizar el desarrollo de las etapas de los proyectos y alcanzar los objetivos planteados.
 
-    .row.justify-content-center.pb-5
+    .row.justify-content-center.pt-5.pb-5
       .col-10
         .row.tarjeta.tarjeta--azul.align-middle 
           .col-12.col-md-4.col-lg-4.mt-5.p-0.d-table-cell
@@ -394,11 +394,11 @@
               span Realizar
               i.fas.fa-puzzle-piece
           
-    separador
+    Separador
     #t_4_6.titulo-segundo.color-primario.pt-3.pb-3
       h2 4.6  Git y GitHub
     
-    .row.justify-content-center.pt-3
+    .row.justify-content-center
       .col-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
