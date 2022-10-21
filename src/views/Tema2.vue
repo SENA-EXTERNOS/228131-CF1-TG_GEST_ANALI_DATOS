@@ -13,7 +13,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-8
               .bloque-texto-a__texto.p-4
-                p.mb-0 Cantidad de lenguajes soportados: existen IDE que solamente son compatibles con un lenguaje de programación, por lo tanto, son mejores para un estilo de programación en especial, entre ellos, tenemos como ejemplo a IntellinJ, que se conoce como un IDE exclusivo para Java. Por otra parte, están los IDE que soportan varios lenguajes de programación, como es el caso de Eclipse, con el que se puede programar en Java, Python, JavaScript, PHP, C++, entre otros.
+                p.mb-0 Los entornos de desarrollo o entornos de desarrollo integrado, también llamados IDE, por sus siglas en inglés <em>(Integrated Development Environment)</em>, son aplicaciones informáticas especializadas que emplean los programadores para escribir el código fuente en cualquiera de los lenguajes de programación existentes como son: <em>Python, PHP, Javascript, Java, C, C++, C#, GO</em>, Ruby entre otros.
             .col-4.mb-4.mb-lg-0(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/temas/tema2/introduccion.svg").img100
@@ -40,7 +40,7 @@
         .crd.crd--avatarHorizontal.crd--first.clr--azul.py-4.back-yellow
           .row.align-items-center
             .col-8.ms-4
-              p Es importante destacar que es posible crear programas sin utilizar ningún IDE o que los programadores diseñen un IDE personalizado que integre varias herramientas de forma manual, como los editores de texto: Notepad++, VIM, Sublime Text, entre otros. Sin embargo, en los entornos empresariales, es altamente beneficioso minimizar tiempos con la estandarización de un IDE, a invertirlo en las opciones manuales, por lo que la mayor parte de las organizaciones prefieren los IDE preconfigurados que se adaptan a sus casos de usos particulares.
+              p Es importante destacar que es posible crear programas sin utilizar ningún IDE o que los programadores diseñen un IDE personalizado que integre varias herramientas de forma manual, como los editores de texto: <em>Notepad++, VIM, Sublime Text</em>, entre otros. Sin embargo, en los entornos empresariales, es altamente beneficioso minimizar tiempos con la estandarización de un IDE, a invertirlo en las opciones manuales, por lo que la mayor parte de las organizaciones prefieren los IDE preconfigurados que se adaptan a sus casos de usos particulares.
 
   
     b Tipos de IDE
@@ -53,7 +53,7 @@
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
-                  p.mb-4 Cantidad de lenguajes soportados: existen IDE que solamente son compatibles con un lenguaje de programación, por lo tanto, son mejores para un estilo de programación en especial, entre ellos, tenemos como ejemplo a IntellinJ, que se conoce como un IDE exclusivo para Java. Por otra parte, están los IDE que soportan varios lenguajes de programación, como es el caso de Eclipse, con el que se puede programar en Java, Python, JavaScript, PHP, C++, entre otros.
+                  p.mb-4 <b>Cantidad de lenguajes soportados:</b>existen IDE que solamente son compatibles con un lenguaje de programación, por lo tanto, son mejores para un estilo de programación en especial, entre ellos, tenemos como ejemplo a IntellinJ, que se conoce como un IDE exclusivo para Java. Por otra parte, están los IDE que soportan varios lenguajes de programación, como es el caso de Eclipse, con el que se puede programar en Java, Python, JavaScript, PHP, C++, entre otros.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
@@ -62,7 +62,7 @@
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
-                  p.mb-4 Sistemas operativos soportados: en función del sistema operativo que utiliza el programador se establece el tipo de IDE que es compatible, con excepción de los IDE que están implementados en la nube, los cuales al contar con acceso web son multiplataforma. También está condicionado por el sistema operativo al que está destinada la aplicación que se va a desarrollar, por ejemplo, si es una aplicación para Android o iOS.
+                  p.mb-4 <b>Sistemas operativos soportados:</b>en función del sistema operativo que utiliza el programador se establece el tipo de IDE que es compatible, con excepción de los IDE que están implementados en la nube, los cuales al contar con acceso web son multiplataforma. También está condicionado por el sistema operativo al que está destinada la aplicación que se va a desarrollar, por ejemplo, si es una aplicación para <em>Android o iOS</em>.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
@@ -72,7 +72,7 @@
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
-                  p.mb-4 Performance: el programador debe tener en cuenta si el IDE se va a ejecutar en conjunto con otras herramientas que requieran mucha memoria, dado que, el rendimiento del IDE puede verse afectado, realizando sus operaciones con lentitud.
+                  p.mb-4 <b>Performance:</b> el programador debe tener en cuenta si el IDE se va a ejecutar en conjunto con otras herramientas que requieran mucha memoria, dado que, el rendimiento del IDE puede verse afectado, realizando sus operaciones con lentitud.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.align-middle
                   figure
@@ -82,7 +82,7 @@
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
-                  p.mb-4 Extensiones y Plugins: existen IDE que admiten la personalización de los flujos de trabajo, de tal forma que, el programador lo puede adaptar a lo que necesite y prefiere.
+                  p.mb-4 <b>Extensiones y <em>Plugins</em>:</b> existen IDE que admiten la personalización de los flujos de trabajo, de tal forma que, el programador lo puede adaptar a lo que necesite y prefiere.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
@@ -100,27 +100,27 @@
         .cajon.color-primario
           .tarjeta--azul.align-middle
             .tarjeta.d-flex.p-4.align-middle
-              p.Cuando se inicia en el mundo del desarrollo de software, la selección del lenguaje de programación es uno de los factores que más se tiene en cuenta para dar los primeros pasos.  También es fundamental conocer si el lenguaje elegido es compilado o interpretado.
+              p Cuando se inicia en el mundo del desarrollo de software, la selección del lenguaje de programación es uno de los factores que más se tiene en cuenta para dar los primeros pasos.  También es fundamental conocer si el lenguaje elegido es compilado o interpretado.
   
     .row.pb-5
       .container.tarjeta.tarjeta--blanca
         TabsC.color-primario
-          .py-3.py-md-4(titulo="Lenguajes Compilados")
+          .py-3.py-md-4(titulo="Lenguajes Compilados", style="font-weight:bolder;")
             .row
               .col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema2/lenguaje_compilado.svg', style="width: 300px;", alt='Texto que describa la imagen')
               .col-md-6
-                h4 Lenguajes Compilados
-                p Este tipo de lenguaje de programación traduce el código fuente en sentencias que la máquina puede entender. Estas sentencias son agrupadas en un archivo binario ejecutable, que, por lo general, está limitado a un determinado sistema, permitiendo que se puedan ejecutar sin la instalación de otro programa complementario, ya que todo lo que necesita para funcionar correctamente se encuentra embebido en ese único archivo ejecutable. Entre los lenguajes compilados está C, C++, Swift, Go, Ada, entre otros.
-          .py-3.py-md-4(titulo="Lenguajes Interpretados")
+                p Lenguajes Compilados
+                p Este tipo de lenguaje de programación traduce el código fuente en sentencias que la máquina puede entender. Estas sentencias son agrupadas en un archivo binario ejecutable, que, por lo general, está limitado a un determinado sistema, permitiendo que se puedan ejecutar sin la instalación de otro programa complementario, ya que todo lo que necesita para funcionar correctamente se encuentra embebido en ese único archivo ejecutable. Entre los lenguajes compilados está <em>C, C++, Swift, Go, Ada</em>, entre otros.
+          .py-3.py-md-4(titulo="Lenguajes Interpretados", style="font-weight:bolder;")
             .row
               .col-md-6.p-4
                 figure
                   img(src='@/assets/curso/temas/tema2/lenguaje_interpretado.svg', style="width: 300px;", alt='Texto que describa la imagen')
               .col-md-6
-                h4 Lenguajes Interpretados
-                p En un lenguaje interpretado el código fuente se ejecuta en caliente, instrucción a instrucción o paso a paso, por lo tanto, el código no es expuesto a un proceso de compilación, sino que existe un programa complementario que se llama intérprete, que se encarga de leer las instrucciones en tiempo real y las va ejecutando una a una.  Entre los lenguajes interpretados están: Python, Perl, JavaScript, Ruby, PHP, MATLAB, Visual Basic .NET, ASP entre otros. 
+                p Lenguajes Interpretados
+                p En un lenguaje interpretado el código fuente se ejecuta en caliente, instrucción a instrucción o paso a paso, por lo tanto, el código no es expuesto a un proceso de compilación, sino que existe un programa complementario que se llama intérprete, que se encarga de leer las instrucciones en tiempo real y las va ejecutando una a una.  Entre los lenguajes interpretados están: <em>Python, Perl, JavaScript, Ruby, PHP, MATLAB, Visual Basic .NET, ASP</em> entre otros. 
 
     p.pb-3 <b>Lenguajes Compilados VS Interpretados</b>
 
@@ -223,7 +223,7 @@
         .container.tarjeta.tarjeta--blanca.p-4.p-md-5
           figure
             .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://youtu.be/Hs6-XSFfvUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Video
 
       .row.justify-content-center.pb-5

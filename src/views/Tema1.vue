@@ -54,15 +54,15 @@
               img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_1.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
-            h6 Inicio y fin
+            h5 Inicio y fin
             br
-            p Una característica de los algoritmos es que los pasos que lo conforman deben ser finitos y contar con un principio y un final..
+            p Una característica de los algoritmos es que los pasos que lo conforman deben ser finitos y contar con un principio y un final.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_2.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
-            h6 Ejemplo de un algoritmo en la vida cotidiana
+            h5 Ejemplo de un algoritmo en la vida cotidiana
             br
             p nombre del algoritmo: realizar una llamada. Paso 1. Encender el teléfono.Paso 2. Marcar el número del destino. Paso 3. Si contestan: 
             p Saludar, dialogar con la persona, despedirse Si no contestan: Volver al paso 2. Paso 4. Colgar la llamada.
@@ -78,7 +78,7 @@
               img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_4.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
-            h6 Ejemplo 2: una receta de cocina.
+            h5 Ejemplo 2: una receta de cocina.
             br
             p Para mayor claridad respecto al concepto de algoritmos, se revisará otro ejemplo clásico donde se describen los pasos para preparar una comida:
           .col-md-6
@@ -86,7 +86,7 @@
               img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_5.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
-            h6 Algoritmos = Programación
+            h5 Algoritmos = Programación
             br
             p Ahora bien, los algoritmos se asocian con la programación porque para crear un sistema o aplicación como juegos o software, se necesitan los pasos ordenados y predefinidos para crear dicho sistema. 
             br
@@ -96,7 +96,7 @@
               img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_6.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
-            h6 Lenguajes y algoritmos
+            h5 Lenguajes y algoritmos
             br
             p Para que la máquina (computador o dispositivo) entienda los pasos o instrucciones que contienen los algoritmos, se requiere de un lenguaje de programación que traduce el algoritmo en órdenes a la máquina. 
             br
@@ -115,11 +115,11 @@
               img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_8.png')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
-            h6 Tipos de algoritmos
+            h5 Tipos de algoritmos
             br
             p Los algoritmos pueden ser gráficos y no gráficos: los algoritmos gráficos son los que representan las operaciones con imágenes, por ejemplo, los diagramas de flujo. Por otra parte, los algoritmos no gráficos tratan las operaciones a través de una forma descriptiva, y entre ellos tenemos al pseudocódigo. 
             br
-            p A continuación, se trabajarán ambos tipos de algoritmos de forma más detallada.
+            h5 A continuación, se trabajarán ambos tipos de algoritmos de forma más detallada.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_9.png')
@@ -167,9 +167,9 @@
       .col-8
         .row.align-middle
           .titulo-sexto.color-acento-contenido.mb-2.pr-2
-            h5 Tabla 3.
+            h5 Figura 4.
             br
-            em Lenguajes compilados Vs. interpretados.
+            em Ejemplo de diagrama de flujo.
         .row
           .col-12
             img(src="@/assets/curso/temas/tema1/diagrama_ejemplo.svg", alt="alt").img100
@@ -188,16 +188,16 @@
             ul.lista-ul.m-0
               li.mb-0
                 i.fas.fa-angle-right
-                | Ayudan a comprender la lógica de la programación
+                | Ayudan a comprender la lógica de la programación.
               li.mb-0
                 i.fas.fa-angle-right
-                | Contribuyen en la detección de errores
+                | Contribuyen en la detección de errores.
               li.mb-0
                 i.fas.fa-angle-right
-                | Facilitan la identificación de procesos
+                | Facilitan la identificación de procesos.
               li.mb-0
                 i.fas.fa-angle-right
-                | Son útiles para mostrar al cliente las fases o transacciones que realiza el sistema
+                | Son útiles para mostrar al cliente las fases o transacciones que realiza el sistema.
 
       .col-12.col-md-6.tarjeta.back-dislike.p-0
         .row.justify-content-center
@@ -205,19 +205,19 @@
             img(src="@/assets/curso/temas/dislike.svg", alt="alt").img50
         .row.justify-content-center.p-0  
           .col-8.pb-5
-            b.title-like Desventajas de los diagramas de flujo
+            b.title-like Desventajas de los diagramas de flujo.
         .row.justify-content-center.pb-5  
           .col-7
             ul.lista-ul.m-0
               li.mb-0
                 i.fas.fa-angle-right
-                | Son difíciles para realizarles cambios en su estructura o diseño
+                | Son difíciles para realizarles cambios en su estructura o diseño.
               li.mb-0
                 i.fas.fa-angle-right
-                | No son recomendables para la lógica de programas complejos
+                | No son recomendables para la lógica de programas complejos.
               li.mb-0
                 i.fas.fa-angle-right
-                | Pueden retrasar el desarrollo del software
+                | Pueden retrasar el desarrollo del <em class="ps-1">software</em>.
 
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
@@ -226,16 +226,16 @@
             img(src="@/assets/curso/temas/tema1/pseint.png", alt="alt", style="width:150px").img100
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p.mb-0.pb-4 Existen herramientas como PSeInt que asisten a los estudiantes para dar sus primeros pasos en programación. PSeInt cuenta con la opción de crear flujogramas. 
-            p.mb-0 A continuación, encontrará un video que muestra la instalación de esta herramienta en un sistema operativo Windows y la creación de un diagrama de flujo de ejemplo.
+            p.mb-0.pb-4 Existen herramientas como <em>PSeInt</em> que asisten a los estudiantes para dar sus primeros pasos en programación. <em>PSeInt</em> cuenta con la opción de crear flujogramas. 
+            p.mb-0 A continuación, encontrará un video que muestra la instalación de esta herramienta en un sistema operativo <em>Windows</em> y la creación de un diagrama de flujo de ejemplo.
    
-    p.pt-5 Te invitamos a ver el tutorial que explica el proceso de instalación de la herramienta Pseint titulado “Instalación de Pseint” de Tordecilla, (2022) y que encuentras en material complementario
+    p.pt-5 Te invitamos a ver el tutorial que explica el proceso de instalación de la herramienta <em>Pseint</em> titulado “Instalación de Pseint” de Tordecilla, (2022) y que encuentras en material complementario
     
     .row.justify-content-center
       .container.tarjeta.tarjeta--blanca.p-3.p-md-5
         figure
           .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://youtu.be/b2YEEuNMA3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video 
     
     Separador
@@ -283,7 +283,7 @@
     .titulo-sexto.color-acento-contenido.mb-2.pr-2
       h5 Tabla 2.
       br
-      em Ejemplo de algoritmo Vs. representación en seudocódigo.
+      em Ejemplo de algoritmo Vs. representación en pseudocódigo.
 
     .tabla-a
       table
