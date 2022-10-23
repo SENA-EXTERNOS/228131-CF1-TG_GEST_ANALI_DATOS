@@ -207,8 +207,8 @@
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0.ps-4
-            p.pb-3 Ciclo While
-            p.pb-3 En esta clase de bucles, el bloque de código se repetirá mientras una condición predefinida se cumpla y se deja repetir o finalizará cuando la condición ya no es verdadera.
+            b.pb-3 Ciclo While
+            p.pt-3.pb-3 En esta clase de bucles, el bloque de código se repetirá mientras una condición predefinida se cumpla y se deja repetir o finalizará cuando la condición ya no es verdadera.
             p.pb-3 En el ejemplo de la imagen se observa que:
             ol.lista-ol--cuadro
               li 
@@ -218,7 +218,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Con el ciclo <em>While</em> se establece una condición para evaluar si i es menor que 5
+                | Con el ciclo<em class="px-1">While </em> se establece una condición para evaluar si i es menor que 5
               li 
                 .lista-ol--cuadro__vineta
                   span 3
@@ -241,8 +241,8 @@
               img(src='@/assets/curso/temas/tema3/ciclos_2.svg', alt='alt').img100
         .row.justify-content-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
-            p.pb-3 Ciclo Do While
-            p.pb-3 Es un tipo de bucle muy similar al While, con la diferencia que el código se ejecutará una vez antes de evaluar la condición.
+            b.pb-3 Ciclo Do While
+            p.pt-3 Es un tipo de bucle muy similar al While, con la diferencia que el código se ejecutará una vez antes de evaluar la condición.
             p.pb-3 Es muy útil cuando se necesita que la aplicación se ejecute por lo menos una vez, por ejemplo, en las aplicaciones que reciben datos de los usuarios para validar si cumple o no con un requerimiento.
             p.pb-3 En el código de la imagen se observa que:
             ol.lista-ol--cuadro

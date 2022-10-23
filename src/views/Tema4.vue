@@ -386,11 +386,11 @@
           .col-12.col-md-4.col-lg-4.mt-5.p-0.d-table-cell
               img(src="@/assets/curso/temas/tema4/infografia.svg", alt="infografia").img100
           .col-12.col-md-8.col-lg-8.ps-3.mt-5.mb-5
-            .titulo-segundo.color-primario
-              h3 Infografía: Buenas prácticas de programación
+            .titulo-segundo.color-acento-contenido
+              h3 Infografía: Buenas prácticas de programación  
             p.pb-4 Las buenas prácticas de programación permiten crear aplicaciones escalables, seguras y de fácil mantenimiento.
 
-            a.boton.boton--b(:href="obtenerLink('/actividades/AD5/index.html')" target="_blank")
+            a.boton.boton--b(:href="('/actividades/AD5/index.html')" target="_blank")
               span Realizar
               i.fas.fa-puzzle-piece
           

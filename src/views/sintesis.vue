@@ -3,18 +3,19 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-sexto.color-acento-contenido.mb-2.pr-2
-      h5 Figura 1.
-      br
-      em Pensamiento computacional.
-    
-    p.pt-4.pb-5 En el siguiente mapa podrá apreciar un resumen de los temas trabajados con los conceptos básicos de la programación.
-
-
     .row.justify-content-center
-      .col-lg-10.mb-5
-        figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+      .col-md-10.mb-5
+        .titulo-sexto.color-institucional.mb-2.pr-2
+          h5 Gestión de Analítica de Datos
+          p.pt-3 Síntesis: fundamentos de programación 
+    
+        p.pt-5.pb-5 En el siguiente mapa podrá apreciar un resumen de los temas trabajados con los conceptos básicos de la programación.
+
+
+      .row.justify-content-center
+        .col-lg-10.mb-5
+          figure
+            img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
     
 
 </template>
