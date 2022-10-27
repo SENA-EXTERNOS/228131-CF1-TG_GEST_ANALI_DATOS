@@ -76,9 +76,29 @@
             h5 Figura 22.
             br
             em Tipos de estructuras
-        .row
-          .col-12
-            img(src="@/assets/curso/temas/tema4/estructuras.svg", alt="estructuras").img100
+            .imgCont.m-auto
+        .row.justify-content-center.mb-4
+          ImagenInfografica.color-acento-contenido.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/temas/tema4/estructuras.svg', alt='', style='')
+
+            .tarjeta.color-acento-botones.p-4(x="15%" y="17%" numero="" style='border-radius: 10px; background-color: #FFE8C8')
+              h5.mb-3.text-center Estructuras secuenciales:
+              p.mb-0.text-center Son instrucciones o pasos a pasos del lenguaje o funciones del desarrollador.
+
+            
+            .tarjeta.color-acento-botones.p-4(x="51.5%" y="17%" numero="" style='border-radius: 10px; background-color: #FFE8C8')
+              h5.mb-3.text-center Estructuras condicionales:
+              p.mb-0.text-center Son aquellas que ejecuta una estructura si previamente se cumple con una condición.
+
+            
+            .tarjeta.color-acento-botones.p-4(x="85%" y="17%" numero="" style='border-radius: 10px; background-color: #FFE8C8')
+              h5.mb-3.text-center Estructuras repetitivas:
+              p.mb-0.text-center Son las que ejecutan una estructura repetidamente si se cumple una condición.
+        //- .row
+        //-   .col-12
+        //-     img(src="@/assets/curso/temas/tema4/estructuras.svg", alt="estructuras").img100
     
     Separador  
     

@@ -129,8 +129,6 @@
     #t_1_3.titulo-segundo.color-primario
       h2 1.3 Diagramas de Flujo
 
-    
-
     .row.pt-4.pb-4 
       .col-12
         .row.align-middle 
@@ -140,28 +138,53 @@
               p.pb-2 Los diagramas de flujo son representaciones gráficas de los algoritmos para representar de manera clara, puntual y organizada la información que se desea tratar. También son llamados flujogramas.
               p Los flujogramas cuentan con una simbología establecida por el Instituto Nacional Estadounidense de Estándares (ANSI). A continuación, se relacionan los símbolos más usados:
 
-    .row.pt-4.pb-4 
-      .col-12
-        .row.align-middle 
-          .col-12.col-md-4.col-lg-4
-            img(src="@/assets/curso/temas/tema1/diagrama_1.svg", alt="alt").img100
-            figcaption Símbolo para Iniciar y Finalizar
-          .col-12.col-md-4.col-lg-4
-            img(src="@/assets/curso/temas/tema1/diagrama_2.svg", alt="alt").img100
-            figcaption Símbolo para realizar una acción o proceso
-          .col-12.col-md-4.col-lg-4
-            img(src="@/assets/curso/temas/tema1/diagrama_3.svg", alt="alt").img100
-            figcaption Símbolo de decisión
+    
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure 
+              img(src="@/assets/curso/temas/tema1/diagrama_1.svg", alt="alt")
+          .crd_hover_txt--body
+            h5.mb-3 Símbolo para Iniciar y Finalizar:
+            p.mb-0 este símbolo comúnmente contiene la palabra “Inicio” o “Fin”. 
 
-    .row.justify-content-center
-      .col-8
-        .row 
-          .col-12.col-md-6.col-lg-6
-            img(src="@/assets/curso/temas/tema1/diagrama_4.svg", alt="alt").img100
-            figcaption Símbolo para las entradas y salidas
-          .col-12.col-md-6.col-lg-6
-            img(src="@/assets/curso/temas/tema1/diagrama_5.svg", alt="alt").img100
-            figcaption Símbolo para conectar
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema1/diagrama_2.svg", alt="alt")
+          .crd_hover_txt--body
+            h5.mb-3 Símbolo para realizar una acción o proceso: 
+            p.mb-0 es representado por un rectángulo y solo se permite realizar un solo paso por proceso (cortar las papas) o bien sea un subproceso completo (hacer papas fritas).
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema1/diagrama_3.svg", alt="alt")
+          .crd_hover_txt--body
+            h5.mb-3 Símbolo de decisión:
+            p.mb-0 es ilustrado por un rombo que representa la toma de decisiones dependiendo de la condición evaluada, con base en los valores falso o verdadero.
+
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema1/diagrama_4.svg", alt="alt")
+          .crd_hover_txt--body
+            h5.mb-3 Símbolo para las entradas y salidas:
+            p.mb-0 es ilustrado por un paralelogramo que representa los datos que entran y salen del sistema.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema1/diagrama_5.svg", alt="alt")
+          .crd_hover_txt--body
+            h5.mb-3 Símbolo para conectar:
+            p.mb-0 es representado por un círculo que indica continuación del flujo donde se coloca un símbolo similar que contiene la misma letra.
 
     .row.justify-content-center.pt-5
       .col-8

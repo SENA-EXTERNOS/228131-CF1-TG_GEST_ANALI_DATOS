@@ -246,32 +246,143 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Pensamiento Computacional',
+      referencia:
+        'UNIR La universidad en internet. (2021). <em>¿Qué es el pensamiento computacional?</em>. ',
+      tipo: 'Otro',
+      link:
+        'https://www.unir.net/educacion/revista/pensamiento-computacional/ ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Lenguajes de Programación',
+      referencia:
+        'Diaz, D. (2022). <em>7 lenguajes de programación para usar en ciencia de datos. Geekflare</em>. Recuperado el 17 de agosto de 2022.',
+      tipo: 'Artículo',
+      descarga: 'https://geekflare.com/es/data-science-programming-languages/ ',
+    },
+    {
+      tema: 'Buenas Prácticas de Programación',
+      referencia:
+        'Niño, y. E., Morales, M. del R., Vázquez, S., & Sánchez, B. E. (2020). Mejores prácticas y criterios de calidad en el proceso de desarrollo de código en los cursos de programación en la enseñanza superior. <em>Revista Tecnología, Ciencia y Educación</em>, (17), 97–126.',
+      tipo: 'Otro',
+      descarga:
+        'https://www.tecnologia-ciencia-educacion.com/index.php/TCE/article/view/489/315 ',
+    },
+    {
+      tema: '<em>Google Colab</em>',
+      referencia:
+        'Das, T. (2022). <em>Google Colab</em>: todo lo que necesitas saber. Geekflare.',
+      tipo: 'Artículo',
+      descarga: 'https://geekflare.com/es/google-colab/',
+    },
+    {
+      tema: 'Listas en <em>Python</em>',
+      referencia:
+        'Meza, J. (2021). Listas (<em>arrays</em>, arreglos o vectores) en <em>Python</em>. Uso y creación de listas en <em>Python</em>. <em>Programar YA</em>.',
+      tipo: 'Artículo',
+      descarga:
+        'https://www.programarya.com/Cursos/Python/estructuras-de-datos/listas',
+    },
+    {
+      tema: '<em>Pseint</em>',
+      referencia:
+        '<em>Instalación de Pseint</em>. (2022). [Vídeo]. One Drive. https://1drv.ms/v/s!AmN5mLAAnCdygbUccnpIfFVYGCB1ew?e=KS5WqV',
+      tipo: 'Video',
+      descarga: 'https://1drv.ms/v/s!AmN5mLAAnCdygbUccnpIfFVYGCB1ew?e=KS5WqV',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Algoritmo',
+      significado:
+        'un algoritmo, en términos generales, es una secuencia de pasos que se deben ejecutar en un orden predefinido con el fin de realizar una tarea específica o resolver un problema en particular.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Ciclo',
+      significado:
+        'en programación los ciclos o bucles son secuencias de instrucciones que se ejecutan varias veces, hasta cumplir con una condición o que la condición inicial deja de cumplirse.',
+    },
+    {
+      termino: 'Diagrama de flujo',
+      significado:
+        'los diagramas de flujo son representaciones gráficas de los algoritmos para presentar de manera clara, puntual y organizada la información que se desea tratar.',
+    },
+    {
+      termino: 'Función',
+      significado:
+        'una función es un bloque de código que se usa para realizar una tarea específica y permite ser reutilizada en cualquier parte del programa sin necesidad de volver a escribir las instrucciones que la conforman.',
+    },
+    {
+      termino: 'IDE',
+      significado:
+        'los IDE o entornos de desarrollo integrado, son aplicaciones informáticas especializadas que emplean los programadores para escribir el código fuente en cualquiera de los lenguajes de programación existentes como son: Python, PHP, Javascript, Java, C, C++, C#, GO, Ruby entre otros.',
+    },
+    {
+      termino: 'Lenguaje compilado',
+      significado:
+        'es un tipo de lenguaje de programación donde el código fuente es previamente traducido a la ejecución en el lenguaje que la máquina puede entender.',
+    },
+    {
+      termino: 'Lenguaje de programación',
+      significado:
+        'es una forma de comunicarse con las máquinas, para que puedan entender y realizar las instrucciones que se le ordenan.',
+    },
+    {
+      termino: 'Lenguaje interpretado',
+      significado:
+        'es un tipo de lenguaje donde el código fuente es interpretado al momento de la ejecución en el lenguaje que la máquina puede entender.',
+    },
+    {
+      termino: 'Lista',
+      significado:
+        'una lista es una estructura de datos ordenados que pueden ser accedidos por un índice.',
+    },
+    {
+      termino: 'Paradigma de programación',
+      significado:
+        'un paradigma de programación es el modo, estilo o estándar que se utilizan para programar como la programación orientada a objetos.',
+    },
+    {
+      termino: 'Programación estructurada',
+      significado:
+        'la programación estructurada es un paradigma de programación que se fundamenta en secuencias, condicionales e iteraciones.',
+    },
+    {
+      termino: 'Programación orientada a objetos',
+      significado:
+        'la programación orientada a objetos es un paradigma de programación que permite ordenar el código de forma similar a como se piensa en el mundo real o en lo cotidiano, mediante la implementación de “objetos”.',
+    },
+    {
+      termino: 'Pseudocódigo',
+      significado:
+        'el pseudocódigo es un lenguaje que se emplea para documentar los programas paso por paso de la forma más detallada posible.',
+    },
+    {
+      termino: '<em>Python</em>',
+      significado:
+        'es un lenguaje de programación multiplataforma y Open Source que puede ser empleado para desarrollos web, analítica de datos, automatización de operaciones y en la elaboración de programas escalables.',
+    },
+    {
+      termino: 'Variable',
+      significado:
+        'una variable es un espacio reservado en la memoria del computador donde se guardan datos u objetos como números, imágenes, texto, entre otros.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Adell, S. J., Llopis, N. M., Esteve, M. F., & Valdeolivas, N. M. (2019). El debate sobre el pensamiento. RIED. Revista iberoamericana de educación a distancia, 171-186.',
+    },
+    {
+      referencia:
+        'Cuny, Sneyder, & Wing. (2010). ¿Qué es el pensamiento computacional? Obtenido de ',
+      link:
+        'https://formacion.intef.es/pluginfile.php/109686/mod_imscp/content/2/qu_es_el_pensamiento_computacional.html ',
+    },
+    {
+      referencia:
+        'Trejos, O. I. (2021). Lógica de programación: solucionario en pseudocódigo. Ejercicios resueltos. Ediciones de la U. Recuperado de: ',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=16013',
     },
   ],
   creditos: {
