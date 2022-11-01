@@ -28,10 +28,9 @@
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4
-                div.pb-4.m-4     
-                    b.pb-3 Paradigma imperativo
-                    p.pt-3.mb-4 El desarrollador describe las instrucciones u órdenes y la máquina las ejecuta paso a paso. 
-                    p.pt-3.mb-4 Algunos lenguajes de programación de este paradigma son: Pascal, Python, C, C++, Basic, entre otros.
+                div.ms-4     
+                  p.mb-4 El desarrollador describe las instrucciones u órdenes y la máquina las ejecuta paso a paso. 
+                  p.pt-3.mb-4 Algunos lenguajes de programación de este paradigma son: Pascal, Python, C, C++, Basic, entre otros.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
@@ -40,10 +39,9 @@
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
-                div.pb-4.m-4
-                    b.pb-3 Paradigma declarativo
-                    p.pt-3.mb-4 El desarrollador declara las condiciones o restricciones que describen la problemática que se quiere resolver, pero no los pasos necesarios para llegar a la solución.
-                    p.pt-3.mb-4 Lenguajes como Haskell, Miranda y SQL hacen parte de este paradigma.
+                div.ms-4
+                  p.mb-4 El desarrollador declara las condiciones o restricciones que describen la problemática que se quiere resolver, pero no los pasos necesarios para llegar a la solución.
+                  p.pt-3.mb-4 Lenguajes como Haskell, Miranda y SQL hacen parte de este paradigma.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
@@ -52,10 +50,9 @@
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
-                div.pb-4.m-4
-                    b.pb-3 Paradigma orientado a objetos
-                    p.pt-3.mb-4 El desarrollador construye “objetos” que representan a cada uno de los elementos que hacen parte del problema que se va a resolver. Estos objetos tienen características y funciones que permiten minimizar su creación y mantenimiento. Además, se disminuyen los errores y permiten la reutilización de código.
-                    p.pt-3.mb-4 Entre los lenguajes representativos de este paradigma están: Java, Python y C# entre otros.
+                div.ms-4
+                  p.mb-4 El desarrollador construye “objetos” que representan a cada uno de los elementos que hacen parte del problema que se va a resolver. Estos objetos tienen características y funciones que permiten minimizar su creación y mantenimiento. Además, se disminuyen los errores y permiten la reutilización de código.
+                  p.pt-3.mb-4 Entre los lenguajes representativos de este paradigma están: Java, Python y C# entre otros.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
@@ -96,9 +93,6 @@
             .tarjeta.color-acento-botones.p-4(x="85%" y="17%" numero="" style='border-radius: 10px; background-color: #FFE8C8')
               h5.mb-3.text-center Estructuras repetitivas:
               p.mb-0.text-center Son las que ejecutan una estructura repetidamente si se cumple una condición.
-        //- .row
-        //-   .col-12
-        //-     img(src="@/assets/curso/temas/tema4/estructuras.svg", alt="estructuras").img100
     
     Separador  
     
@@ -407,10 +401,10 @@
               img(src="@/assets/curso/temas/tema4/infografia.svg", alt="infografia").img100
           .col-12.col-md-8.col-lg-8.ps-3.mt-5.mb-5
             .titulo-segundo.color-acento-contenido
-              h3 Infografía: Buenas prácticas de programación  
+              h3 Buenas prácticas de programación  
             p.pb-4 Las buenas prácticas de programación permiten crear aplicaciones escalables, seguras y de fácil mantenimiento.
 
-            a.boton.boton--b(:href="('/actividades/AD5/index.html')" target="_blank")
+            a.boton.boton--b(:href="('https://www.mindmeister.com/map/2325418452?t=BBIbUUFf1r')" target="_blank")
               span Realizar
               i.fas.fa-puzzle-piece
           

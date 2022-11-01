@@ -319,7 +319,6 @@
           .py-3.py-md-4(titulo="Condicional IF")
             .row
               .col-md-6
-                h4.pb3 Condicional IF
                 p.pb-2 Se utiliza cuando se desean comparar las entradas en un programa y ejecutar un bloque de código si cumple una condición.
                 p.pb-2 Por ejemplo, se tienen dos valores “m” y “n” para realizar una división, pero antes es importante verificar que “n” sea distinto de cero.
                 p.pb-2 El código en Python para realizar este algoritmo es el que se aprecia en la imagen:
@@ -334,7 +333,6 @@
           .py-3.py-md-4(titulo="Condicionales else y elif")
             .row
               .col-md-6
-                h4.pb3 Condicionales else y <em>elif</em>
                 p.pb-2 El <em>else</em> se utiliza cuando, después de validar una condición, se quiere ejecutar instrucciones que no cumplen con lo propuesto y el elif, se utiliza en los casos donde hay varias condiciones que requirieren códigos distintos. 
                 p.pb-2 A continuación, se ilustra un ejemplo con los condicionales <em>else</em> y <em>elif</em> en el lenguaje de programación Python:
               .col-md-6.pb-4
