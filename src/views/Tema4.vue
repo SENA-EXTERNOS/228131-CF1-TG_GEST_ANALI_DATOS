@@ -404,7 +404,7 @@
               h3 Buenas prácticas de programación  
             p.pb-4 Las buenas prácticas de programación permiten crear aplicaciones escalables, seguras y de fácil mantenimiento.
 
-            a.boton.boton--b(:href="('https://www.mindmeister.com/map/2325418452?t=BBIbUUFf1r')" target="_blank")
+            a.boton.boton--b(:href="('https://mm.tt/map/2325418452?t=BBIbUUFf1r')" target="_blank")
               span Realizar
               i.fas.fa-puzzle-piece
           
