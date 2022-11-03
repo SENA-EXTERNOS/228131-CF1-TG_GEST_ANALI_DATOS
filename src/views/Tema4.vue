@@ -188,14 +188,14 @@
             figure
               img(src='@/assets/curso/temas/tema4/encapsulamiento.png', alt='encapsulamiento')
     separador  
-    #t_4_3.titulo-segundo.color-primario.pt-3.pb-3
+    #t_4_3.titulo-segundo.color-primario.pt-3
       h2 4.3  Ambientes de desarrollo
 
-    .row.justify-content-center.pb-5
+    .row.justify-content-center.pb-5.position-relative
+      .rectangle
+        figure
+          img(src="@/assets/curso/temas/tema4/rectangulo.svg", alt="rectangulo", style="width: 356px; height: 98px")
       .col-10
-        .rectangle
-          figure
-            img(src="@/assets/curso/temas/tema4/rectangulo.svg", alt="rectangulo", style="width: 356px; height: 98px")
         .row.align-middle 
           .col-12.col-md-4.col-lg-4
             .tarjeta.h-50.d-flex.p-4.align-middle
