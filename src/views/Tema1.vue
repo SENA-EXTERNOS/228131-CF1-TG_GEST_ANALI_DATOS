@@ -258,7 +258,7 @@
       .container.tarjeta.tarjeta--blanca.p-3.p-md-5
         figure
           .video
-              iframe(width="560" height="315" src="https://youtu.be/b2YEEuNMA3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/b2YEEuNMA3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video 
     
     Separador

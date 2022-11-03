@@ -193,14 +193,17 @@
 
     .row.justify-content-center.pb-5
       .col-10
+        .rectangle
+          figure
+            img(src="@/assets/curso/temas/tema4/rectangulo.svg", alt="rectangulo", style="width: 356px; height: 98px")
         .row.align-middle 
           .col-12.col-md-4.col-lg-4
             .tarjeta.h-50.d-flex.p-4.align-middle
               figure
                 img(src="@/assets/curso/temas/tema4/ambientes_de_desarrollo.svg", alt="ambientes_desarrollo").img100
           .col-12.col-md-8.col-lg-8.mt-4
-              p.pt-2 Los ambientes de desarrollo de software son vitales porque permiten trabajar por capas aisladas, de modo que se puedan efectuar cambios en el código sin llegar a afectar las capas importantes como la de producción. 
-              p.pb-2 Implementar ambientes de desarrollo facilita el trabajo de los programadores, ya que permite realizar controles en las versiones, implementar pruebas de una aplicación antes de salir a producción y con ello acortar los tiempos para conseguir un desarrollo de software ágil.
+            p.pt-2 Los ambientes de desarrollo de software son vitales porque permiten trabajar por capas aisladas, de modo que se puedan efectuar cambios en el código sin llegar a afectar las capas importantes como la de producción. 
+            p.pb-2 Implementar ambientes de desarrollo facilita el trabajo de los programadores, ya que permite realizar controles en las versiones, implementar pruebas de una aplicación antes de salir a producción y con ello acortar los tiempos para conseguir un desarrollo de software ágil.
 
 
     h5.pt-4 Los ambientes de desarrollo de software más utilizados son:
