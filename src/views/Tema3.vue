@@ -198,16 +198,16 @@
             ul.ps-3.lista-ul
               li 
                 i.fas.fa-angle-right.txt--orange
-                | Definidos: son los que tienen un número de iteraciones conocidas
+                | <b class="px-1">Definidos:</b> son los que tienen un número de iteraciones conocidas
               li 
                 i.fas.fa-angle-right.txt--orange
-                | No definidos: son los que tienen un número de iteraciones desconocidas
+                | <b class="px-1">No definidos:</b> son los que tienen un número de iteraciones desconocidas
 
     .tarjeta.tarjeta--gris.p-4
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0.ps-4
-            b.pb-3 Ciclo While
+            b.pb-3 Ciclo <em>While</em>
             p.pt-3.pb-3 En esta clase de bucles, el bloque de código se repetirá mientras una condición predefinida se cumpla y se deja repetir o finalizará cuando la condición ya no es verdadera.
             p.pb-3 En el ejemplo de la imagen se observa que:
             ol.lista-ol--cuadro
@@ -218,7 +218,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Con el ciclo<em class="px-1">While </em> se establece una condición para evaluar si i es menor que 5
+                p.mb-0 Con el ciclo<em class="px-1">While</em>se establece una condición para evaluar si i es menor que 5
               li 
                 .lista-ol--cuadro__vineta
                   span 3
@@ -226,7 +226,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 4
-                | Dentro del bucle While, la variable i se incrementa en 1 con la instrucción “i + = 1”
+                p.mb-0 Dentro del bucle <em class="px-1">While</em>, la variable i se incrementa en 1 con la instrucción “i + = 1”
               li 
                 .lista-ol--cuadro__vineta
                   span 5
@@ -241,7 +241,7 @@
               img(src='@/assets/curso/temas/tema3/ciclos_2.svg', alt='alt').img100
         .row.justify-content-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
-            b.pb-3 Ciclo Do While
+            b.pb-3 Ciclo <em>Do While</em>
             p.pt-3 Es un tipo de bucle muy similar al While, con la diferencia que el código se ejecutará una vez antes de evaluar la condición.
             p.pb-3 Es muy útil cuando se necesita que la aplicación se ejecute por lo menos una vez, por ejemplo, en las aplicaciones que reciben datos de los usuarios para validar si cumple o no con un requerimiento.
             p.pb-3 En el código de la imagen se observa que:
@@ -253,11 +253,11 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Se crea un contador para iniciar en 0 posteriormente se crea el ciclo While que se ejecutará por lo menos una vez.
+                p.mb-0 Se crea un contador para iniciar en 0 posteriormente se crea el ciclo<em class="px-1">While</em>que se ejecutará por lo menos una vez.
               li 
                 .lista-ol--cuadro__vineta
                   span 3
-                | Dentro del While, se crea una variable llamada palabra que almacenará los datos que ingrese el usuario y luego se comparará con la palabra secreta establecida al principio del código.
+                p.mb-0 Dentro del <em class="px-1">While</em>, se crea una variable llamada palabra que almacenará los datos que ingrese el usuario y luego se comparará con la palabra secreta establecida al principio del código.
               li 
                 .lista-ol--cuadro__vineta
                   span 4
@@ -272,9 +272,9 @@
         
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
-            p.pb-3 Ciclo For
-            p.pb-3 También es un tipo de bucle similar al While, pero con la diferencia que, la cantidad de iteraciones es conocida desde el principio, mientras que en el ciclo While no. 
-            p.pb-3 En los ciclos <b>For</b>For las iteraciones están definidas por un rango finito y no están controladas por una condición. En la práctica este tipo de bucles son muy utilizados para recorrer listas y evaluar cada uno de sus elementos.
+            b.pb-3 Ciclo <em>For</em> 
+            p.pb-3 También es un tipo de bucle similar al<em class="px-1">While</em>,pero con la diferencia que, la cantidad de iteraciones es conocida desde el principio, mientras que en el ciclo<em class="px-1">While</em>no. 
+            p.pb-3 En los ciclos<em class="px-1">For</em>las iteraciones están definidas por un rango finito y no están controladas por una condición. En la práctica este tipo de bucles son muy utilizados para recorrer listas y evaluar cada uno de sus elementos.
             p.pb-3 En el ejemplo de la imagen se observa que:
             ol.lista-ol--cuadro
               li 
