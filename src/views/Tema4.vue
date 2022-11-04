@@ -202,11 +202,15 @@
               figure
                 img(src="@/assets/curso/temas/tema4/ambientes_de_desarrollo.svg", alt="ambientes_desarrollo").img100
           .col-12.col-md-8.col-lg-8.mt-4
-            p.pt-2 Los ambientes de desarrollo de software son vitales porque permiten trabajar por capas aisladas, de modo que se puedan efectuar cambios en el código sin llegar a afectar las capas importantes como la de producción. 
+            p.pt-2 Los ambientes de desarrollo de 
+              em software 
+              | son vitales porque permiten trabajar por capas aisladas, de modo que se puedan efectuar cambios en el código sin llegar a afectar las capas importantes como la de producción. 
             p.pb-2 Implementar ambientes de desarrollo facilita el trabajo de los programadores, ya que permite realizar controles en las versiones, implementar pruebas de una aplicación antes de salir a producción y con ello acortar los tiempos para conseguir un desarrollo de software ágil.
 
 
-    h5.pt-4 Los ambientes de desarrollo de software más utilizados son:
+    h5.pt-4 Los ambientes de desarrollo de 
+      em software 
+      | más utilizados son:
     
     .row.justify-content-center.pt-5
       .col-8
@@ -248,7 +252,8 @@
     Separador  
     
     #t_4_4.titulo-segundo.color-primario.pt-3.pb-3
-      h2 4.4  Frameworks                
+      h2 4.4 
+        em Frameworks                
     
     .row.justify-content-center
       .col-10
@@ -256,7 +261,9 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p.mb-0.pb-3 Los frameworks son herramientas que cuentan con entornos de trabajos predefinidos y características valiosas como controladores, idiomas múltiples y controles de seguridad para agilizar los tiempos de desarrollo. Un framework facilita una estructura o esqueleto sobre el que se puede construir aplicaciones sin necesidad de empezar desde cero. 
+                p.mb-0.pb-3 Los 
+                em frameworks 
+                | son herramientas que cuentan con entornos de trabajos predefinidos y características valiosas como controladores, idiomas múltiples y controles de seguridad para agilizar los tiempos de desarrollo. Un framework facilita una estructura o esqueleto sobre el que se puede construir aplicaciones sin necesidad de empezar desde cero. 
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/curso/temas/tema4/frameworks.png").img100
@@ -275,7 +282,7 @@
               .tabla-b__header
                 tr
                   th.border-0.m-0.p-0 Lenguaje
-                  td.border-0.m-0.p-0 Frameworks
+                  td.border-0.m-0.p-0: em Frameworks
               table
                 tr
                   th PHP
@@ -325,13 +332,16 @@
             img(src="@/assets/curso/temas/dislike.svg", alt="alt").img50
         .row.justify-content-center.p-0  
           .col-8.pb-5
-            b.title-like Desventajas de usar Frameworks
+            b.title-like Desventajas de usar 
+              em Frameworks
         .row.justify-content-center.pb-5  
           .col-7
             ul.lista-ul.m-0
               li.mb-0
                 i.fas.fa-angle-right
-                | Poseen versionado de software inestable
+                p.mb-0 Poseen versionado de 
+                  em software 
+                  | inestable
               li.mb-0
                 i.fas.fa-angle-right
                 | Mucho código fuente sin utilizar
@@ -350,7 +360,8 @@
           .col-12.col-md-2.col-lg-2
             img(src="@/assets/curso/temas/tema4/buenas_practicas.svg", alt="buenas_practicas").img100
           .col-12.col-md-10.col-lg-10
-              p.pb-2 Para crear software práctico, eficiente, seguro, fácil de mantener y desplegar se deben implementar una serie de principios, estándares y técnicas que conforman las buenas prácticas de programación.
+              p.pb-2 Para crear 
+                em software práctico, eficiente, seguro, fácil de mantener y desplegar se deben implementar una serie de principios, estándares y técnicas que conforman las buenas prácticas de programación.
               p.pb-2 A continuación, se presenta un conjunto de buenas prácticas de programación:
     
     SlyderF(columnas="col-lg-6 col-xl-4")
@@ -413,7 +424,7 @@
           
     Separador
     #t_4_6.titulo-segundo.color-primario.pt-3.pb-3
-      h2 4.6  Git y GitHub
+      h2 4.6 Git y GitHub
     
     .row.justify-content-center
       .col-10
@@ -445,7 +456,7 @@
           .anexo__icono.back-blue
             img(src="@/assets/curso/temas/tema2/link_imagen.svg")
           .anexo__texto
-            p <b>Enlace web.</b> Para profundizar más en el uso y los beneficios de la herramienta GIT, se recomienda revisar la documentación oficial en el enlace
+            p <b>Enlace <em>web</em>.</b> Para profundizar más en el uso y los beneficios de la herramienta GIT, se recomienda revisar la documentación oficial en el enlace
     
     .row.justify-content-center.pb-5
       .col-10
@@ -457,7 +468,9 @@
           .col-12.col-md-8.col-lg-8.mt-4
               div.pb-4 
                 b GitHub:
-              p.pb-4 GitHub es una plataforma web que permite a los usuarios guardar los archivos o repositorios que generan a través de la herramienta Git. 
+              p.pb-4 GitHub es una plataforma 
+                em web 
+                | que permite a los usuarios guardar los archivos o repositorios que generan a través de la herramienta Git. 
               p.pb-4 GitHub funciona como una red social donde los programadores tienen un perfil para mostrar los proyectos que han desarrollado y en los que se encuentran trabajando en el momento.
     
     .row.justify-content-center.pt-3
@@ -466,7 +479,7 @@
           .anexo__icono.back-blue
             img(src="@/assets/curso/temas/tema2/link_imagen.svg")
           .anexo__texto
-            p <b>Enlace web.</b> Para conocer más de GitHub se puede revisar la documentación oficial en el enlace
+            p <b>Enlace <em>web</em>.</b> Para conocer más de GitHub se puede revisar la documentación oficial en el enlace
 
 
 </template>

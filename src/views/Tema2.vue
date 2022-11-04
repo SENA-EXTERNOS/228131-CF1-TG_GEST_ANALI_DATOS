@@ -18,7 +18,9 @@
               figure
                 img(src="@/assets/curso/temas/tema2/introduccion.svg").img100
     
-    p.mb-5 Este tipo de aplicaciones ofrecen herramientas como la depuración de errores y automatización de compilaciones locales, que le proporcionan al programador o desarrollador de software, ser más eficientes en la codificación de los programas.
+    p.mb-5 Este tipo de aplicaciones ofrecen herramientas como la depuración de errores y automatización de compilaciones locales, que le proporcionan al programador o desarrollador de 
+      em software
+      | , ser más eficientes en la codificación de los programas.
 
     .row.justify-content-center.mb-5
       .col-10
@@ -53,7 +55,9 @@
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
-                  p.mb-4 Existen IDE que solamente son compatibles con un lenguaje de programación, por lo tanto, son mejores para un estilo de programación en especial, entre ellos, tenemos como ejemplo a IntellinJ, que se conoce como un IDE exclusivo para Java. Por otra parte, están los IDE que soportan varios lenguajes de programación, como es el caso de Eclipse, con el que se puede programar en Java, Python, JavaScript, PHP, C++, entre otros.
+                  p.mb-4 Existen IDE que solamente son compatibles con un lenguaje de programación, por lo tanto, son mejores para un estilo de programación en especial, entre ellos, tenemos como ejemplo a IntellinJ, que se conoce como un IDE exclusivo para Java. Por otra parte, están los IDE que soportan varios lenguajes de programación, como es el caso de Eclipse, con el que se puede programar en 
+                    em Java, Python, JavaScript
+                    | , PHP, C++, entre otros.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
@@ -100,7 +104,9 @@
         .cajon.color-primario
           .tarjeta--azul.align-middle
             .tarjeta.d-flex.p-4.align-middle
-              p Cuando se inicia en el mundo del desarrollo de software, la selección del lenguaje de programación es uno de los factores que más se tiene en cuenta para dar los primeros pasos.  También es fundamental conocer si el lenguaje elegido es compilado o interpretado.
+              p Cuando se inicia en el mundo del desarrollo de 
+                em software
+                | , la selección del lenguaje de programación es uno de los factores que más se tiene en cuenta para dar los primeros pasos.  También es fundamental conocer si el lenguaje elegido es compilado o interpretado.
   
     .row.pb-5
       .container.tarjeta.tarjeta--blanca
@@ -153,12 +159,14 @@
             td Los archivos ejecutables por lo general tienen un tamaño considerable en disco.
             td Los ejecutable generados son de un reducido tamaño y no consumen mucho espacio en disco.
       
-      Separador
+    Separador
 
-      #t_2_2.titulo-segundo.color-primario
-        h2 2.2 Python y/o R
+    #t_2_2.titulo-segundo.color-primario
+      h2 2.2 
+        em Python 
+        | y/o R
 
-      .row.justify-content-center.pb-5
+    .row.justify-content-center.pb-5
         .col-12
           .row.align-middle 
             .col-12.col-md-4.col-lg-4
@@ -166,65 +174,76 @@
                 figure
                   img(src="@/assets/curso/temas/tema2/python_1.svg", alt="alt").img100
             .col-12.col-md-8.col-lg-8.mt-4
-                p.pt-2 La analítica de datos es un campo de trabajo emocionante que combina habilidades estadísticas y cuantitativas avanzadas con habilidades de programación del mundo real. Los aspirantes a científicos de datos pueden considerar especializarse en muchos lenguajes de programación. En este componente formativo el enfoque estará en el uso de Python.
-                p.pb-2 La habilidad de programar es fundamental en la gestión y analítica de datos, no obstante, hay algunos lenguajes como Python, R, MATLAB y SQL que se destacan como los principales y más usados en dicha gestión. En este componente formativo el enfoque estará en el uso de Python.
+                p.pt-2 La analítica de datos es un campo de trabajo emocionante que combina habilidades estadísticas y cuantitativas avanzadas con habilidades de programación del mundo real. Los aspirantes a científicos de datos pueden considerar especializarse en muchos lenguajes de programación. En este componente formativo el enfoque estará en el uso de 
+                  em Python.
+                p.pb-2 La habilidad de programar es fundamental en la gestión y analítica de datos, no obstante, hay algunos lenguajes como 
+                  em Python, R, MATLAB y SQL 
+                  | que se destacan como los principales y más usados en dicha gestión. En este componente formativo el enfoque estará en el uso de 
+                  em Python.
 
-      .row.justify-content-center.pb-5
-        .col-10
-          .row.tarjeta--azul.align-middle 
-            .col-12.col-md-4.col-lg-4.mt-5
-              .tarjeta.h-50.d-flex.p-4.align-middle
-                figure
-                  img(src="@/assets/curso/temas/tema2/python_2.svg", alt="alt").img100
-            .col-12.col-md-8.col-lg-8.mt-4
-                div.pb-4 
-                  b Lenguaje de programación Python
-                p.pb-4 Python es un lenguaje de programación multiplataforma y open source que puede ser empleado para desarrollos web, analítica de datos, automatización de operaciones y en la elaboración de programas escalables. Grandes gigantes tecnológicos como Google, Netflix y  Facebook utilizan este lenguaje como base de servicios.
-            
+    .row.justify-content-center.pb-5
+      .col-10
+        .row.tarjeta--azul.align-middle 
+          .col-12.col-md-4.col-lg-4.mt-5
+            .tarjeta.h-50.d-flex.p-4.align-middle
+              figure
+                img(src="@/assets/curso/temas/tema2/python_2.svg", alt="alt").img100
+          .col-12.col-md-8.col-lg-8.mt-4
+              div.pb-4 
+                b Lenguaje de programación 
+                  em Python
+              p.pb-4 
+                em Python 
+                | es un lenguaje de programación multiplataforma y open source que puede ser empleado para desarrollos 
+                em web
+                | , analítica de datos, automatización de operaciones y en la elaboración de programas escalables. Grandes gigantes tecnológicos como Google, Netflix y Facebook utilizan este lenguaje como base de servicios.
+          
 
-      .row.justify-content-center.pb-5
-        .col-12
-          .row.align-middle 
-            .col-12.col-md-6.col-lg-6.mt-4
-                div.mb-4
-                  b Ventajas de programar en Phyton
-                ul.lista-ul.mb-0
-                  
-                  li                 
-                    i.fas.fa-angle-right.txt--orange
-                    | Rápido de aprender: su curva de aprendizaje es corta.
-                  li                 
-                    i.fas.fa-angle-right.txt--orange
-                    | Potente y multifuncional: se utiliza prácticamente en todas las ramas de la tecnología.
-                  li                 
-                    i.fas.fa-angle-right.txt--orange
-                    | Simple y práctico: para crear aplicaciones se necesitan menos líneas de código que en otros lenguajes como Java, C, C++, entre otros.
-                  li                 
-                    i.fas.fa-angle-right.txt--orange
-                    |Amplia documentación: Python cuenta con una enorme comunidad que soporta el lenguaje y es de gran utilidad cuando se necesita apoyo para resolver cualquier duda en su manejo.
-                  li                 
-                    i.fas.fa-angle-right.txt--orange
-                    | Colección de Bibliotecas: las bibliotecas también conocidas como librerías son importantes porque permiten la reutilización de código y aumentan la rapidez en el desarrollo.
-            .col-12.col-md-6.col-lg-6
-              .titulo-sexto.color-acento-contenido.mb-2.pr-2
-                h5 Figura 6.
-                br
-                em Características de python.
-              .tarjeta.h-50.d-flex.p-4.align-middle
-                figure.tarjeta--blanca
-                  img(src="@/assets/curso/temas/tema2/python_3.svg", alt="alt").img100
-      
+    .row.justify-content-center.pb-5
+      .col-12
+        .row.align-middle 
+          .col-12.col-md-6.col-lg-6.mt-4
+              div.mb-4
+                b Ventajas de programar en 
+                  em Phyton
+              ul.lista-ul.mb-0
+                
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Rápido de aprender: su curva de aprendizaje es corta.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Potente y multifuncional: se utiliza prácticamente en todas las ramas de la tecnología.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Simple y práctico: para crear aplicaciones se necesitan menos líneas de código que en otros lenguajes como Java, C, C++, entre otros.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  p.mb-0 Amplia documentación: 
+                    em Python 
+                    | cuenta con una enorme comunidad que soporta el lenguaje y es de gran utilidad cuando se necesita apoyo para resolver cualquier duda en su manejo.
+                li                 
+                  i.fas.fa-angle-right.txt--orange
+                  | Colección de Bibliotecas: las bibliotecas también conocidas como librerías son importantes porque permiten la reutilización de código y aumentan la rapidez en el desarrollo.
+          .col-12.col-md-6.col-lg-6
+            .titulo-sexto.color-acento-contenido.mb-2.pr-2
+              h5 Figura 6.
+              br
+              em Características de python.
+            .tarjeta.h-50.d-flex.p-4.align-middle
+              figure.tarjeta--blanca
+                img(src="@/assets/curso/temas/tema2/python_3.svg", alt="alt").img100
+    
 
-      p Le invitamos a ver el video donde se muestra la instalación de Python y las herramientas necesarias para programar.
+    p Le invitamos a ver el video donde se muestra la instalación de 
+      em Python 
+      | y las herramientas necesarias para programar.
 
-      .row
-        .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-          figure
-            .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/Hs6-XSFfvUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video
+    figure.mb-5
+      .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Hs6-XSFfvUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-      .row.justify-content-center.pb-5
+    .row.justify-content-center.pb-5
         .col-10
           .row.tarjeta.tarjeta--azul.align-middle 
             .col-12.col-md-4.col-lg-4.mt-5.p-0.d-table-cell
@@ -232,8 +251,10 @@
             
             .col-12.col-md-8.col-lg-8.mt-5.mb-5
               .titulo-segundo.color-primario
-                h3 Infografia de los campos de aplicacion de Python
-              p.pb-4 La multifuncionalidad de Python permite que este lenguaje de programación tenga incursión en los principales campos de la tecnología como data science, machine learning, testing, seguridad informática y desarrollo web.
+                h3 Infografia de los campos de aplicacion de 
+                  em Python
+              p.pb-4 La multifuncionalidad de Python permite que este lenguaje de programación tenga incursión en los principales campos de la tecnología como data science, machine learning, testing, seguridad informática y desarrollo 
+                em web.
 
               a.boton.boton--b(:href="obtenerLink('/actividades/AD5/index.html')" target="_blank")
                 span Realizar
@@ -244,14 +265,20 @@
     #t_2_3.titulo-segundo.color-primario
       h2 2.3  Google colab
 
-    p.mb-5 Colab, también conocido como Colaboratory, te permite programar y ejecutar Python en el navegador Web, no requiere configuraciones y permite contenido con facilidad. A continuación, te invitamos a conocer esta herramienta.
+    p.mb-5 Colab, también conocido como Colaboratory, te permite programar y ejecutar 
+      em Python 
+      | en el navegador 
+      em Web
+      | , no requiere configuraciones y permite contenido con facilidad. A continuación, te invitamos a conocer esta herramienta.
 
     .row.justify-content-center.mb-5
       .col-10
         .tarjeta--azul.align-middle
           div.text-center.p-3
             h4 ¿Qué es Google colab?
-          p.ps-5.pe-5.pb-5 Colab es un entorno colaborativo que posibilita la ejecución del lenguaje de programación Python sin necesidad de instalar ningún componente de forma local, ya que, es netamente implementado en la nube de Google y no requiere configuración previa para iniciar a programar.
+          p.ps-5.pe-5.pb-5 Colab es un entorno colaborativo que posibilita la ejecución del lenguaje de programación 
+            em Python 
+            | sin necesidad de instalar ningún componente de forma local, ya que, es netamente implementado en la nube de Google y no requiere configuración previa para iniciar a programar.
     
     .row.justify-content-center.pt-5.ps-3.pe-3.pb-5
       .col-12.col-md-6.tarjeta.back-like.p-0
@@ -302,8 +329,6 @@
               li.mb-0
                 i.fas.fa-angle-right
                 | Los datos que sean importados en el entorno se pierden una vez se cierra la conexión
-
-    
     
     .row.justify-content-center.pt-3
       .col-lg-6
@@ -311,23 +336,40 @@
           .anexo__icono.back-blue
             img(src="@/assets/curso/temas/tema2/link_imagen.svg")
           .anexo__texto
-            p <b>Enlace web.</b> Para ampliar más sobre el uso de Google Colab se puede revisar la documentación oficial en el enlace
+            p 
+              b Enlace 
+                em web. 
+              | Para ampliar más sobre el uso de Google Colab se puede revisar la documentación oficial en el enlace
     
     Separador
     
     #t_2_4.titulo-segundo.color-primario
-          h2 2.4  Jupyter
+          h2 2.4 
+            em Jupyter
     
     .row.justify-content-center.pt-3
       .col-12
-        A continuación, podrá conocer acerca del entorno de desarrollo Jupyter que permite ejecutar al igual que colab ejecutar código Python y otros lenguajes de programación, todo a través del navegador Web.
+        A continuación, podrá conocer acerca del entorno de desarrollo 
+          em Jupyter 
+          | que permite ejecutar al igual que colab ejecutar código 
+          em Python 
+          | y otros lenguajes de programación, todo a través del navegador 
+          em Web.
     .row.justify-content-center.mb-5.pt-2
       .col-10
         .tarjeta--azul.align-middle
           .tarjeta.p-4.align-middle
             div.text-center.pb-3
               h4 ¿Qué es Jupyter?
-            p.pb-4 Jupyter es un entorno de desarrollo basado en la web que se utiliza para trabajar en ciencia de datos de forma simple y enfocada en documentos. Al igual que Google Colab, Jupyter permite tanto código como celdas de texto que incorporan el formato markdown (lenguaje de marcado sencillo que se utiliza para agregar formato a los textos dentro de un documento).
+            p.pb-4 
+              em Jupyter 
+              | es un entorno de desarrollo basado en la 
+              em web 
+              | que se utiliza para trabajar en ciencia de datos de forma simple y enfocada en documentos. Al igual que Google Colab, 
+              em Jupyter 
+              | permite tanto código como celdas de texto que incorporan el formato 
+              em markdown 
+              | (lenguaje de marcado sencillo que se utiliza para agregar formato a los textos dentro de un documento).
     
     
     .row.justify-content-center.pt-5.ps-3.pe-3.pb-5
@@ -337,7 +379,8 @@
             img(src="@/assets/curso/temas/like.svg", alt="alt").img50
         .row.justify-content-center.p-0  
           .col-5.pb-4
-            b.title-like Ventajas de Jupyter
+            b.title-like Ventajas de 
+              em Jupyter
         .row.justify-content-center.pb-5  
           .col-8
             ul.lista-ul.m-0
@@ -349,20 +392,24 @@
                 | Se puede utilizar sin conexión a internet
               li.mb-0
                 i.fas.fa-angle-right
-                | Es Open source y gratuito
+                p.mb-0.text-white Es 
+                  em Open source 
+                  | y gratuito
               li.mb-0
                 i.fas.fa-angle-right
                 | Proporciona opciones de colaboración con JupyterHub
               li.mb-0
                 i.fas.fa-angle-right
-                | Permite el control de versiones en sus Notebooks
+                p.mb-0.text-white Permite el control de versiones en sus 
+                  em Notebooks
       .col-12.col-md-6.tarjeta.back-dislike.p-0
         .row.justify-content-center
           .figure.col-5.p-0
             img(src="@/assets/curso/temas/dislike.svg", alt="alt").img50
         .row.justify-content-center.p-0  
           .col-6.pb-4
-            b.title-like Desventajas de Jupyter
+            b.title-like Desventajas de 
+              em Jupyter
         .row.justify-content-center.pb-5  
           .col-8
             ul.lista-ul.m-0
@@ -382,7 +429,9 @@
           .anexo__icono.back-blue
             img(src="@/assets/curso/temas/tema2/link_imagen.svg", alt="alt")
           .anexo__texto
-            p <b>Enlace web.</b> Para ampliar más sobre el uso de Jupyter puede revisar la documentación oficial en el enlace
+            p <b>Enlace <em>web</em>.</b> Para ampliar más sobre el uso de 
+              em Jupyter 
+              | puede revisar la documentación oficial en el enlace
             
 </template>
 

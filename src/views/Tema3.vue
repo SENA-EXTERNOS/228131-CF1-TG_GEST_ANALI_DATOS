@@ -108,27 +108,33 @@
     p.pb-3 Los operadores booleanos u operadores lógicos son símbolos que actúan como conectores de entre conceptos y se emplean para realizar búsquedas, incrementar o limitar los datos.  Dentro de los operadores booleanos más comunes se encuentran:
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Operador AND")
+      .row(titulo="Operador <em>AND</em>")
         .col-md-6.mb-4.mb-md-0
           p Este operador sirve para realizar una búsqueda de los elementos comunes entre los dos conjuntos comparados
         .col-md-6
           img(src='@/assets/curso/temas/tema3/operador_booleanos_logico_1.svg', alt='alt').img100
 
-      div(titulo="Operador OR")
+      div(titulo="Operador <em>OR</em>")
         .row
           .col-md-6.mb-4.mb-md-0
-            p El operador OR, halla elementos de la unión de los dos conjuntos, por lo tanto, es de utilidad para asociar palabras.
+            p El operador 
+              em OR
+              | , halla elementos de la unión de los dos conjuntos, por lo tanto, es de utilidad para asociar palabras.
           .col-md-6
             img(src='@/assets/curso/temas/tema3/operador_booleanos_logico_1.svg', alt='alt').img100
       
-      div(titulo="Operador NOT")
+      div(titulo="Operador <em>NOT</em>")
         .row 
           .col-md-6.mb-4.mb-md-0
-            p Con el operador NOT, la búsqueda solo devuelve el elemento que está en el primer conjunto y no en el segundo
+            p Con el operador 
+              em NOT
+              | , la búsqueda solo devuelve el elemento que está en el primer conjunto y no en el segundo
           .col-md-6
             img(src='@/assets/curso/temas/tema3/operador_booleanos_logico_1.svg', alt='alt').img100
 
-    h5.pt-5.pb-3 En Python se trabaja con operadores booleanos así:
+    h5.pt-5.pb-3 En 
+      em Python 
+      | se trabaja con operadores booleanos así:
     
     .row.justify-content-center.pt-4.pb-4
       .col-10
@@ -144,16 +150,29 @@
                 td.border-0.m-0.p-0 Descripción
             table
               tr
-                th AND
-                td La salida es True si ambos elementos son True.
+                th: em AND
+                td: p La salida es 
+                  em True 
+                  | si ambos elementos son 
+                  em True.
               tr
-                th ORD
-                td La salida es True si por lo menos un elemento es True.
+                th: em OR
+                td: p La salida es 
+                  em True 
+                  | si por lo menos un elemento es 
+                  em True.
               tr
-                th NOT
-                td La salida devuelve el contrario, por ejemplo, si es False, la salida será True.
+                th: em NOT
+                td: p La salida devuelve el contrario, por ejemplo, si es 
+                  em False
+                  | , la salida será 
+                  em True.
 
-    h5.pt-5.pb-3 Operador AND en Python:
+    h5.pt-5.pb-3 Operador 
+      em AND 
+      | en 
+      em Python
+      | :
 
     .row.justify-content-center.pb-4
       .col-9
@@ -185,7 +204,9 @@
     Separador
 
     #t_3_3.titulo-segundo.color-primario.pb-3
-      h2 3.3 Ciclos (Do While, While y For)
+      h2 3.3 Ciclos (
+        em Do While, While y For
+        | )
 
     .row.justify-content-center.pb-5
       .col-12
@@ -242,7 +263,9 @@
         .row.justify-content-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             b.pb-3 Ciclo <em>Do While</em>
-            p.pt-3 Es un tipo de bucle muy similar al While, con la diferencia que el código se ejecutará una vez antes de evaluar la condición.
+            p.pt-3 Es un tipo de bucle muy similar al 
+              em While
+              | , con la diferencia que el código se ejecutará una vez antes de evaluar la condición.
             p.pb-3 Es muy útil cuando se necesita que la aplicación se ejecute por lo menos una vez, por ejemplo, en las aplicaciones que reciben datos de los usuarios para validar si cumple o no con un requerimiento.
             p.pb-3 En el código de la imagen se observa que:
             ol.lista-ol--cuadro
@@ -316,7 +339,7 @@
     .row.pt-5
       .container.tarjeta.tarjeta--blanca
         TabsC.color-primario
-          .py-3.py-md-4(titulo="Condicional IF")
+          .py-3.py-md-4(titulo="Condicional <em>IF</em>")
             .row
               .col-md-6
                 p.pb-2 Se utiliza cuando se desean comparar las entradas en un programa y ejecutar un bloque de código si cumple una condición.
@@ -330,7 +353,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/condicional_if.svg', alt='alt').img100
  
-          .py-3.py-md-4(titulo="Condicionales else y elif")
+          .py-3.py-md-4(titulo="Condicionales <em>else</em> y <em>elif</em>")
             .row
               .col-md-6
                 p.pb-2 El <em>else</em> se utiliza cuando, después de validar una condición, se quiere ejecutar instrucciones que no cumplen con lo propuesto y el elif, se utiliza en los casos donde hay varias condiciones que requirieren códigos distintos. 

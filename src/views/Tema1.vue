@@ -109,7 +109,7 @@
             b Ejemplo de algoritmo para iniciar sesión en una aplicación. 
             br
             figure
-             img(src='@/assets/curso/temas/tema1/slide_8_texto.svg', alt='Algoritmo_Inicio_De_sesion')
+             img(src='@/assets/curso/temas/tema1/slide_8_texto.svg', alt='Algoritmo_Inicio_De_sesion' style='width: 310px;margin-top:1em')
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_8.png')
@@ -252,7 +252,11 @@
             p.mb-0.pb-4 Existen herramientas como <em>PSeInt</em> que asisten a los estudiantes para dar sus primeros pasos en programación. <em>PSeInt</em> cuenta con la opción de crear flujogramas. 
             p.mb-0 A continuación, encontrará un video que muestra la instalación de esta herramienta en un sistema operativo <em>Windows</em> y la creación de un diagrama de flujo de ejemplo.
    
-    p.pt-5 Te invitamos a ver el tutorial que explica el proceso de instalación de la herramienta <em>Pseint</em> titulado “Instalación de Pseint” de Tordecilla, (2022) y que encuentras en material complementario
+    p.pt-5 Te invitamos a ver el tutorial que explica el proceso de instalación de la herramienta 
+      em Pseint 
+      | titulado “Instalación de 
+      em Pseint
+      | ” de Tordecilla, (2022) y que encuentras en material complementario
     
     .row.justify-content-center
       .container.tarjeta.tarjeta--blanca.p-3.p-md-5
