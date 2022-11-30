@@ -288,7 +288,7 @@ export default {
       referencia:
         '<em>Instalación de Pseint</em>. (2022). [Vídeo]. One Drive. https://1drv.ms/v/s!AmN5mLAAnCdygbUccnpIfFVYGCB1ew?e=KS5WqV',
       tipo: 'Video',
-      descarga: 'https://1drv.ms/v/s!AmN5mLAAnCdygbUccnpIfFVYGCB1ew?e=KS5WqV',
+      descarga: 'https://www.youtube.com/watch?v=O3O92dA6xf8',
     },
   ],
   glosario: [
