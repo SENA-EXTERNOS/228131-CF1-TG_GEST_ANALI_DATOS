@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="271" viewBox="0 0 350 271">
+  <text id="Algoritmo_para_iniciar_sesión:_Inicio_Paso_1._Cargar_formulario_de_ingreso._Paso_2._Capturar_usuario_y_contraseña._Paso_3._Consultar_base_de_datos._Paso_4._Verificar_usuario_y_contraseña:_Si_existen_y_son_iguales_a_los_ingresados:_Iniciar_" data-name="Algoritmo para iniciar sesión:
+Inicio
+Paso 1. Cargar formulario de ingreso.
+Paso 2. Capturar usuario y contraseña.
+Paso 3. Consultar base de datos.
+Paso 4. Verificar usuario y contraseña:
+Si existen y son iguales a los ingresados:
+                 Iniciar " transform="translate(1)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="17">Algoritmo para iniciar sesión:</tspan><tspan font-family="Roboto-Regular, Roboto" font-style="normal"><tspan x="0" y="41">Inicio</tspan><tspan x="0" y="65">Paso 1. </tspan><tspan y="65" font-family="Roboto-Bold, Roboto" font-weight="700">Cargar formulario de ingreso.</tspan><tspan x="0" y="89">Paso 2. </tspan><tspan y="89" font-family="Roboto-Bold, Roboto" font-weight="700">Capturar usuario y contraseña.</tspan><tspan x="0" y="113">Paso 3. </tspan><tspan y="113" font-family="Roboto-Bold, Roboto" font-weight="700">Consultar base de datos.</tspan><tspan x="0" y="137">Paso 4.</tspan><tspan y="137" xml:space="preserve" font-family="Roboto-Bold, Roboto" font-weight="700"> Verificar usuario y contraseña:</tspan></tspan><tspan font-family="Roboto-Bold, Roboto" font-weight="700" font-style="normal"><tspan x="0" y="161">Si existen y son iguales a los ingresados:</tspan><tspan x="0" y="185" xml:space="preserve">                 Iniciar sesión.</tspan></tspan><tspan font-family="Roboto-Regular, Roboto" font-style="normal"><tspan x="0" y="209">Sí no:</tspan><tspan x="0" y="233" xml:space="preserve">                 </tspan><tspan y="233" font-family="Roboto-Bold, Roboto" font-weight="700">Mostrar error.</tspan><tspan x="0" y="257">Fin.</tspan></tspan></text>
+</svg>

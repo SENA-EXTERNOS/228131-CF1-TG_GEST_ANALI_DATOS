@@ -1,0 +1,29 @@
+<svg id="Group_109065" data-name="Group 109065" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169.101" height="196.557" viewBox="0 0 169.101 196.557">
+  <g id="Elipse_4774" data-name="Elipse 4774">
+    <circle id="Ellipse_4781" data-name="Ellipse 4781" cx="84.551" cy="84.551" r="84.551" fill="#0f2771"/>
+    <circle id="Ellipse_4782" data-name="Ellipse 4782" cx="83.89" cy="83.89" r="83.89" transform="translate(0.661 0.661)" fill="#0f2771"/>
+  </g>
+  <g id="Group_109064" data-name="Group 109064" transform="translate(49.845 98.412)">
+    <path id="Path_115541" data-name="Path 115541" d="M2818.859,3452.682l36.008,7.842,17.95-14.667-33.676-5.871Z" transform="translate(-2816.656 -3410.379)" fill="#e0f3ff"/>
+    <image id="Rectangle_40516" data-name="Rectangle 40516" width="39.103" height="42.658" transform="translate(0 8.295)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAkCAYAAAAHKVPcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACMSURBVFhH7dcxDoAgEERRsPIKnsXr61X0CNphYpiICASCLM38Zrd87ehlO4xymqdR21esDyJWS1w2IlUt8BdErFxcU0QsH6eNMWrdT3GI22Bv14hARCAiEBGICEQEIgIRgYhARCAi0L07UK/98UL4SaGSiFAtYMWIULWwXxB+pagmiFApmBjC70EpdQH1UkktboArYQAAAABJRU5ErkJggg=="/>
+    <image id="Rectangle_40517" data-name="Rectangle 40517" width="18.959" height="47.397" transform="translate(37.918 3.555)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAoCAYAAAD32nqhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACWSURBVEhL7ZJLDsMgDAWdrHOH3P9YvUP3VIP0qrThY7uLbhgJCRYzMoitlGIZHk+r4l5PQSRDaIKrKFyBliimVxjJ0J1gJopbwCuKdyAqivoGWRn2X2RIfaQrK7ACsAIrAP8NnIdtqQAii304IFGEAt8yuAMtGVyBngzDAOJIhm5gJopmwCvDLRCR4SMQlaEGEDOymdkLjpAxFecBUdoAAAAASUVORK5CYII="/>
+    <g id="Group_109063" data-name="Group 109063">
+      <image id="Rectangle_40518" data-name="Rectangle 40518" width="56.877" height="15.404" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAANCAYAAADv5u30AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACGSURBVEhL1ZNBDoAgDASXu3/w/8/yD94xGGokZLEUCTCnnshMaJ33Hi0cJ1QP7BtcHH/FFKCVrsEaWBXQQ1wLC1QFjBT/ggbMLC2EX8kCVhAPyEo9AauJC3fAKusSx4RkhWYNYfIBesRvRoWVxAVVQIkecRpxoTmAYQmrERe6BTBYmEUeAC7VF027x2S91AAAAABJRU5ErkJggg=="/>
+      <path id="Path_115542" data-name="Path 115542" d="M2824.694,3420.017l37.4,4.527v33.409l4.356-3.6v-32.383l-36.394-4.277Z" transform="translate(-2815.577 -3414.502)" fill="#81cff7" opacity="0.4" style="mix-blend-mode: multiply;isolation: isolate"/>
+    </g>
+  </g>
+  <text id="objetos_7_Hola_True_3.5_" data-name="objetos=[ 7, ‘Hola’, True, 3.5 ]" transform="translate(13.551 54.108)" fill="#e0f3ff" font-size="11" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="0">objetos=[ </tspan><tspan y="0" fill="#15e1ff">7</tspan><tspan y="0">, </tspan><tspan y="0" fill="#56ff00">‘Hola’</tspan><tspan y="0">, True, </tspan><tspan y="0" fill="#15e1ff">3.5</tspan><tspan y="0" xml:space="preserve"> ]</tspan></text>
+  <text id="_7" data-name="7" transform="translate(25.896 89.151)" fill="#d44100" font-size="14" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="0">7</tspan></text>
+  <text id="_Hola_" data-name="‘Hola’" transform="translate(54.595 80.758)" fill="#2ee900" font-size="14" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="0">‘Hola’</tspan></text>
+  <text id="True" transform="translate(95.26 81.873)" fill="#e0f3ff" font-size="14" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="0">True</tspan></text>
+  <text id="_3.5" data-name="3.5" transform="translate(129.628 84.496)" fill="#d44100" font-size="14" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="0">3.5</tspan></text>
+  <path id="Path_115543" data-name="Path 115543" d="M2802.895,3404.024s17.161-4.984,22.033,14.406" transform="translate(-2769.763 -3318.724)" fill="none" stroke="#e0f3ff" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="Path_115544" data-name="Path 115544" d="M2846.231,3404.285s7.957,2.768,10.777,9.309" transform="translate(-2761.749 -3318.569)" fill="none" stroke="#e0f3ff" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="Path_115545" data-name="Path 115545" d="M2875.591,3406.635s8.693,12.765-3.592,24.766" transform="translate(-2756.983 -3318.135)" fill="none" stroke="#e0f3ff" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="Path_115546" data-name="Path 115546" d="M2898.342,3404.8s15.73,35.408-26.342,47.831" transform="translate(-2756.983 -3318.474)" fill="none" stroke="#e0f3ff" stroke-miterlimit="10" stroke-width="1"/>
+  <text id="Lista" transform="translate(65.349 36.248)" fill="#feca2e" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Lista</tspan></text>
+  <path id="Path_115547" data-name="Path 115547" d="M2824.747,3413.584l-5.636,2.13,4.663,3.816Z" transform="translate(-2766.764 -3316.849)" fill="#e0f3ff"/>
+  <path id="Path_115548" data-name="Path 115548" d="M2858.065,3411.153l-5.636,2.13,4.663,3.816Z" transform="translate(-2760.602 -3317.299)" fill="#e0f3ff"/>
+  <path id="Path_115549" data-name="Path 115549" d="M2871.075,3425.241l-2.6,5.437,6.007-.469Z" transform="translate(-2757.635 -3314.694)" fill="#e0f3ff"/>
+  <path id="Path_115550" data-name="Path 115550" d="M2872.689,3442.177l-4.249,4.272,5.824,1.544Z" transform="translate(-2757.641 -3311.562)" fill="#e0f3ff"/>
+</svg>
