@@ -258,14 +258,14 @@ export default {
       referencia:
         'Diaz, D. (2022). <em>7 lenguajes de programación para usar en ciencia de datos. Geekflare</em>. Recuperado el 17 de agosto de 2022.',
       tipo: 'Artículo',
-      descarga: 'https://geekflare.com/es/data-science-programming-languages/ ',
+      link: 'https://geekflare.com/es/data-science-programming-languages/ ',
     },
     {
       tema: 'Buenas Prácticas de Programación',
       referencia:
         'Niño, y. E., Morales, M. del R., Vázquez, S., & Sánchez, B. E. (2020). Mejores prácticas y criterios de calidad en el proceso de desarrollo de código en los cursos de programación en la enseñanza superior. <em>Revista Tecnología, Ciencia y Educación</em>, (17), 97–126.',
       tipo: 'Otro',
-      descarga:
+      link:
         'https://www.tecnologia-ciencia-educacion.com/index.php/TCE/article/view/489/315 ',
     },
     {
@@ -273,14 +273,14 @@ export default {
       referencia:
         'Das, T. (2022). <em>Google Colab</em>: todo lo que necesitas saber. Geekflare.',
       tipo: 'Artículo',
-      descarga: 'https://geekflare.com/es/google-colab/',
+      link: 'https://geekflare.com/es/google-colab/',
     },
     {
       tema: 'Listas en <em>Python</em>',
       referencia:
         'Meza, J. (2021). Listas (<em>arrays</em>, arreglos o vectores) en <em>Python</em>. Uso y creación de listas en <em>Python</em>. <em>Programar YA</em>.',
       tipo: 'Artículo',
-      descarga:
+      link:
         'https://www.programarya.com/Cursos/Python/estructuras-de-datos/listas',
     },
     {
