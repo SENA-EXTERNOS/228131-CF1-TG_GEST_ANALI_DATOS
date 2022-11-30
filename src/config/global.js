@@ -285,8 +285,7 @@ export default {
     },
     {
       tema: '<em>Pseint</em>',
-      referencia:
-        '<em>Instalación de Pseint</em>. (2022). [Vídeo]. Youtube',
+      referencia: '<em>Instalación de Pseint</em>. (2022). [Vídeo]. Youtube',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=O3O92dA6xf8',
     },
