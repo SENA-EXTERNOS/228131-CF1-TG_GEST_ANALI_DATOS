@@ -29,7 +29,7 @@
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4
                 div.ms-4     
-                  p.mb-4 El desarrollador describe las instrucciones u órdenes y la máquina las ejecuta paso a paso. 
+                  p.mb-4 El desarrollador describe las instrucciones o las órdenes y la máquina las ejecuta paso a paso. 
                   p.pt-3.mb-4 Algunos lenguajes de programación de este paradigma son: Pascal, Python, C, C++, Basic, entre otros.
               .col-12.col-md-4.col-lg-4
                 .tarjeta.h-50.d-flex.p-4.align-middle
@@ -46,7 +46,7 @@
                 .tarjeta.h-50.d-flex.p-4.align-middle
                   figure
                     img(src="@/assets/curso/temas/tema4/paradigma_declarativo.svg", alt="paradigma_declarativo").img100
-          .tarjeta.clr--gris(titulo="Paradigma orientado a objetos")
+          .tarjeta.clr--gris(titulo="Paradigma orientado<br> a objetos")
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
@@ -58,10 +58,7 @@
                   figure
                     img(src="@/assets/curso/temas/tema4/object_oriented.svg", alt="paradigma_orientado_objetos").img100
 
-    Separador
-    
-    #t_4_1.titulo-segundo.color-primario.pt-3.pb-1
-      h2 4.1  Programación estructurada
+    h3.mt-5 Programación estructurada
     
     .row.justify-content-center
       .col-12
@@ -70,7 +67,7 @@
       .col-8
         .row.align-middle
           .titulo-sexto.color-acento-contenido.mb-2.pr-2
-            h5 Figura 22.
+            h5 Figura 13
             br
             em Tipos de estructuras
             .imgCont.m-auto
@@ -94,19 +91,16 @@
               h5.mb-3.text-center Estructuras repetitivas:
               p.mb-0.text-center Son las que ejecutan una estructura repetidamente si se cumple una condición.
     
-    Separador  
-    
-    #t_4_2.titulo-segundo.color-primario.pt-3.pb-3
-      h2 4.2  Programación Orientada a Objetos     
+    h3 Programación orientada a objetos
     .row.justify-content-center.mb-5
       .col-10.position-relative
-        .avatar
+        .avatar.ps-5
           figure
-            img(src="@/assets/curso/temas/tema4/el_pensador.svg", alt="el_pensador", style="width: 500px;").img250
+            img.ps-5(src="@/assets/curso/temas/tema4/el_pensador.svg", alt="el_pensador", style="width: 500px;").img250
         .crd.crd--avatarHorizontal.crd--first.clr--azul.py-4.back-yellow
           .row.align-items-center
             .col-8.ms-4
-              p La programación orientada a objetos o POO por sus siglas es un paradigma de programación que permite ordenar el código de forma similar a como se piensa en el mundo real o en lo cotidiano, por ejemplo, cosas como: vehículo, perro, mesa o computador, son representados como clases que poseen unas características, que en el caso del vehículo podrían ser la marca, el modelo, el cilindraje, entre otras.
+              p La programación orientada a objetos en POO, por su sigla, es un paradigma de programación que permite ordenar el código de forma similar a como se piensa en el mundo real o en lo cotidiano; por ejemplo, artículos como: vehículo, perro, mesa o computador, son representados como clases que poseen unas características que, en el caso del vehículo, podrían ser la marca, el modelo, el cilindraje, entre otras.
         .crd.crd--avatarHorizontal.py-4.back-yellow-2
           .row.align-items-center
             .col-8.ms-4
@@ -117,18 +111,15 @@
               p Por último, está el concepto de objeto que identifica a cada elemento de una clase, es decir vehículo es la clase, pero una camioneta, un bus, una moto, sería un objeto de la clase vehículo.
     .row.justify-content-center
       .col-12.pt-4.pb-4
-        b La programación orientada a objetos tiene 6 pilares fundamentales
+        b La programación orientada a objetos, contiene 6 pilares fundamentales:
 
     TabsB.color-primario
       .py-4.py-md-5(titulo="Herencia")
         .row
           .col-md-6.mb-4.mb-md-0
             p Es el mecanismo por el cual una clase llamada hija hereda los métodos y atributos de una clase padre. La clase hija podrá modificar los métodos o atributos heredados o también crear unos nuevos. 
-            p.pt-3 En Python se definen así: 
+            
           .col-md-6
-            .titulo-sexto.color-secundario.mb-2.pr-2
-              h5 Figura 13.
-              span Ejemplo de herencia
             figure
               img(src='@/assets/curso/temas/tema4/herencia.png', alt='herencia')
       .py-4.py-md-5(titulo="Cohesión")
@@ -137,9 +128,6 @@
             p Este principio se refiere al grado de relación entre los elementos de un mismo bloque de código. Permite la reutilización de código y evita la repetición de una misma instrucción. 
             p.pt-3 En la imagen se muestra un ejemplo de cohesión en Python: 
           .col-md-6
-            .titulo-sexto.color-secundario.mb-2.pr-2
-              h5 Figura 24.
-              span Ejemplo de Cohesión en Python
             figure
               img(src='@/assets/curso/temas/tema4/cohesion.png', alt='cohesion')
       .py-4.py-md-5(titulo="Polimorfismo")
@@ -149,8 +137,7 @@
             p.pt-3 En lenguajes de programación fuertemente tipados como Java se evidencia esta propiedad con mayor claridad.
           .col-md-6
             .titulo-sexto.color-secundario.mb-2.pr-2
-              h5 Figura 25.
-              span Polimorfismo
+              p.mb-0 Polimorfismo          
             figure
               img(src='@/assets/curso/temas/tema4/polimorfismo.png', alt='polimorfismo')
       .py-4.py-md-5(titulo="Abstracción")
@@ -158,11 +145,10 @@
           .col-md-6.mb-4.mb-md-0
             p Con la abstracción se consigue ocultar la complejidad y se ofrecen funcionalidades que son sencillas de utilizar. 
             p.pt-3 El usuario podrá acceder a ellas sin necesidad de saber qué hay dentro y cómo funcionan.
-            p.pt-3 En la programación orientada a objetos las clases pueden ofrecer métodos que contienen muchas líneas de código y que pueden ser utilizadas con solo una llamada, por ejemplo, llamada_metodo_abstracto ().
+            p.pt-3 En la programación orientada a objetos las clases pueden ofrecer métodos que contienen muchas líneas de código y que pueden ser utilizadas con solo una llamada, por ejemplo: llamada_metodo_abstracto ().
           .col-md-6
             .titulo-sexto.color-secundario.mb-2.pr-2
-              h5 Figura 26.
-              span Ejemplo de método abstracto
+              p.mb-0 Ejemplo de método abstracto
             figure
               img(src='@/assets/curso/temas/tema4/abstraccion.png', alt='abstraccion')
       .py-4.py-md-5(titulo="Acoplamiento")
@@ -172,8 +158,7 @@
             p.pt-3 Este concepto está relacionado con el principio de cohesión visto anteriormente, dado que un acoplamiento bajo implica una cohesión alta.
           .col-md-6
             .titulo-sexto.color-secundario.mb-2.pr-2
-              h5 Figura 27.
-              span Ejemplo de acoplamiento de clases
+              p.mb-0 Ejemplo de acoplamiento de clases
             figure
               img(src='@/assets/curso/temas/tema4/acoplamiento.png', alt='acoplamiento')
       .py-4.py-md-5(titulo="Encapsulamiento")
@@ -182,14 +167,9 @@
             p Este es uno de los principios más importantes de la programación orientada a objetos, porque permite que las clases puedan ocultar sus estados internos con el exterior, de modo que, los atributos o métodos internos de la clase no podrán ser accedidos ni alterados desde otra clase, sino por el mismo objeto. 
             p.pt-3 En Python de forma predeterminada no se ocultan los atributos o métodos de las clases al exterior.
           .col-md-6
-            .titulo-sexto.color-secundario.mb-2.pr-2
-              h5 Figura 28.
-              span Encapsulamiento
             figure
               img(src='@/assets/curso/temas/tema4/encapsulamiento.png', alt='encapsulamiento')
-    separador  
-    #t_4_3.titulo-segundo.color-primario.pt-3
-      h2 4.3  Ambientes de desarrollo
+    h3.mt-5 Ambientes de desarrollo
 
     .row.justify-content-center.pb-5.position-relative
       .rectangle
@@ -202,23 +182,19 @@
               figure
                 img(src="@/assets/curso/temas/tema4/ambientes_de_desarrollo.svg", alt="ambientes_desarrollo").img100
           .col-12.col-md-8.col-lg-8.mt-4
-            p.pt-2 Los ambientes de desarrollo de 
-              em software 
-              | son vitales porque permiten trabajar por capas aisladas, de modo que se puedan efectuar cambios en el código sin llegar a afectar las capas importantes como la de producción. 
-            p.pb-2 Implementar ambientes de desarrollo facilita el trabajo de los programadores, ya que permite realizar controles en las versiones, implementar pruebas de una aplicación antes de salir a producción y con ello acortar los tiempos para conseguir un desarrollo de software ágil.
+            p.pt-2 Los ambientes de desarrollo de <i>software</i> son vitales, porque permiten trabajar por capas aisladas, de modo que se puedan efectuar cambios en el código sin llegar a afectar las capas importantes, como la de producción. 
+            p.pb-2 Implementar ambientes de desarrollo, facilita el trabajo de los programadores, porque permite realizar controles en las versiones, implementar pruebas de una aplicación antes de salir a producción y, con esto, acortar los tiempos para conseguir un desarrollo de <i>software</i> ágil.
 
 
-    h5.pt-4 Los ambientes de desarrollo de 
-      em software 
-      | más utilizados son:
+    h5.pt-4 Los ambientes de desarrollo de <i>software</i> más utilizados son:
     
     .row.justify-content-center.pt-5
       .col-8
         .row.align-middle
           .titulo-sexto.color-acento-contenido.mb-2.pr-2
-            h5 Figura 29.
+            h5 Figura 14
             br
-            em Ambientes de desarrollo.
+            em Ambientes de desarrollo de software
           .row
             .col-sm-6.col-lg-3.mb-4.mb-lg-0
               .tarjeta.p-4.border
@@ -249,11 +225,7 @@
                   figure
                       img(src='@/assets/curso/temas/tema4/ambiente_produccion.svg', alt='ambiente_produccion')
     
-    Separador  
-    
-    #t_4_4.titulo-segundo.color-primario.pt-3.pb-3
-      h2 4.4 
-        em Frameworks                
+    h3.fst-italic.mt-5 Frameworks                
     
     .row.justify-content-center
       .col-10
@@ -261,9 +233,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p.mb-0.pb-3 Los 
-                em frameworks 
-                | son herramientas que cuentan con entornos de trabajos predefinidos y características valiosas como controladores, idiomas múltiples y controles de seguridad para agilizar los tiempos de desarrollo. Un framework facilita una estructura o esqueleto sobre el que se puede construir aplicaciones sin necesidad de empezar desde cero. 
+                p.mb-0.pb-3 Los <i>frameworks</i> son herramientas que cuentan con entornos de trabajos predefinidos y características valiosas como controladores, idiomas múltiples y controles de seguridad, para agilizar los tiempos de desarrollo. Un <i>framework</i> facilita una estructura o esqueleto sobre el que se pueden construir aplicaciones sin necesidad de empezar desde cero. 
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/curso/temas/tema4/frameworks.png").img100
@@ -274,7 +244,7 @@
       .col-10
         .row.align-middle
           .titulo-sexto.color-acento-contenido.mb-2.pr-2
-            h5 Tabla 5.
+            h5 Tabla 4
             br
             em Lenguaje y frameworks
           .col-12
@@ -297,35 +267,36 @@
                   th Python
                   td Django, Flask, entre otros.
 
-    .row.justify-content-center.pt-5.ps-3.pe-3.pb-5
+    p.my-5 Con el uso de los <i>frameworks</i>, también se presentan algunas ventajas y desventajas que hay que tener en cuenta:
+    .row.justify-content-center.ps-3.pe-3.pb-5
       .col-12.col-md-6.tarjeta.back-like.p-0
         .row.justify-content-center
           .figure.col-5.p-0
             img(src="@/assets/curso/temas/like.svg", alt="alt").img50
         .row.justify-content-center.p-0  
           .col-8.pb-5
-            b.title-like Ventajas de usar Frameworks:
+            b.title-like Ventajas de usar <i>Frameworks</i>:
         .row.justify-content-center.pb-5  
           .col-7
             ul.lista-ul.m-0
               li.mb-0
                 i.fas.fa-angle-right
-                | Velocidad en los desarrollos
+                | Velocidad en los desarrollos.
               li.mb-0
                 i.fas.fa-angle-right
-                | Minimización de errores
+                | Minimización de errores.
               li.mb-0
                 i.fas.fa-angle-right
-                | Reutilización de código fuente
+                | Reutilización de código fuente.
               li.mb-0
                 i.fas.fa-angle-right
-                | Minimización de costos en los proyectos
+                | Minimización de costos en los proyectos.
               li.mb-0
                 i.fas.fa-angle-right
-                | Fácil mantenimiento
+                | Fácil mantenimiento.
               li.mb-0
                 i.fas.fa-angle-right
-                | Colaboración con equipos de desarrollo
+                | Colaboración con equipos de desarrollo.
       .col-12.col-md-6.tarjeta.back-dislike.p-0
         .row.justify-content-center
           .figure.col-5.p-0
@@ -333,7 +304,7 @@
         .row.justify-content-center.p-0  
           .col-8.pb-5
             b.title-like Desventajas de usar 
-              em Frameworks
+              em Frameworks:
         .row.justify-content-center.pb-5  
           .col-7
             ul.lista-ul.m-0
@@ -341,18 +312,15 @@
                 i.fas.fa-angle-right
                 p.mb-0 Poseen versionado de 
                   em software 
-                  | inestable
+                  | inestable.
               li.mb-0
                 i.fas.fa-angle-right
-                | Mucho código fuente sin utilizar
+                | Mucho código fuente sin utilizar.
               li.mb-0
                 i.fas.fa-angle-right
-                | Aplicaciones con performance menor que las creadas desde cero
+                | Aplicaciones con performance menor que las creadas desde cero.
 
-    Separador  
-    
-    #t_4_5.titulo-segundo.color-primario.pt-3.pb-3
-      h2 4.5  Buenas prácticas de programación   
+    h3 Buenas prácticas de programación   
     
     .row.pt-4.pb-3 
       .col-12
@@ -360,8 +328,7 @@
           .col-12.col-md-2.col-lg-2
             img(src="@/assets/curso/temas/tema4/buenas_practicas.svg", alt="buenas_practicas").img100
           .col-12.col-md-10.col-lg-10
-              p.pb-2 Para crear 
-                em software práctico, eficiente, seguro, fácil de mantener y desplegar se deben implementar una serie de principios, estándares y técnicas que conforman las buenas prácticas de programación.
+              p.pb-2 Para crear <i>software</i> práctico, eficiente, seguro, fácil de mantener y desplegar, se debe implementar una serie de principios, estándares y técnicas que conforman las buenas prácticas de programación.
               p.pb-2 A continuación, se presenta un conjunto de buenas prácticas de programación:
     
     SlyderF(columnas="col-lg-6 col-xl-4")
@@ -376,13 +343,13 @@
           .col-8
             img(src='@/assets/curso/temas/tema4/documentacion.svg' alt='documentacion')
         h2.text-center Documentar el código: 
-        p.text-center se deben insertar comentarios para evitar confusiones y facilitar el trabajo a terceros que accedan de forma colaborativa al proyecto de software.
+        p.text-center se deben insertar comentarios para evitar confusiones y facilitar el trabajo a terceros que accedan, de forma colaborativa, al proyecto de <i>software</i>.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/realizar_pruebas.svg' alt='pruebas')
         h2.text-center Realizar pruebas de código: 
-        p.text-center es necesario que en el proceso de desarrollo se planifiquen pruebas periódicas para encontrar errores a tiempo y poder corregirlos antes de que pase a la fase de producción.
+        p.text-center es necesario que en el proceso de desarrollo, se planifiquen pruebas periódicas para encontrar errores a tiempo y poder corregirlos, antes que pasen a la fase de producción.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -414,17 +381,13 @@
           .col-12.col-md-4.col-lg-4.mt-5.p-0.d-table-cell
               img(src="@/assets/curso/temas/tema4/infografia.svg", alt="infografia").img100
           .col-12.col-md-8.col-lg-8.ps-3.mt-5.mb-5
-            .titulo-segundo.color-acento-contenido
-              h3 Buenas prácticas de programación  
-            p.pb-4 Las buenas prácticas de programación permiten crear aplicaciones escalables, seguras y de fácil mantenimiento.
+            h5.mb-5 En cuanto a las buenas prácticas de programación, es clave saber que estas permiten crear aplicaciones escalables, seguras y de fácil mantenimiento. Visualice la siguiente infografía y amplíe su comprensión y conocimiento, sobre las buenas prácticas de programación:
 
-            a.boton.boton--b(:href="('https://mm.tt/map/2325418452?t=BBIbUUFf1r')" target="_blank")
-              span Realizar
-              i.fas.fa-puzzle-piece
+            a.boton.boton--b(:href="obtenerLink('/downloads/Infografia_buenas_practicas_programacion.pdf')" target="_blank")
+              span Descargar
+              i.fas.fa-file-download
           
-    Separador
-    #t_4_6.titulo-segundo.color-primario.pt-3.pb-3
-      h2 4.6 Git y GitHub
+    h3 Git y GitHub
     
     .row.justify-content-center
       .col-10
@@ -445,18 +408,9 @@
               figure
                 img(src="@/assets/curso/temas/tema4/git.svg", alt="git").img100
           .col-12.col-md-8.col-lg-8.mt-4
-              div.pb-4 
-                b Git:
-              p.pb-4 Git es una herramienta de control de versiones muy potente que permite a los desarrolladores registrar históricamente todos los cambios que se realizan en los archivos que componen los proyectos de desarrollo.
-              p.pb-4 Git es muy práctico para trabajar colaborativamente en equipos de desarrollo, ya que, cuando se trabaja en un mismo proyecto y se reparten las funcionalidades entre sus miembros para luego integrarlas, la herramienta permite dividir el código en ramas que controlan de forma organizada la aplicación final.
+              p.pb-4 Git es una herramienta de control de versiones muy potente, que permite a los desarrolladores registrar, históricamente, todos los cambios que se realizan en los archivos que componen los proyectos de desarrollo.
+              p.pb-4 Git es muy práctico para trabajar colaborativamente en equipos de desarrollo, porque, cuando se trabaja en un mismo proyecto y se reparten las funcionalidades entre sus miembros para luego integrarlas, la herramienta permite dividir el código en ramas que controlan, de forma organizada, la aplicación final.
     
-    .row.justify-content-center.pt-3
-      .col-lg-6
-        a.anexo.mb-4(href="https://git-scm.com/doc", target="_blank")
-          .anexo__icono.back-blue
-            img(src="@/assets/curso/temas/tema2/link_imagen.svg")
-          .anexo__texto
-            p <b>Enlace <em>web</em>.</b> Para profundizar más en el uso y los beneficios de la herramienta GIT, se recomienda revisar la documentación oficial en el enlace
     
     .row.justify-content-center.pb-5
       .col-10
@@ -466,21 +420,10 @@
               figure
                 img(src="@/assets/curso/temas/tema4/github.svg", alt="github").img100
           .col-12.col-md-8.col-lg-8.mt-4
-              div.pb-4 
-                b GitHub:
-              p.pb-4 GitHub es una plataforma 
-                em web 
-                | que permite a los usuarios guardar los archivos o repositorios que generan a través de la herramienta Git. 
-              p.pb-4 GitHub funciona como una red social donde los programadores tienen un perfil para mostrar los proyectos que han desarrollado y en los que se encuentran trabajando en el momento.
+              p.pb-4 GitHub es una plataforma web que permite a los usuarios guardar los archivos o repositorios que generan a través de la herramienta Git.  
+              p.pb-4 GitHub funciona como una red social, donde los programadores tienen un perfil para mostrar los proyectos que han desarrollado y en los que se encuentran trabajando en el momento.
     
-    .row.justify-content-center.pt-3
-      .col-lg-6
-        a.anexo.mb-4(href="https://docs.github.com/es", target="_blank")
-          .anexo__icono.back-blue
-            img(src="@/assets/curso/temas/tema2/link_imagen.svg")
-          .anexo__texto
-            p <b>Enlace <em>web</em>.</b> Para conocer más de GitHub se puede revisar la documentación oficial en el enlace
-
+    p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros. 
 
 </template>
 
