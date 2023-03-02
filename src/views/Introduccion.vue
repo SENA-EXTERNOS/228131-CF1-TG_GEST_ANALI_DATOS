@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+    .row.justify-content-center.align-items-center.align-items-lg-stretch
       
       .col-12.col-md-8.col-lg-8
         p.mb-4 Apreciado aprendiz, bienvenido a este componente formativo, donde se abordarán los principios básicos de programación, los fundamentos de la lógica de programación y los paradigmas y estándares de programación. Podrá desarrollar desde programas sencillos hasta sofisticados códigos; posteriormente, aprenderá a manejar estructuras concretas: variables, tipos de datos, instrucciones de decisión, de repetición, entre otras. Finalmente, aprenderá a programar en un entorno de desarrollo en línea Google Colab que permite ejecutar código escrito en lenguaje Python, herramienta esencial para crear soluciones de software que le servirán de insumo, para adentrarse en el campo de la analítica de datos.
@@ -17,9 +17,7 @@
         p.mb-4 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
       .col-12.col-md-4.col-lg-4
-        .tarjeta.h-100.d-flex.align-items-center.p-4
-          figure
-            img(src="@/assets/curso/temas/introduccion.svg", alt="Texto que describa la imagen")
+        img.img-a.img-t(src="@/assets/curso/temas/introduccion.svg", alt="Texto que describa la imagen")
 
     .row
       .container.tarjeta.tarjeta--blanca

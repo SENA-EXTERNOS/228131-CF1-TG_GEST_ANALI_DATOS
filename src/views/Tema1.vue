@@ -65,13 +65,13 @@
             p #[b Paso 3.] Si contestan: 
             ul.lista-ul.ps-3
               li 
-                i.fas.fa-angle-right.ps-3
+                i.fas.fa-angle-right
                 p.mb-0 Saludar.
               li 
-                i.fas.fa-angle-right.ps-3
+                i.fas.fa-angle-right
                 p.mb-0 dialogar con la persona.
               li 
-                i.fas.fa-angle-right.ps-3
+                i.fas.fa-angle-right
                 p.mb-0 despedirse. 
               li 
                 i.fas.fa-angle-right
@@ -125,20 +125,12 @@
             p Algoritmo para iniciar sesión: 
 
             p Inicio
-            p Paso 1. #[b Cargar formulario de ingreso.]
-            p Paso 2. #[b Capturar usuario y contraseña.]
-            p Paso 3. #[b Consultar base de datos.]
-            p Paso 4. #[b Verificar usuario y contraseña.]
-            p #[b Si existen y son iguales a los ingresados: ]
-            ul.lista-ul.ps-3
-              li 
-                i.fas.fa-angle-right.ps-3
-                p.mb-0 #[b iniciar sesión.]
-            p Sí no son iguales: 
-            ul.lista-ul.ps-3
-              li 
-                i.fas.fa-angle-right.ps-3
-                p.mb-0 #[b mostrar error.]
+            p Paso 1. Cargar formulario de ingreso.
+            p Paso 2. Capturar usuario y contraseña.
+            p Paso 3. Consultar base de datos.
+            p Paso 4. Verificar usuario y contraseña.
+            p Si existen y son iguales a los ingresados: iniciar sesión.
+            p Sí no son iguales:  mostrar error. 
             p Fin
           .col-md-6
             figure
@@ -166,46 +158,44 @@
 
     
     .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-5
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img.pb-5
             figure 
               img(src="@/assets/curso/temas/tema1/diagrama_1.svg", alt="alt")
           .crd_hover_txt--body
             h5.mb-3 Símbolo para Iniciar y Finalizar:
             p.mb-0 este símbolo comúnmente contiene la palabra “Inicio” o “Fin”. 
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-5
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img.pb-5
             figure
               img(src="@/assets/curso/temas/tema1/diagrama_2.svg", alt="alt")
           .crd_hover_txt--body
             h5.mb-3 Símbolo para realizar una acción o proceso: 
             p.mb-0 es representado por un rectángulo y solo se permite realizar un solo paso por proceso (cortar las papas) o bien sea un subproceso completo (hacer papas fritas).
-
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+    .row.justify-content-center.mb-5
+      .col-5
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img.pb-5
             figure
               img(src="@/assets/curso/temas/tema1/diagrama_3.svg", alt="alt")
           .crd_hover_txt--body
             h5.mb-3 Símbolo de decisión:
             p.mb-0 es ilustrado por un rombo que representa la toma de decisiones dependiendo de la condición evaluada, con base en los valores falso o verdadero.
-
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-5
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img.pb-5
             figure
               img(src="@/assets/curso/temas/tema1/diagrama_4.svg", alt="alt")
           .crd_hover_txt--body
             h5.mb-3 Símbolo para las entradas y salidas:
             p.mb-0 es ilustrado por un paralelogramo que representa los datos que entran y salen del sistema.
-
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+    .row.justify-content-center.mb-5
+      .col-5
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img.pb-5
             figure
               img(src="@/assets/curso/temas/tema1/diagrama_5.svg", alt="alt")
           .crd_hover_txt--body
