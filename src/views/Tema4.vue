@@ -108,7 +108,7 @@
         .crd.crd--avatarHorizontal.crd--last.py-4.back-yellow
           .row.align-items-center
             .col-8.ms-4
-              p Por último, está el concepto de objeto que identifica a cada elemento de una clase, es decir vehículo es la clase, pero una camioneta, un bus, una moto, sería un objeto de la clase vehículo.
+              p Por último, está el concepto de objeto que identifica a cada elemento de una clase, es decir, vehículo es la clase, pero una camioneta, un bus, una moto, sería un objeto de la clase vehículo.
     .row.justify-content-center
       .col-12.pt-4.pb-4
         b La programación orientada a objetos, contiene 6 pilares fundamentales:
@@ -332,48 +332,48 @@
               p.pb-2 A continuación, se presenta un conjunto de buenas prácticas de programación:
     
     SlyderF(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/legibilidad.svg' alt='legibilidad')
         h2.text-center Priorizar la legibilidad: 
-        p.text-center es fundamental que los desarrolladores puedan escribir un código que sea entendible para cualquiera, ya que un código complejo, es difícil de mantener y por lo tanto gasta más recursos y tiempo.
-      .tarjeta.color-acento-botones.p-4
+        p.text-center Es fundamental que los desarrolladores puedan escribir un código que sea entendible para cualquiera, ya que un código complejo, es difícil de mantener y por lo tanto gasta más recursos y tiempo.
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/documentacion.svg' alt='documentacion')
         h2.text-center Documentar el código: 
-        p.text-center se deben insertar comentarios para evitar confusiones y facilitar el trabajo a terceros que accedan, de forma colaborativa, al proyecto de <i>software</i>.
-      .tarjeta.color-acento-botones.p-4
+        p.text-center Se deben insertar comentarios para evitar confusiones y facilitar el trabajo a terceros que accedan, de forma colaborativa, al proyecto de <i>software</i>.
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/realizar_pruebas.svg' alt='pruebas')
         h2.text-center Realizar pruebas de código: 
-        p.text-center es necesario que en el proceso de desarrollo, se planifiquen pruebas periódicas para encontrar errores a tiempo y poder corregirlos, antes que pasen a la fase de producción.
-      .tarjeta.color-acento-botones.p-4
+        p.text-center Es necesario que en el proceso de desarrollo, se planifiquen pruebas periódicas para encontrar errores a tiempo y poder corregirlos, antes que pasen a la fase de producción.
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/simplificacion.svg' alt='simplificacion')
         h2.text-center Simplificar el código: 
-        p.text-center se recomienda que la construcción del código sea funcional, pero sin llegar a ser compleja, para evitar errores y facilitar el mantenimiento.
-      .tarjeta.color-acento-botones.p-4
+        p.text-center Se recomienda que la construcción del código sea funcional, pero sin llegar a ser compleja, para evitar errores y facilitar el mantenimiento.
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/establecer_control.svg' alt='control')
         h2.text-center Establecer control de versiones:
-        p.text-center contar con un sistema de control de versiones es una excelente estrategia para identificar dónde se encuentran las fallas en las nuevas versiones, ya que, si se revisa la versión anterior, se pueden reconocer los cambios realizados y será mucho más fácil corregir los errores.
-      .tarjeta.color-acento-botones.p-4
+        p.text-center Contar con un sistema de control de versiones es una excelente estrategia para identificar dónde se encuentran las fallas en las nuevas versiones, ya que, si se revisa la versión anterior, se pueden reconocer los cambios realizados y será mucho más fácil corregir los errores.
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/repetir.svg' alt='evita_repetir')
         h2.text-center Evitar repetir bloques de código:
-        p.text-center cuando se requiera reutilizar un código se recomienda no copiar y pegar bloques de código, incluso cuando sea estable, en cambio, se sugiere el uso de encapsulamiento de funciones.
-      .tarjeta.color-acento-botones.p-4
+        p.text-center Cuando se requiera reutilizar un código se recomienda no copiar y pegar bloques de código, incluso cuando sea estable, en cambio, se sugiere el uso de encapsulamiento de funciones.
+      .tarjeta.color-acento-botones.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/implementar.svg' alt='implementar')
         h2.text-center Implementar metodologías ágiles:
-        p.text-center  aplicar metodologías como Scrum, pueden agilizar el desarrollo de las etapas de los proyectos y alcanzar los objetivos planteados.
+        p.text-center  Aplicar metodologías como Scrum, pueden agilizar el desarrollo de las etapas de los proyectos y alcanzar los objetivos planteados.
 
     .row.justify-content-center.pt-5.pb-5
       .col-10

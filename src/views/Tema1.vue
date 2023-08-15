@@ -69,10 +69,10 @@
                 p.mb-0 Saludar.
               li 
                 i.fas.fa-angle-right
-                p.mb-0 dialogar con la persona.
+                p.mb-0 Dialogar con la persona.
               li 
                 i.fas.fa-angle-right
-                p.mb-0 despedirse. 
+                p.mb-0 Despedirse. 
               li 
                 i.fas.fa-angle-right
                 p.mb-0 Si no contestan:
@@ -120,10 +120,9 @@
               img(src='@/assets/curso/temas/tema1/algoritmos_instrucciones_7.png')
         .row.justify-content-center.align-items-center   
           .col-md-5
-            b Ejemplo de algoritmo para iniciar sesión en una aplicación. 
+            b Ejemplo de algoritmo para iniciar sesión en una aplicación: 
             br
-            p Algoritmo para iniciar sesión: 
-
+            br
             p Inicio
             p Paso 1. Cargar formulario de ingreso.
             p Paso 2. Capturar usuario y contraseña.
@@ -165,7 +164,7 @@
               img(src="@/assets/curso/temas/tema1/diagrama_1.svg", alt="alt")
           .crd_hover_txt--body
             h5.mb-3 Símbolo para Iniciar y Finalizar:
-            p.mb-0 este símbolo comúnmente contiene la palabra “Inicio” o “Fin”. 
+            p.mb-0 Este símbolo comúnmente contiene la palabra “Inicio” o “Fin”. 
 
       .col-5
         .crd_hover_txt(data-aos="flip-left")
@@ -174,7 +173,7 @@
               img(src="@/assets/curso/temas/tema1/diagrama_2.svg", alt="alt")
           .crd_hover_txt--body
             h5.mb-3 Símbolo para realizar una acción o proceso: 
-            p.mb-0 es representado por un rectángulo y solo se permite realizar un solo paso por proceso (cortar las papas) o bien sea un subproceso completo (hacer papas fritas).
+            p.mb-0 Es representado por un rectángulo y solo se permite realizar un solo paso por proceso (cortar las papas) o bien sea un subproceso completo (hacer papas fritas).
     .row.justify-content-center.mb-5
       .col-5
         .crd_hover_txt(data-aos="flip-left")
@@ -183,7 +182,7 @@
               img(src="@/assets/curso/temas/tema1/diagrama_3.svg", alt="alt")
           .crd_hover_txt--body
             h5.mb-3 Símbolo de decisión:
-            p.mb-0 es ilustrado por un rombo que representa la toma de decisiones dependiendo de la condición evaluada, con base en los valores falso o verdadero.
+            p.mb-0 Es ilustrado por un rombo que representa la toma de decisiones dependiendo de la condición evaluada, con base en los valores falso o verdadero.
       .col-5
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.pb-5
@@ -191,7 +190,7 @@
               img(src="@/assets/curso/temas/tema1/diagrama_4.svg", alt="alt")
           .crd_hover_txt--body
             h5.mb-3 Símbolo para las entradas y salidas:
-            p.mb-0 es ilustrado por un paralelogramo que representa los datos que entran y salen del sistema.
+            p.mb-0 Es ilustrado por un paralelogramo que representa los datos que entran y salen del sistema.
     .row.justify-content-center.mb-5
       .col-5
         .crd_hover_txt(data-aos="flip-left")
@@ -200,7 +199,7 @@
               img(src="@/assets/curso/temas/tema1/diagrama_5.svg", alt="alt")
           .crd_hover_txt--body
             h5.mb-3 Símbolo para conectar:
-            p.mb-0 es representado por un círculo que indica continuación del flujo donde se coloca un símbolo similar que contiene la misma letra.
+            p.mb-0 Es representado por un círculo que indica continuación del flujo donde se coloca un símbolo similar que contiene la misma letra.
 
     p.mt-5 La siguiente figura muestra un ejemplo de diagrama de flujo para determinar si un número es positivo o negativo:
 
@@ -305,7 +304,7 @@
       .col-6
         .row.tarjeta--gris
           .col-12.pt-5.pb-5.code
-            p.ms-2 Algoritmo área_rectangulo.mb-2
+            p.ms-2 Algoritmo área_rectangulo
             p.ms-2 Inicio
             p.ms-5 Escribir "Cálculo del área del rectángulo"
             p.ms-5 Escribir "Digite la base (en centímetros)"  

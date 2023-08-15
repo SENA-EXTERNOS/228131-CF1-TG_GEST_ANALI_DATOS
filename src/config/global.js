@@ -226,12 +226,14 @@ export default {
     {
       referencia:
         'Adell, S. J., Llopis, N. M., Esteve, M. F. & Valdeolivas, N. M. (2019). El debate sobre el pensamiento. <i>RIED. Revista iberoamericana de educación a distancia</i>, p. 171-186.',
+      link:
+        'https://www.redalyc.org/journal/3314/331459398009/331459398009.pdf',
     },
     {
       referencia:
         'Cuny, Sneyder, & Wing. (2010). <i>¿Qué es el pensamiento computacional?</i>.',
       link:
-        'https://formacion.intef.es/pluginfile.php/109686/mod_imscp/content/2/qu_es_el_pensamiento_computacional.html ',
+        'https://formacion.intef.es/tutorizados_2013_2019/pluginfile.php/154183/mod_imscp/content/11/qu_es_el_pensamiento_computacional.html',
     },
     {
       referencia:

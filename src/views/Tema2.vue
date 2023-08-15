@@ -146,7 +146,7 @@
             td La aplicación tiende a ser un poco más lenta que las aplicaciones compiladas.
           tr
             td Los archivos ejecutables por lo general tienen un tamaño considerable en disco.
-            td Los ejecutable generados son de un reducido tamaño y no consumen mucho espacio en disco.
+            td Los ejecutables generados son de un reducido tamaño y no consumen mucho espacio en disco.
       
     h3.mt-5 Python y/o R
 
