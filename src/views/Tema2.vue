@@ -113,7 +113,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/lenguaje_interpretado.svg', style="width: 300px;", alt='Texto que describa la imagen')
               .col-md-6
-                p Cuando se inicia en el mundo del desarrollo de software, la selección del lenguaje de programación es uno de los factores que más se tiene en cuenta para dar los primeros pasos. También es fundamental conocer si el lenguaje elegido es compilado o interpretado.
+                p En un lenguaje interpretado, el código fuente se ejecuta en caliente, instrucción a instrucción o paso a paso; por lo tanto, el código no es expuesto a un proceso de compilación, sino que existe un programa complementario que se llama intérprete, el cual se encarga de leer las instrucciones en tiempo real y las va ejecutando una a una. Entre los lenguajes interpretados están: Python, Perl, JavaScript, Ruby, PHP, MATLAB, Visual Basic .NET, ASP entre otros
 
     p.pb-3 <b>Lenguajes compilados versus interpretados</b>
 
@@ -171,7 +171,7 @@
           .col-12.col-md-8.col-lg-8.mt-4
               div.pb-4
                 h5 Lenguaje de programación Python 
-                p La habilidad de programar es fundamental en la gestión y analítica de datos; no obstante, hay algunos lenguajes como Python, R, MATLAB y SQL que se destacan como los principales y más usados en dicha gestión.      
+                p Python es un lenguaje de programación multiplataforma y <em>open source</em>, que puede ser empleado para desarrollos web, analítica de datos, automatización de operaciones y en la elaboración de programas escalables. Grandes gigantes tecnológicos como Google, Netflix y Facebook, utilizan este lenguaje como base de servicios.      
           
 
     .row.justify-content-center.pb-5

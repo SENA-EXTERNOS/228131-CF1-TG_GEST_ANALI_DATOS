@@ -109,14 +109,14 @@
           .col-md-6.mb-4.mb-md-0
             p El operador OR, encuentra elementos de la unión de los dos conjuntos y, por lo tanto, es de utilidad para asociar palabras.
           .col-md-6
-            img(src='@/assets/curso/temas/tema3/operador_booleanos_logico_1.svg', alt='alt').img100
+            img(src='@/assets/curso/temas/tema3/operador_booleanos_logico_2.svg', alt='alt').img100
       
       div(titulo="Operador NOT")
         .row 
           .col-md-6.mb-4.mb-md-0
             p Con el operador NOT, la búsqueda solo devuelve el elemento que está en el primer conjunto y no en el segundo.
           .col-md-6
-            img(src='@/assets/curso/temas/tema3/operador_booleanos_logico_1.svg', alt='alt').img100
+            img(src='@/assets/curso/temas/tema3/operador_booleanos_logico_3.svg', alt='alt').img100
 
     p.pt-5.pb-3 En Python se trabaja con operadores booleanos así:
     
@@ -265,7 +265,7 @@
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             b.pb-3 Ciclo For
-            p.pb-3 También es un tipo de bucle similar al While,pero con la diferencia que, la cantidad de iteraciones es conocida desde el principio, mientras que en el ciclo While no. 
+            p.pb-3 También es un tipo de bucle similar al While, pero con la diferencia que, la cantidad de iteraciones es conocida desde el principio, mientras que en el ciclo While no. 
             p.pb-3 En los ciclos For las iteraciones están definidas por un rango finito y no están controladas por una condición. En la práctica este tipo de bucles son muy utilizados para recorrer listas y evaluar cada uno de sus elementos.
             p.pb-3 En el ejemplo de la imagen se observa que:
             ol.lista-ol--cuadro

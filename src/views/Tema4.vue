@@ -410,6 +410,7 @@
           .col-12.col-md-8.col-lg-8.mt-4
               p.pb-4 Git es una herramienta de control de versiones muy potente, que permite a los desarrolladores registrar, históricamente, todos los cambios que se realizan en los archivos que componen los proyectos de desarrollo.
               p.pb-4 Git es muy práctico para trabajar colaborativamente en equipos de desarrollo, porque, cuando se trabaja en un mismo proyecto y se reparten las funcionalidades entre sus miembros para luego integrarlas, la herramienta permite dividir el código en ramas que controlan, de forma organizada, la aplicación final.
+              p.mb-4 Para profundizar más en el uso y los beneficios de la herramienta “GIT”, se recomienda revisar la documentación oficial disponible en el siguiente enlace: <a href="https://git-scm.com/doc" target="_blank">Beneficios de la herramienta GIT.</a>
     
     
     .row.justify-content-center.pb-5
@@ -422,6 +423,7 @@
           .col-12.col-md-8.col-lg-8.mt-4
               p.pb-4 GitHub es una plataforma web que permite a los usuarios guardar los archivos o repositorios que generan a través de la herramienta Git.  
               p.pb-4 GitHub funciona como una red social, donde los programadores tienen un perfil para mostrar los proyectos que han desarrollado y en los que se encuentran trabajando en el momento.
+              p.pb-4 Para conocer más de GitHub se puede revisar la documentación oficial en el siguiente enlace:<a href="https://docs.github.com/es" target="_blank"> Conoce GitHub </a> 
     
     p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros. 
 
