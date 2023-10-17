@@ -25,8 +25,8 @@
         b ¿Por qué los programadores utilizan los entornos de desarrollo integrado (IDE)?
 
     .row.justify-content-center.mb-5
-      .col-10.position-relative
-        .avatar
+      .col-lg-10.position-relative
+        .avatar.d-lg-flex.d-none
           figure
             img(src="@/assets/curso/temas/tema2/introduccion_2.svg", alt="alt", style="width: 400px;").img250
         .crd.crd--avatarHorizontal.crd--first.clr--azul.py-4.back-yellow
@@ -68,7 +68,7 @@
                   figure
                     img(src="@/assets/curso/temas/tema2/tipo_ide_2.svg", alt="alt")
 
-          .tarjeta.clr--gris(titulo="Performance:")
+          .tarjeta.clr--gris(titulo="Performance")
             .row.tarjeta.tarjeta--azul.align-middle 
               .col-12.col-md-8.col-lg-8
                 .tarjeta.d-flex.p-4.align-middle
