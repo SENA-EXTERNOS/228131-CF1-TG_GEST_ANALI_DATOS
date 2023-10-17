@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="572" height="310" viewBox="0 0 572 310">
+  <g id="Group_109097" data-name="Group 109097" transform="translate(-800 -3746)">
+    <g id="Rectangle_40547" data-name="Rectangle 40547" transform="translate(800 3746)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="572" height="310" stroke="none"/>
+      <rect x="0.5" y="0.5" width="571" height="309" fill="none"/>
+    </g>
+    <text id="AND" transform="translate(952 3763)" fill="#4dd0e1" font-size="35" font-family="Roboto-Regular, Roboto"><tspan x="-35.367" y="37">AND</tspan></text>
+    <text id="NOT" transform="translate(1077 3763)" fill="#c11818" font-size="35" font-family="Roboto-Regular, Roboto"><tspan x="-34.718" y="37">NOT</tspan></text>
+    <text id="black" transform="translate(952 4015)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-21.401" y="19">black</tspan></text>
+    <text id="white" transform="translate(1094 4015)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-21.612" y="19">white</tspan></text>
+    <text id="AND-2" data-name="AND" transform="translate(1000 4015)" fill="#4dd0e1" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-18.189" y="19">AND</tspan></text>
+    <text id="NOT-2" data-name="NOT" transform="translate(1044 4015)" fill="#c11818" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-17.855" y="19">NOT</tspan></text>
+    <g id="Group_109096" data-name="Group 109096" transform="translate(947.394 3815.667)">
+      <ellipse id="Ellipse_4795" data-name="Ellipse 4795" cx="93.722" cy="93.722" rx="93.722" ry="93.722" transform="translate(95.163 0)" fill="#fdb913" stroke="#0f2771" stroke-miterlimit="10" stroke-width="2" opacity="0.24"/>
+      <ellipse id="Ellipse_4796" data-name="Ellipse 4796" cx="93.722" cy="93.722" rx="93.722" ry="93.722" transform="translate(0.286 0)" fill="#fdb913" stroke="#0f2771" stroke-miterlimit="10" stroke-width="2" opacity="0.24"/>
+      <path id="Path_115566" data-name="Path 115566" d="M3510.659,3559.94s-47.439,27.734-46.284,84.356c0,0-1.155,48.852,46.284,77.322,0,0-66.319,41.917-120.525-22.169,0,0-50.912-61.575,6.1-124.21C3396.238,3575.238,3442.2,3524.143,3510.659,3559.94Z" transform="translate(-3369.212 -3547.058)" fill="#fdb913" stroke="#0f2771" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

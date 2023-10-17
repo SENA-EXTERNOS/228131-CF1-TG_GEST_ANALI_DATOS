@@ -1,0 +1,15 @@
+<svg id="Group_109084" data-name="Group 109084" xmlns="http://www.w3.org/2000/svg" width="572" height="310" viewBox="0 0 572 310">
+  <g id="Rectangle_40547" data-name="Rectangle 40547" fill="#fff" stroke="#707070" stroke-width="1">
+    <rect width="572" height="310" stroke="none"/>
+    <rect x="0.5" y="0.5" width="571" height="309" fill="none"/>
+  </g>
+  <text id="AND" transform="translate(210 17)" fill="#4dd0e1" font-size="35" font-family="Roboto-Regular, Roboto"><tspan x="-35.367" y="37">AND</tspan></text>
+  <text id="AND-2" data-name="AND" transform="translate(210 269)" fill="#4dd0e1" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-18.189" y="19">AND</tspan></text>
+  <text id="black" transform="translate(152 269)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-21.401" y="19">black</tspan></text>
+  <text id="white" transform="translate(277 269)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-21.612" y="19">white</tspan></text>
+  <g id="Group_109094" data-name="Group 109094" transform="translate(147.68 71)">
+    <ellipse id="Ellipse_4791" data-name="Ellipse 4791" cx="93.722" cy="93.722" rx="93.722" ry="93.722" transform="translate(94.877 0)" fill="#fdb913" stroke="#0f2771" stroke-miterlimit="10" stroke-width="2" opacity="0.24"/>
+    <ellipse id="Ellipse_4792" data-name="Ellipse 4792" cx="93.722" cy="93.722" rx="93.722" ry="93.722" transform="translate(0 0)" fill="#fdb913" stroke="#0f2771" stroke-miterlimit="10" stroke-width="2" opacity="0.24"/>
+    <path id="Path_115564" data-name="Path 115564" d="M3171.624,3555.49s-46.283,25.113-47.438,80.839c0,0-4.24,54.991,47.438,80.84,0,0,47.439-27.306,46.284-80.84C3217.908,3636.329,3217.908,3580.312,3171.624,3555.49Z" transform="translate(-3030.463 -3542.607)" fill="#fdb913" stroke="#0f2771" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

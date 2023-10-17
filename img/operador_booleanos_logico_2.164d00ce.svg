@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="572" height="310" viewBox="0 0 572 310">
+  <g id="Group_109088" data-name="Group 109088" transform="translate(-800 -3335)">
+    <g id="Rectangle_40547" data-name="Rectangle 40547" transform="translate(800 3335)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="572" height="310" stroke="none"/>
+      <rect x="0.5" y="0.5" width="571" height="309" fill="none"/>
+    </g>
+    <text id="OR" transform="translate(1010 3352)" fill="#4dd0e1" font-size="35" font-family="Roboto-Regular, Roboto"><tspan x="-22.806" y="37">OR</tspan></text>
+    <text id="black" transform="translate(952 3604)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-21.401" y="19">black</tspan></text>
+    <text id="white" transform="translate(1077 3604)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-21.612" y="19">white</tspan></text>
+    <text id="OR-2" data-name="OR" transform="translate(1010 3604)" fill="#4dd0e1" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-11.729" y="19">OR</tspan></text>
+    <g id="Group_109095" data-name="Group 109095" transform="translate(947.68 3404.248)">
+      <ellipse id="Ellipse_4793" data-name="Ellipse 4793" cx="93.722" cy="93.722" rx="93.722" ry="93.722" transform="translate(94.877 0)" fill="#fdb913" stroke="#0f2771" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse id="Ellipse_4794" data-name="Ellipse 4794" cx="93.722" cy="93.722" rx="93.722" ry="93.722" transform="translate(0 0)" fill="#fdb913" stroke="#0f2771" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_115565" data-name="Path 115565" d="M3171.63,3818.724s-43.034,22.6-47.438,80.839c0,0-4.53,52.868,47.438,80.84,0,0,47.438-27.306,46.284-80.84C3217.914,3899.563,3217.914,3843.546,3171.63,3818.724Z" transform="translate(-3030.47 -3805.842)" fill="#fdb913" stroke="#0f2771" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
